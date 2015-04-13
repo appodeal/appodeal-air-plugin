@@ -1,0 +1,13 @@
+<extension xmlns="http://ns.adobe.com/air/extension/17.0">
+  <id>com.appodeal.aneplugin</id>
+  <versionNumber>1.10.2</versionNumber>
+  <platforms>
+    <platform name="Android-ARM">
+      <applicationDeployment>
+        <nativeLibrary>appodealane.jar</nativeLibrary>
+        <initializer>com.appodeal.aneplugins.AppodealExtension</initializer>
+        <finalizer>com.appodeal.aneplugins.AppodealExtension</finalizer>
+      </applicationDeployment>
+    </platform>
+  </platforms>
+</extension>
