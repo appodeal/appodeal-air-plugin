@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="lib" path="C:/Program Files/Adobe/Adobe Flash Builder 4.7 (64 Bit)/sdks/4.6.0new/lib/android/FlashRuntimeExtensions.jar"/>
+	<classpathentry kind="lib" path="libs/applovin-sdk-5.4.3.jar"/>
+	<classpathentry kind="lib" path="libs/appodeal-1.12.8.jar"/>
+	<classpathentry kind="lib" path="libs/chartboost-5.4.1.jar"/>
+	<classpathentry kind="lib" path="libs/my-target-4.0.11.jar"/>
+	<classpathentry kind="lib" path="libs/unity-ads-1.4.4.jar"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

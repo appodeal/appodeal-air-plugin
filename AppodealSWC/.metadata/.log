@@ -1,0 +1,758 @@
+!SESSION 2015-04-28 20:54:54.459 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.6.0_31
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2015-04-28 20:59:36.242
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-28 20:59:36.242
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.declarations.in.workspace,Find All Declarations In Workspace,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,Navigation,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllDeclarationsAction@8f66d63)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexide.editorcore.flexEditorScope,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.declarations.in.workspace,Find All Declarations In Workspace,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,Navigation,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllDeclarationsAction@8f66d63)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexbuilder.as.editor.context.packageexplorer,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.declarations.in.workspace,Declaration in Workspace,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.search.ui.category.search,Search,Search command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-28 20:59:36.243
+!MESSAGE A conflict occurred for CTRL+SHIFT+G:
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.references.in.workspace,Find All References In Workspace,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,Navigation,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllReferencesAction@6a87832d)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexide.editorcore.flexEditorScope,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.references.in.workspace,Find All References In Workspace,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,Navigation,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllReferencesAction@6a87832d)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexbuilder.as.editor.context.packageexplorer,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.references.in.workspace,References in Workspace,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.search.ui.category.search,Search,Search command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jface 2 0 2015-04-28 21:21:11.674
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-28 21:21:11.674
+!MESSAGE A conflict occurred for CTRL+I:
+Binding(CTRL+I,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.organize.autoindent,Correct Indentation,
+		,
+		Category(com.adobe.flexbuilder.as.editor.source.editing.category,ActionScript Source Editing,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexide.editorcore.flexEditorScope,,,system)
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.active.elements,Format Active Elements,
+		Format active elements,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=org.eclipse.ui.texteditor.TextOperationAction@4555e4a3)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-28 21:21:11.674
+!MESSAGE A conflict occurred for CTRL+SHIFT+F:
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.organize.autoformat,Apply Formatting,
+		,
+		Category(com.adobe.flexbuilder.as.editor.source.editing.category,ActionScript Source Editing,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexide.editorcore.flexEditorScope,,,system)
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.document,Format,
+		Format selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=org.eclipse.ui.texteditor.TextOperationAction@a15ace5)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-28 21:21:11.674
+!MESSAGE A conflict occurred for CTRL+O:
+Binding(CTRL+O,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.quick.outline,Quick Outline,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,Navigation,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexide.editorcore.flexEditorScope,,,system)
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.quick_outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.wst.sse.ui.internal.quickoutline.QuickOutlineHandler@1509f38f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-28 21:21:11.674
+!MESSAGE A conflict occurred for CTRL+SHIFT+P:
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.go.to.brace,Go to Matching Bracket,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,Navigation,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexide.editorcore.flexEditorScope,,,system)
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.m2e.core.ui.command.addPlugin,Add Maven Plugin,
+		Add Maven Plugin,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.core.runtime.xml,,,system)
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.goto.matching.bracket,Matching Bracket,
+		Go to Matching Bracket,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.wst.sse.ui.StructuredTextEditor$GotoMatchingBracketHandler@40553c13,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-28 21:21:11.674
+!MESSAGE A conflict occurred for F3:
+Binding(F3,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.go.to.definition,Open Declaration,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,Navigation,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexide.editorcore.flexEditorScope,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.open.editor,Open Declaration,
+		Open an editor on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.open.file.from.source,Open Selection,
+		Open an editor on the selected link,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=org.eclipse.wst.sse.ui.internal.hyperlink.OpenHyperlinkAction@1bdb2464)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-28 21:21:11.674
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.toggle.comment,Toggle Comment,
+		Toggle Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.wst.sse.ui.internal.handlers.ToggleLineCommentHandler@50322f85,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(com.adobe.flexide.editorcore.add.comment,Toggle Block Comment,
+		,
+		Category(com.adobe.flexbuilder.editorcore.flex.edit,Flex Editing,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexide.editorcore.flexEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-28 21:21:11.674
+!MESSAGE A conflict occurred for CTRL+SHIFT+\:
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.mxml.editor.ShowPreviousStateCommand,Previous State,
+		,
+		Category(com.adobe.flexbuilder.mxml.editor.stateNav,MXML State Visualization,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexide.editorcore.flexEditorScope,,,system)
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.remove.block.comment,Remove Block Comment,
+		Remove Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.wst.sse.ui.internal.handlers.RemoveBlockCommentHandler@ecdede5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-28 21:21:11.674
+!MESSAGE A conflict occurred for CTRL+SHIFT+D:
+Binding(CTRL+SHIFT+D,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Display,Display,
+		Display result of evaluating selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(CTRL+SHIFT+D,
+	ParameterizedCommand(Command(org.eclipse.m2e.core.ui.command.addDependency,Add Maven Dependency,
+		Add Maven Dependency,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.core.runtime.xml,,,system)
+Binding(CTRL+SHIFT+D,
+	ParameterizedCommand(Command(com.adobe.flexide.editorcore.add.other.comment,Add Other Comment,
+		,
+		Category(com.adobe.flexbuilder.editorcore.flex.edit,Flex Editing,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexide.editorcore.flexEditorScope,,,system)
+
+!ENTRY com.adobe.flexbuilder.project 4 43 2015-04-28 21:28:43.159
+!MESSAGE Warning (safe to ignore): error parsing manifestAdditions 
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not read XML document
+	at com.adobe.flexbuilder.project.internal.FlexProjectCore.createCoreException(FlexProjectCore.java:991)
+	at com.adobe.flexbuilder.util.XMLUtil.toDocument(XMLUtil.java:213)
+	at com.adobe.flexbuilder.util.XMLUtil.toDocument(XMLUtil.java:180)
+	at com.adobe.flexbuilder.util.XMLUtil.toDocument(XMLUtil.java:275)
+	at com.adobe.flexide.multiplatform.android.AndroidPlatformManager.validateInstallLocation(AndroidPlatformManager.java:622)
+	at com.adobe.flexide.multiplatform.android.AndroidPlatformManager.validateAppXml(AndroidPlatformManager.java:562)
+	at com.adobe.flexide.multiplatform.android.AndroidPlatform.validateAppXml(AndroidPlatform.java:317)
+	at com.adobe.flexide.project.multiplatform.PlatformTargetProxy.validateAppXml(PlatformTargetProxy.java:337)
+	at com.adobe.flexide.project.multiplatform.internal.MultiPlatformActionScriptProject.validateAppXML(MultiPlatformActionScriptProject.java:252)
+	at com.adobe.flexbuilder.project.air.build.ApolloXMLBuilder$ValidationRunner.run(ApolloXMLBuilder.java:90)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at com.adobe.flexbuilder.project.air.build.ApolloXMLBuilder.build(ApolloXMLBuilder.java:148)
+	at com.adobe.flexbuilder.project.air.build.ApolloXMLIncrementalBuilder.build(ApolloXMLIncrementalBuilder.java:76)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.xml.sax.SAXParseException: The element type "application" must be terminated by the matching end-tag "</application>".
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(Unknown Source)
+	at com.adobe.flexbuilder.util.XMLUtil.toDocument(XMLUtil.java:211)
+	... 23 more
+!SUBENTRY 1 com.adobe.flexbuilder.project 4 43 2015-04-28 21:28:43.159
+!MESSAGE Could not read XML document
+!STACK 0
+org.xml.sax.SAXParseException: The element type "application" must be terminated by the matching end-tag "</application>".
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(Unknown Source)
+	at com.adobe.flexbuilder.util.XMLUtil.toDocument(XMLUtil.java:211)
+	at com.adobe.flexbuilder.util.XMLUtil.toDocument(XMLUtil.java:180)
+	at com.adobe.flexbuilder.util.XMLUtil.toDocument(XMLUtil.java:275)
+	at com.adobe.flexide.multiplatform.android.AndroidPlatformManager.validateInstallLocation(AndroidPlatformManager.java:622)
+	at com.adobe.flexide.multiplatform.android.AndroidPlatformManager.validateAppXml(AndroidPlatformManager.java:562)
+	at com.adobe.flexide.multiplatform.android.AndroidPlatform.validateAppXml(AndroidPlatform.java:317)
+	at com.adobe.flexide.project.multiplatform.PlatformTargetProxy.validateAppXml(PlatformTargetProxy.java:337)
+	at com.adobe.flexide.project.multiplatform.internal.MultiPlatformActionScriptProject.validateAppXML(MultiPlatformActionScriptProject.java:252)
+	at com.adobe.flexbuilder.project.air.build.ApolloXMLBuilder$ValidationRunner.run(ApolloXMLBuilder.java:90)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at com.adobe.flexbuilder.project.air.build.ApolloXMLBuilder.build(ApolloXMLBuilder.java:148)
+	at com.adobe.flexbuilder.project.air.build.ApolloXMLIncrementalBuilder.build(ApolloXMLIncrementalBuilder.java:76)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.adobe.flexbuilder.project 4 43 2015-04-28 21:29:01.665
+!MESSAGE Warning (safe to ignore): error parsing manifestAdditions 
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not read XML document
+	at com.adobe.flexbuilder.project.internal.FlexProjectCore.createCoreException(FlexProjectCore.java:991)
+	at com.adobe.flexbuilder.util.XMLUtil.toDocument(XMLUtil.java:213)
+	at com.adobe.flexbuilder.util.XMLUtil.toDocument(XMLUtil.java:180)
+	at com.adobe.flexbuilder.util.XMLUtil.toDocument(XMLUtil.java:275)
+	at com.adobe.flexide.multiplatform.android.AndroidPlatformManager.validateInstallLocation(AndroidPlatformManager.java:622)
+	at com.adobe.flexide.multiplatform.android.AndroidPlatformManager.validateAppXml(AndroidPlatformManager.java:562)
+	at com.adobe.flexide.multiplatform.android.AndroidPlatform.validateAppXml(AndroidPlatform.java:317)
+	at com.adobe.flexide.project.multiplatform.PlatformTargetProxy.validateAppXml(PlatformTargetProxy.java:337)
+	at com.adobe.flexide.project.multiplatform.internal.MultiPlatformActionScriptProject.validateAppXML(MultiPlatformActionScriptProject.java:252)
+	at com.adobe.flexbuilder.project.air.build.ApolloXMLBuilder$ValidationRunner.run(ApolloXMLBuilder.java:90)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at com.adobe.flexbuilder.project.air.build.ApolloXMLBuilder.build(ApolloXMLBuilder.java:148)
+	at com.adobe.flexbuilder.exportimport.releaseversion.ExportReleaseVersionManager$2.execute(ExportReleaseVersionManager.java:304)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Caused by: org.xml.sax.SAXParseException: The element type "application" must be terminated by the matching end-tag "</application>".
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(Unknown Source)
+	at com.adobe.flexbuilder.util.XMLUtil.toDocument(XMLUtil.java:211)
+	... 15 more
+!SUBENTRY 1 com.adobe.flexbuilder.project 4 43 2015-04-28 21:29:01.666
+!MESSAGE Could not read XML document
+!STACK 0
+org.xml.sax.SAXParseException: The element type "application" must be terminated by the matching end-tag "</application>".
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(Unknown Source)
+	at com.adobe.flexbuilder.util.XMLUtil.toDocument(XMLUtil.java:211)
+	at com.adobe.flexbuilder.util.XMLUtil.toDocument(XMLUtil.java:180)
+	at com.adobe.flexbuilder.util.XMLUtil.toDocument(XMLUtil.java:275)
+	at com.adobe.flexide.multiplatform.android.AndroidPlatformManager.validateInstallLocation(AndroidPlatformManager.java:622)
+	at com.adobe.flexide.multiplatform.android.AndroidPlatformManager.validateAppXml(AndroidPlatformManager.java:562)
+	at com.adobe.flexide.multiplatform.android.AndroidPlatform.validateAppXml(AndroidPlatform.java:317)
+	at com.adobe.flexide.project.multiplatform.PlatformTargetProxy.validateAppXml(PlatformTargetProxy.java:337)
+	at com.adobe.flexide.project.multiplatform.internal.MultiPlatformActionScriptProject.validateAppXML(MultiPlatformActionScriptProject.java:252)
+	at com.adobe.flexbuilder.project.air.build.ApolloXMLBuilder$ValidationRunner.run(ApolloXMLBuilder.java:90)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at com.adobe.flexbuilder.project.air.build.ApolloXMLBuilder.build(ApolloXMLBuilder.java:148)
+	at com.adobe.flexbuilder.exportimport.releaseversion.ExportReleaseVersionManager$2.execute(ExportReleaseVersionManager.java:304)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY com.adobe.flexbuilder.project 4 43 2015-04-28 21:29:01.840
+!MESSAGE Warning (safe to ignore): error parsing manifestAdditions 
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not read XML document
+	at com.adobe.flexbuilder.project.internal.FlexProjectCore.createCoreException(FlexProjectCore.java:991)
+	at com.adobe.flexbuilder.util.XMLUtil.toDocument(XMLUtil.java:213)
+	at com.adobe.flexbuilder.util.XMLUtil.toDocument(XMLUtil.java:180)
+	at com.adobe.flexbuilder.util.XMLUtil.toDocument(XMLUtil.java:275)
+	at com.adobe.flexide.multiplatform.android.AndroidPlatformManager.validateInstallLocation(AndroidPlatformManager.java:622)
+	at com.adobe.flexide.multiplatform.android.AndroidPlatformManager.validateAppXml(AndroidPlatformManager.java:562)
+	at com.adobe.flexide.multiplatform.android.AndroidPlatform.validateAppXml(AndroidPlatform.java:317)
+	at com.adobe.flexide.project.multiplatform.PlatformTargetProxy.validateAppXml(PlatformTargetProxy.java:337)
+	at com.adobe.flexide.project.multiplatform.internal.MultiPlatformActionScriptProject.validateAppXML(MultiPlatformActionScriptProject.java:252)
+	at com.adobe.flexbuilder.project.air.build.ApolloXMLBuilder$ValidationRunner.run(ApolloXMLBuilder.java:90)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at com.adobe.flexbuilder.project.air.build.ApolloXMLBuilder.build(ApolloXMLBuilder.java:148)
+	at com.adobe.flexbuilder.project.air.build.ApolloXMLIncrementalBuilder.build(ApolloXMLIncrementalBuilder.java:76)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.xml.sax.SAXParseException: The element type "application" must be terminated by the matching end-tag "</application>".
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(Unknown Source)
+	at com.adobe.flexbuilder.util.XMLUtil.toDocument(XMLUtil.java:211)
+	... 23 more
+!SUBENTRY 1 com.adobe.flexbuilder.project 4 43 2015-04-28 21:29:01.840
+!MESSAGE Could not read XML document
+!STACK 0
+org.xml.sax.SAXParseException: The element type "application" must be terminated by the matching end-tag "</application>".
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(Unknown Source)
+	at com.adobe.flexbuilder.util.XMLUtil.toDocument(XMLUtil.java:211)
+	at com.adobe.flexbuilder.util.XMLUtil.toDocument(XMLUtil.java:180)
+	at com.adobe.flexbuilder.util.XMLUtil.toDocument(XMLUtil.java:275)
+	at com.adobe.flexide.multiplatform.android.AndroidPlatformManager.validateInstallLocation(AndroidPlatformManager.java:622)
+	at com.adobe.flexide.multiplatform.android.AndroidPlatformManager.validateAppXml(AndroidPlatformManager.java:562)
+	at com.adobe.flexide.multiplatform.android.AndroidPlatform.validateAppXml(AndroidPlatform.java:317)
+	at com.adobe.flexide.project.multiplatform.PlatformTargetProxy.validateAppXml(PlatformTargetProxy.java:337)
+	at com.adobe.flexide.project.multiplatform.internal.MultiPlatformActionScriptProject.validateAppXML(MultiPlatformActionScriptProject.java:252)
+	at com.adobe.flexbuilder.project.air.build.ApolloXMLBuilder$ValidationRunner.run(ApolloXMLBuilder.java:90)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at com.adobe.flexbuilder.project.air.build.ApolloXMLBuilder.build(ApolloXMLBuilder.java:148)
+	at com.adobe.flexbuilder.project.air.build.ApolloXMLIncrementalBuilder.build(ApolloXMLIncrementalBuilder.java:76)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.adobe.flexbuilder.project 4 43 2015-04-28 21:29:19.441
+!MESSAGE F:\Appodeal\AppodealANE10\AppodealSWC\sample\bin-release-temp\sample-app.xml(309): error 105: application.android.manifestAdditions contains an invalid value
+!STACK 0
+java.lang.Exception
+	at com.adobe.flexbuilder.project.internal.FlexProjectCore.createErrorStatus(FlexProjectCore.java:1020)
+	at com.adobe.flexbuilder.util.logging.GlobalLogImpl.log(GlobalLogImpl.java:66)
+	at com.adobe.flexbuilder.util.logging.GlobalLog.log(GlobalLog.java:52)
+	at com.adobe.flexbuilder.multisdk.apollo.export.AIRAPKPackager.createUsingPackager(AIRAPKPackager.java:248)
+	at com.adobe.flexbuilder.multisdk.apollo.export.AIRAPKPackager.create(AIRAPKPackager.java:575)
+	at com.adobe.flexbuilder.multisdk.apollo.export.AIRAPKPackager.create(AIRAPKPackager.java:138)
+	at com.adobe.flexide.multiplatform.android.exportrelease.AndroidExportReleaseHandler.createPackage(AndroidExportReleaseHandler.java:354)
+	at com.adobe.flexide.multiplatform.android.exportrelease.AndroidExportReleaseHandler.doPackage(AndroidExportReleaseHandler.java:258)
+	at com.adobe.flashbuilder.project.multiplatform.ui.exportrelease.MultiPlatformExportReleaseVersionManager.doExport(MultiPlatformExportReleaseVersionManager.java:317)
+	at com.adobe.flexbuilder.exportimport.releaseversion.ui.ExportReleaseVersionWizard$1.run(ExportReleaseVersionWizard.java:221)
+
+!ENTRY com.adobe.flexbuilder.project 4 43 2015-04-28 21:29:24.580
+!MESSAGE Warning (safe to ignore): error parsing manifestAdditions 
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not read XML document
+	at com.adobe.flexbuilder.project.internal.FlexProjectCore.createCoreException(FlexProjectCore.java:991)
+	at com.adobe.flexbuilder.util.XMLUtil.toDocument(XMLUtil.java:213)
+	at com.adobe.flexbuilder.util.XMLUtil.toDocument(XMLUtil.java:180)
+	at com.adobe.flexbuilder.util.XMLUtil.toDocument(XMLUtil.java:275)
+	at com.adobe.flexide.multiplatform.android.AndroidPlatformManager.validateInstallLocation(AndroidPlatformManager.java:622)
+	at com.adobe.flexide.multiplatform.android.AndroidPlatformManager.validateAppXml(AndroidPlatformManager.java:562)
+	at com.adobe.flexide.multiplatform.android.AndroidPlatform.validateAppXml(AndroidPlatform.java:317)
+	at com.adobe.flexide.project.multiplatform.PlatformTargetProxy.validateAppXml(PlatformTargetProxy.java:337)
+	at com.adobe.flexide.project.multiplatform.internal.MultiPlatformActionScriptProject.validateAppXML(MultiPlatformActionScriptProject.java:252)
+	at com.adobe.flexbuilder.project.air.build.ApolloXMLBuilder$ValidationRunner.run(ApolloXMLBuilder.java:90)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at com.adobe.flexbuilder.project.air.build.ApolloXMLBuilder.build(ApolloXMLBuilder.java:148)
+	at com.adobe.flexbuilder.project.air.build.ApolloXMLIncrementalBuilder.build(ApolloXMLIncrementalBuilder.java:76)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.xml.sax.SAXParseException: The element type "application" must be terminated by the matching end-tag "</application>".
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(Unknown Source)
+	at com.adobe.flexbuilder.util.XMLUtil.toDocument(XMLUtil.java:211)
+	... 23 more
+!SUBENTRY 1 com.adobe.flexbuilder.project 4 43 2015-04-28 21:29:24.580
+!MESSAGE Could not read XML document
+!STACK 0
+org.xml.sax.SAXParseException: The element type "application" must be terminated by the matching end-tag "</application>".
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(Unknown Source)
+	at com.adobe.flexbuilder.util.XMLUtil.toDocument(XMLUtil.java:211)
+	at com.adobe.flexbuilder.util.XMLUtil.toDocument(XMLUtil.java:180)
+	at com.adobe.flexbuilder.util.XMLUtil.toDocument(XMLUtil.java:275)
+	at com.adobe.flexide.multiplatform.android.AndroidPlatformManager.validateInstallLocation(AndroidPlatformManager.java:622)
+	at com.adobe.flexide.multiplatform.android.AndroidPlatformManager.validateAppXml(AndroidPlatformManager.java:562)
+	at com.adobe.flexide.multiplatform.android.AndroidPlatform.validateAppXml(AndroidPlatform.java:317)
+	at com.adobe.flexide.project.multiplatform.PlatformTargetProxy.validateAppXml(PlatformTargetProxy.java:337)
+	at com.adobe.flexide.project.multiplatform.internal.MultiPlatformActionScriptProject.validateAppXML(MultiPlatformActionScriptProject.java:252)
+	at com.adobe.flexbuilder.project.air.build.ApolloXMLBuilder$ValidationRunner.run(ApolloXMLBuilder.java:90)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at com.adobe.flexbuilder.project.air.build.ApolloXMLBuilder.build(ApolloXMLBuilder.java:148)
+	at com.adobe.flexbuilder.project.air.build.ApolloXMLIncrementalBuilder.build(ApolloXMLIncrementalBuilder.java:76)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.adobe.flexbuilder.project 4 43 2015-04-28 21:32:34.333
+!MESSAGE dx tool failed:
+UNEXPECTED TOP-LEVEL EXCEPTION:
+com.android.dx.cf.iface.ParseException: class name (com/amazon/device/ads/AAXCreative) does not match path (com/com/amazon/device/ads/AAXCreative.class)
+	at com.android.dx.cf.direct.DirectClassFile.parse0(DirectClassFile.java:520)
+	at com.android.dx.cf.direct.DirectClassFile.parse(DirectClassFile.java:406)
+	at com.android.dx.cf.direct.DirectClassFile.parseToInterfacesIfNecessary(DirectClassFile.java:388)
+	at com.android.dx.cf.direct.DirectClassFile.getMagic(DirectClassFile.java:251)
+	at com.android.dx.command.dexer.Main.processClass(Main.java:704)
+	at com.android.dx.command.dexer.Main.processFileBytes(Main.java:673)
+	at com.android.dx.command.dexer.Main.access$300(Main.java:83)
+	at com.android.dx.command.dexer.Main$1.processFileBytes(Main.java:602)
+	at com.android.dx.cf.direct.ClassPathOpener.processArchive(ClassPathOpener.java:284)
+	at com.android.dx.cf.direct.ClassPathOpener.processOne(ClassPathOpener.java:166)
+	at com.android.dx.cf.direct.ClassPathOpener.process(ClassPathOpener.java:144)
+	at com.android.dx.command.dexer.Main.processOne(Main.java:632)
+	at com.android.dx.command.dexer.Main.processAllFiles(Main.java:510)
+	at com.android.dx.command.dexer.Main.runMonoDex(Main.java:280)
+	at com.android.dx.command.dexer.Main.run(Main.java:246)
+	at com.android.dx.command.dexer.Main.main(Main.java:215)
+	at com.android.dx.command.Main.main(Main.java:106)
+...while parsing com/com/amazon/device/ads/AAXCreative.class
+
+1 error; aborting
+
+!STACK 0
+java.lang.Exception
+	at com.adobe.flexbuilder.project.internal.FlexProjectCore.createErrorStatus(FlexProjectCore.java:1020)
+	at com.adobe.flexbuilder.util.logging.GlobalLogImpl.log(GlobalLogImpl.java:66)
+	at com.adobe.flexbuilder.util.logging.GlobalLog.log(GlobalLog.java:52)
+	at com.adobe.flexbuilder.multisdk.apollo.export.AIRAPKPackager.createUsingPackager(AIRAPKPackager.java:248)
+	at com.adobe.flexbuilder.multisdk.apollo.export.AIRAPKPackager.create(AIRAPKPackager.java:575)
+	at com.adobe.flexbuilder.multisdk.apollo.export.AIRAPKPackager.create(AIRAPKPackager.java:138)
+	at com.adobe.flexide.multiplatform.android.exportrelease.AndroidExportReleaseHandler.createPackage(AndroidExportReleaseHandler.java:354)
+	at com.adobe.flexide.multiplatform.android.exportrelease.AndroidExportReleaseHandler.doPackage(AndroidExportReleaseHandler.java:258)
+	at com.adobe.flashbuilder.project.multiplatform.ui.exportrelease.MultiPlatformExportReleaseVersionManager.doExport(MultiPlatformExportReleaseVersionManager.java:317)
+	at com.adobe.flexbuilder.exportimport.releaseversion.ui.ExportReleaseVersionWizard$1.run(ExportReleaseVersionWizard.java:221)
+
+!ENTRY com.adobe.flexbuilder.project 4 43 2015-04-28 22:10:17.828
+!MESSAGE dx tool failed:
+UNEXPECTED TOP-LEVEL EXCEPTION:
+com.android.dx.cf.iface.ParseException: class name (com/applovin/adview/AdViewController) does not match path (com/com/applovin/adview/AdViewController.class)
+	at com.android.dx.cf.direct.DirectClassFile.parse0(DirectClassFile.java:520)
+	at com.android.dx.cf.direct.DirectClassFile.parse(DirectClassFile.java:406)
+	at com.android.dx.cf.direct.DirectClassFile.parseToInterfacesIfNecessary(DirectClassFile.java:388)
+	at com.android.dx.cf.direct.DirectClassFile.getMagic(DirectClassFile.java:251)
+	at com.android.dx.command.dexer.Main.processClass(Main.java:704)
+	at com.android.dx.command.dexer.Main.processFileBytes(Main.java:673)
+	at com.android.dx.command.dexer.Main.access$300(Main.java:83)
+	at com.android.dx.command.dexer.Main$1.processFileBytes(Main.java:602)
+	at com.android.dx.cf.direct.ClassPathOpener.processArchive(ClassPathOpener.java:284)
+	at com.android.dx.cf.direct.ClassPathOpener.processOne(ClassPathOpener.java:166)
+	at com.android.dx.cf.direct.ClassPathOpener.process(ClassPathOpener.java:144)
+	at com.android.dx.command.dexer.Main.processOne(Main.java:632)
+	at com.android.dx.command.dexer.Main.processAllFiles(Main.java:510)
+	at com.android.dx.command.dexer.Main.runMonoDex(Main.java:280)
+	at com.android.dx.command.dexer.Main.run(Main.java:246)
+	at com.android.dx.command.dexer.Main.main(Main.java:215)
+	at com.android.dx.command.Main.main(Main.java:106)
+...while parsing com/com/applovin/adview/AdViewController.class
+
+1 error; aborting
+
+!STACK 0
+java.lang.Exception
+	at com.adobe.flexbuilder.project.internal.FlexProjectCore.createErrorStatus(FlexProjectCore.java:1020)
+	at com.adobe.flexbuilder.util.logging.GlobalLogImpl.log(GlobalLogImpl.java:66)
+	at com.adobe.flexbuilder.util.logging.GlobalLog.log(GlobalLog.java:52)
+	at com.adobe.flexbuilder.multisdk.apollo.export.AIRAPKPackager.createUsingPackager(AIRAPKPackager.java:248)
+	at com.adobe.flexbuilder.multisdk.apollo.export.AIRAPKPackager.create(AIRAPKPackager.java:575)
+	at com.adobe.flexbuilder.multisdk.apollo.export.AIRAPKPackager.create(AIRAPKPackager.java:138)
+	at com.adobe.flexide.multiplatform.android.exportrelease.AndroidExportReleaseHandler.createPackage(AndroidExportReleaseHandler.java:354)
+	at com.adobe.flexide.multiplatform.android.exportrelease.AndroidExportReleaseHandler.doPackage(AndroidExportReleaseHandler.java:258)
+	at com.adobe.flashbuilder.project.multiplatform.ui.exportrelease.MultiPlatformExportReleaseVersionManager.doExport(MultiPlatformExportReleaseVersionManager.java:317)
+	at com.adobe.flexbuilder.exportimport.releaseversion.ui.ExportReleaseVersionWizard$1.run(ExportReleaseVersionWizard.java:221)
+!SESSION 2015-04-28 23:23:59.169 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.6.0_31
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2015-04-28 23:28:20.045
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-28 23:28:20.045
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.declarations.in.workspace,Find All Declarations In Workspace,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,Navigation,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllDeclarationsAction@12428c00)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexide.editorcore.flexEditorScope,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.declarations.in.workspace,Find All Declarations In Workspace,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,Navigation,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllDeclarationsAction@12428c00)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexbuilder.as.editor.context.packageexplorer,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.declarations.in.workspace,Declaration in Workspace,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.search.ui.category.search,Search,Search command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-28 23:28:20.045
+!MESSAGE A conflict occurred for CTRL+SHIFT+G:
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.references.in.workspace,Find All References In Workspace,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,Navigation,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllReferencesAction@4ef55d5d)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexide.editorcore.flexEditorScope,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.references.in.workspace,Find All References In Workspace,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,Navigation,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllReferencesAction@4ef55d5d)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexbuilder.as.editor.context.packageexplorer,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.references.in.workspace,References in Workspace,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.search.ui.category.search,Search,Search command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2015-04-29 00:10:06.568 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.6.0_31
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2015-04-29 00:26:30.210
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-29 00:26:30.210
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.declarations.in.workspace,Find All Declarations In Workspace,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,Navigation,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllDeclarationsAction@2354e586)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexide.editorcore.flexEditorScope,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.declarations.in.workspace,Find All Declarations In Workspace,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,Navigation,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllDeclarationsAction@2354e586)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexbuilder.as.editor.context.packageexplorer,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.declarations.in.workspace,Declaration in Workspace,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.search.ui.category.search,Search,Search command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-29 00:26:30.210
+!MESSAGE A conflict occurred for CTRL+SHIFT+G:
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.references.in.workspace,Find All References In Workspace,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,Navigation,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllReferencesAction@1aa8d289)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexide.editorcore.flexEditorScope,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.references.in.workspace,Find All References In Workspace,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,Navigation,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllReferencesAction@1aa8d289)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexbuilder.as.editor.context.packageexplorer,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.references.in.workspace,References in Workspace,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.search.ui.category.search,Search,Search command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2015-05-01 18:44:09.883 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.6.0_31
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2015-05-01 18:52:00.943
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-05-01 18:52:00.943
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.declarations.in.workspace,Find All Declarations In Workspace,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,Navigation,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllDeclarationsAction@3a2cf85b)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexide.editorcore.flexEditorScope,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.declarations.in.workspace,Find All Declarations In Workspace,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,Navigation,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllDeclarationsAction@3a2cf85b)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexbuilder.as.editor.context.packageexplorer,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.declarations.in.workspace,Declaration in Workspace,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.search.ui.category.search,Search,Search command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-05-01 18:52:00.943
+!MESSAGE A conflict occurred for CTRL+SHIFT+G:
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.references.in.workspace,Find All References In Workspace,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,Navigation,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllReferencesAction@5e653c33)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexide.editorcore.flexEditorScope,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.references.in.workspace,Find All References In Workspace,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,Navigation,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllReferencesAction@5e653c33)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexbuilder.as.editor.context.packageexplorer,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.references.in.workspace,References in Workspace,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.search.ui.category.search,Search,Search command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)

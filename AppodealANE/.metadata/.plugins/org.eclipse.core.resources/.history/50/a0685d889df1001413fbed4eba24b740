@@ -1,0 +1,55 @@
+package com.appodeal.aneplugins;
+
+import android.app.Activity;
+import android.util.Log;
+
+import com.adobe.fre.FREContext;
+import com.adobe.fre.FREFunction;
+import com.adobe.fre.FREObject;
+import com.appodeal.ads.Appodeal;
+import com.appodeal.ads.InterstitialCallbacks;
+import com.appodeal.ads.VideoCallbacks;
+
+public class AppodealInitialize implements FREFunction {
+
+	@Override
+	public FREObject call(FREContext context, FREObject[] args) {
+		
+		String AppKey = null;
+		try {
+			AppKey = args[0].getAsString();
+			Activity activity = context.getActivity();
+			final FREContext extContext = context;
+			Appodeal.initialize(activity, AppKey);
+			Log.i("AppodealPlugin", "Initializing Appodeal" + AppKey);
+			Appodeal.setInterstitialCallbacks(new InterstitialCallbacks() {
+				@Override
+				public void onInterstitialShown() { extContext.dispatchStatusEventAsync("INTERSTITIAL_SHOWN", ""); }
+				@Override
+				public void onInterstitialLoaded(boolean arg0) { extContext.dispatchStatusEventAsync("INTERSTITIAL_LOADED", ""); }
+				@Override
+				public void onInterstitialFailedToLoad() { extContext.dispatchStatusEventAsync("INTERSTITIAL_FAILED_TO_LOAD", ""); }
+				@Override
+				public void onInterstitialClosed() { extContext.dispatchStatusEventAsync("INTERSTITIAL_CLOSED", ""); }
+				@Override
+				public void onInterstitialClicked() { extContext.dispatchStatusEventAsync("INTERSTITIAL_CLICKED", ""); }
+			});
+			Appodeal.setVideoCallbacks(new VideoCallbacks() {
+				@Override
+				public void onVideoShown() { extContext.dispatchStatusEventAsync("VIDEO_SHOWN", ""); }
+				@Override
+				public void onVideoLoaded() { extContext.dispatchStatusEventAsync("VIDEO_LOADED", ""); }
+				@Override
+				public void onVideoFinished() { extContext.dispatchStatusEventAsync("VIDEO_FINISHED", ""); }
+				@Override
+				public void onVideoFailedToLoad() { extContext.dispatchStatusEventAsync("VIDEO_FAILED_TO_LOAD", ""); }
+				@Override
+				public void onVideoClosed() { extContext.dispatchStatusEventAsync("VIDEO_CLOSED", ""); }
+			});
+	    } catch (Exception e) {
+	    	Log.i("AppodealPlugin", e.toString());
+	    }
+		return null;
+	}
+
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.appodeal.aneplugins.AppodealIsLoaded"/>
+<fullyQualifiedTypeName name="com.appodeal.aneplugins.AppodealIsLoadedPrecache"/>
+<fullyQualifiedTypeName name="com.appodeal.aneplugins.AppodealCacheBanner"/>
+<fullyQualifiedTypeName name="com.appodeal.aneplugins.AppodealSetOnLoadedTriggerBoth"/>
+<fullyQualifiedTypeName name="com.appodeal.ads.InterstitialCallbacks"/>
+<fullyQualifiedTypeName name="com.appodeal.ads.VideoCallbacks"/>
+<fullyQualifiedTypeName name="com.appodeal.aneplugins.AppodealInterstitialListener"/>
+<fullyQualifiedTypeName name="com.appodeal.aneplugins.AppodealVideoListener"/>
+<fullyQualifiedTypeName name="com.appodeal.ads.BannerCallbacks"/>
+</qualifiedTypeNameHistroy>
