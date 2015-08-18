@@ -14,6 +14,10 @@ package com.appodeal.aneplugin
 		public static const VIDEO_FINISHED:String = "VIDEO_FINISHED";
 		public static const VIDEO_FAILED_TO_LOAD:String = "VIDEO_FAILED_TO_LOAD";
 		public static const VIDEO_CLOSED:String = "VIDEO_CLOSED";
+		public static const BANNER_SHOWN:String = "BANNER_SHOWN";
+		public static const BANNER_LOADED:String = "BANNER_LOADED";
+		public static const BANNER_CLICKED:String = "BANNER_CLICKEDD";
+		public static const BANNER_FAILED_TO_LOAD:String = "BANNER_FAILED_TO_LOAD";
 		
 		public var _data:String; //extra info about event
 		

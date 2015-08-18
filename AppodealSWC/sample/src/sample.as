@@ -10,6 +10,7 @@ package
 	import flash.events.MouseEvent;
 	import flash.text.TextField;
 	import flash.text.TextFormat;
+	import starling.core.Starling;
 	
 	public class sample extends Sprite
 	{
@@ -21,11 +22,19 @@ package
 		private var labelInit:TextField = new TextField();
 		private var labelVideo:TextField = new TextField();
 		private var labelInterstitial:TextField = new TextField();
+		private var labelHide:TextField = new TextField();
+		private var mStarling:Starling;
+		private var params = {};
 		
 		public function sample()
 		{
 			super();
 			
+			params.wmode = "direct";
+			
+			mStarling = new Starling(sample, stage);
+			mStarling.stop();
+			mStarling.start();
 			
 			labelInit.defaultTextFormat = new TextFormat('Verdana',30,0x000000);
 			labelInit.text = label;
@@ -71,6 +80,20 @@ package
 			VideoButton.y = 500;
 			addChild(VideoButton);
 			
+			labelHide.defaultTextFormat = new TextFormat('Verdana',30,0x000000);
+			labelHide.text = "Hide Banner";
+			labelHide.width = 500;
+			labelHide.height = 100;
+			labelHide.background = labelHide.border = true;
+			labelHide.selectable = false;
+			var HideButton:Sprite = new Sprite();
+			HideButton.mouseChildren = false;
+			HideButton.addChild(labelHide);
+			HideButton.buttonMode = true;
+			HideButton.x = 100;
+			HideButton.y = 700;
+			addChild(HideButton);
+			
 			appodeal.addEventListener(AdEvent.VIDEO_LOADED, onVideoLoaded);
 			appodeal.addEventListener(AdEvent.VIDEO_FAILED_TO_LOAD, onEvent);
 			appodeal.addEventListener(AdEvent.VIDEO_FINISHED, onEvent);
@@ -81,13 +104,19 @@ package
 			appodeal.addEventListener(AdEvent.INTERSTITIAL_CLOSED, onEvent);
 			appodeal.addEventListener(AdEvent.INTERSTITIAL_FAILED_TO_LOAD, onEvent);
 			appodeal.addEventListener(AdEvent.INTERSTITIAL_SHOWN, onInterstitialShown);
+			appodeal.addEventListener(AdEvent.BANNER_SHOWN, onEvent);
+			appodeal.addEventListener(AdEvent.BANNER_LOADED, onBannerLoaded);
+			appodeal.addEventListener(AdEvent.BANNER_FAILED_TO_LOAD, onEvent);
+			appodeal.addEventListener(AdEvent.BANNER_CLICKED, onEvent);
 			
 			
 			
 			initButton.addEventListener(MouseEvent.CLICK, function(event:MouseEvent):void {
+				appodeal.disableLocationPermissionCheck();
 				var appKey:String = "453c5e41886fa92b78ffa648b3a2a629c2b5f705676feabc";
-				appodeal.initializeAdType(appKey, AdType.INTERSTITIAL | AdType.VIDEO);
-				labelInit.text = "Initialized";
+				appodeal.setTesting(true);
+				appodeal.initializeAdType(appKey, AdType.ALL);
+				labelInit.text = "Initialized v."+appodeal.getVersion();
 			});
 			
 			InterstitialButton.addEventListener(MouseEvent.CLICK, function(event:MouseEvent):void {
@@ -100,6 +129,10 @@ package
 				if(appodeal.isLoaded(AdType.VIDEO)){
 					appodeal.show(AdType.VIDEO);
 				}
+			});
+			
+			HideButton.addEventListener(MouseEvent.CLICK, function(event:MouseEvent):void {
+				appodeal.hide(AdType.BANNER);
 			});
 			
 			stage.align = StageAlign.TOP_LEFT;
@@ -120,6 +153,11 @@ package
 		protected function onInterstitialLoaded(ae:AdEvent):void
 		{
 			labelInterstitial.text = "Interstitial Ready";
+		}
+		
+		protected function onBannerLoaded(ae:AdEvent):void
+		{
+			appodeal.show(AdType.BANNER_BOTTOM);
 		}
 		
 		protected function onVideoShown(ae:AdEvent):void

@@ -3,44 +3,77 @@
 	<id>sample</id>
 	<filename>sample</filename>
 	<name>sample</name>
-	<versionNumber>0.0.0</versionNumber>
+	<versionNumber>0.1.0</versionNumber>
 	<initialWindow>
 		<content>[This value will be overwritten by Flash Builder in the output app.xml]</content>
 	<autoOrients>true</autoOrients>
         <fullScreen>false</fullScreen>
         <visible>true</visible>
+        <renderMode>direct</renderMode>
     </initialWindow>
 	<android>
-	       <manifestAdditions><![CDATA[
-				<manifest android:installLocation="auto">
-				    <uses-permission android:name="android.permission.INTERNET"/>
-				    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-				    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
-				    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-				    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
-				    <application>
-				  		<activity android:name="com.appodeal.ads.InterstitialActivity" android:configChanges="orientation|screenSize" android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-				        <activity android:name="com.appodeal.ads.BannerActivity" android:configChanges="orientation|screenSize" android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-				        <activity android:name="com.appodeal.ads.VideoActivity" android:configChanges="orientation|screenSize" android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-				        <activity android:name="com.appodeal.ads.LoaderActivity" android:configChanges="orientation|screenSize" android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-				        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
-				        <activity android:name="com.google.android.gms.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:theme="@android:style/Theme.Translucent" />
-				        <activity android:name="com.chartboost.sdk.CBImpressionActivity" android:theme="@android:style/Theme.Translucent" android:excludeFromRecents="true" />
-				        <activity android:name="com.applovin.adview.AppLovinInterstitialActivity" android:theme="@android:style/Theme.Translucent" />
-				        <activity android:name="com.mopub.mobileads.MoPubActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:theme="@android:style/Theme.Translucent" />
-				        <activity android:name="com.mopub.common.MoPubBrowser" android:configChanges="keyboardHidden|orientation|screenSize" />
-				        <activity android:name="com.mopub.mobileads.MraidActivity" android:configChanges="keyboardHidden|orientation|screenSize" />
-				        <activity android:name="com.mopub.mobileads.MraidVideoPlayerActivity" android:configChanges="keyboardHidden|orientation|screenSize" />
-				        <activity android:name="org.nexage.sourcekit.mraid.MRAIDBrowser" android:configChanges="orientation|keyboard|keyboardHidden|screenSize" android:theme="@android:style/Theme.Translucent" />
-						<activity android:name="com.amazon.device.ads.AdActivity" android:configChanges="keyboardHidden|orientation|screenSize"/>
-						<activity android:name="com.unity3d.ads.android.view.UnityAdsFullscreenActivity" android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:hardwareAccelerated="true" />
-						<activity android:name="com.supersonicads.sdk.controller.ControllerActivity" android:configChanges="orientation|screenSize" android:hardwareAccelerated="true" />
-        				<activity android:name="com.supersonicads.sdk.controller.InterstitialActivity" android:configChanges="orientation|screenSize" android:hardwareAccelerated="true" android:theme="@android:style/Theme.Translucent" />
-        				<activity android:name="com.supersonicads.sdk.controller.OpenUrlActivity" android:configChanges="orientation|screenSize" android:hardwareAccelerated="true"/>
-					</application>
-				</manifest>
-				
-			]]></manifestAdditions>
+	       <manifestAdditions>
+      <![CDATA[<manifest>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<application android:enabled="true">
+
+ 
+	  <meta-data android:name="com.appodeal.framework" android:value="air" />
+	      
+	  <activity android:name="com.appodeal.ads.InterstitialActivity"
+	      android:configChanges="orientation|screenSize"
+	      android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+	  <activity android:name="com.appodeal.ads.VideoActivity"
+	      android:configChanges="orientation|screenSize"
+	      android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+	
+	  <activity android:name="com.appodeal.ads.LoaderActivity"
+	      android:configChanges="orientation|screenSize"
+	      android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+	
+	  <!--<meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+	  <activity android:name="com.google.android.gms.ads.AdActivity"
+	      android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+	      android:theme="@android:style/Theme.Translucent" />-->
+	
+	  <activity android:name="com.chartboost.sdk.CBImpressionActivity"
+	      android:theme="@android:style/Theme.Translucent"
+	      android:excludeFromRecents="true" />
+	
+	  <activity android:name="com.applovin.adview.AppLovinInterstitialActivity"
+	      android:theme="@android:style/Theme.Translucent" />
+	
+	  <activity android:name="com.mopub.mobileads.MoPubActivity"
+	      android:configChanges="keyboardHidden|orientation|screenSize"
+	      android:theme="@android:style/Theme.Translucent" />
+	  <activity android:name="com.mopub.common.MoPubBrowser"
+	      android:configChanges="keyboardHidden|orientation|screenSize" />
+	  <activity android:name="com.mopub.mobileads.MraidActivity"
+	      android:configChanges="keyboardHidden|orientation|screenSize" />
+	  <activity android:name="com.mopub.mobileads.MraidVideoPlayerActivity"
+	      android:configChanges="keyboardHidden|orientation|screenSize" />
+	
+	  <activity android:name="org.nexage.sourcekit.mraid.MRAIDBrowser"
+	      android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
+	      android:theme="@android:style/Theme.Translucent" />
+	
+	  <activity android:name="com.amazon.device.ads.AdActivity"
+	      android:configChanges="keyboardHidden|orientation|screenSize"/>
+	
+	  <activity android:name="com.unity3d.ads.android.view.UnityAdsFullscreenActivity"
+	      android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+	      android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+	      android:hardwareAccelerated="true" />
+	      
+	  <activity android:name="ru.mail.android.mytarget.ads.MyTargetActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+	      
+      
+</application>
+</manifest>]]>
+    </manifestAdditions>
 	    </android>
 	    <iPhone>
 	        <InfoAdditions><![CDATA[
@@ -52,7 +85,8 @@
 			]]></InfoAdditions>
 	        <requestedDisplayResolution>high</requestedDisplayResolution>
 	    </iPhone>
-	    <extensions>
-	    <extensionID>com.appodeal.aneplugin</extensionID>
-	    </extensions>
+	    
+<extensions>
+        <extensionID>com.appodeal.aneplugin</extensionID>
+    </extensions>
 </application>

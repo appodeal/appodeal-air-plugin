@@ -22,4 +22,11 @@
 		<nature>com.adobe.flexbuilder.project.apollonature</nature>
 		<nature>com.adobe.flexbuilder.project.actionscriptnature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>[source path] src</name>
+			<type>2</type>
+			<location>C:/Users/AiNE/Downloads/Gamua-Starling-Framework-v1.7-0-g110c2a5/Gamua-Starling-Framework-110c2a5/starling/src</location>
+		</link>
+	</linkedResources>
 </projectDescription>
