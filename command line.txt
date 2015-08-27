@@ -1,1 +1,3 @@
 adt.bat -package -target ane Appodeal.ane extension.xml -swc AppodealSWC.swc -platform Android-ARM -platformoptions platform.xml -C android . -platform default -C default library.swf
+
+adt.bat -package -target ane Appodeal_no_gp.ane extension.xml -swc AppodealSWC.swc -platform Android-ARM -platformoptions platform_no_gp.xml -C androidNoGp . -platform default -C default library.swf

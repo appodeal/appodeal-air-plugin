@@ -1,8 +1,19 @@
 <platform xmlns="http://ns.adobe.com/air/extension/17.0">
     <packagedDependencies>
-        <packagedDependency>google-play-services.jar</packagedDependency>
+        <packagedDependency>android-support-v4-22.2.1.jar</packagedDependency>
+		<packagedDependency>applovin-sdk-6.0.1.jar</packagedDependency>
+		<packagedDependency>appodeal-1.13.1.jar</packagedDependency>
+		<packagedDependency>chartboost-5.5.3.jar</packagedDependency>
+		<packagedDependency>my-target-4.0.13.jar</packagedDependency>
+		<packagedDependency>unity-ads-1.4.7.jar</packagedDependency>
+		<packagedDependency>adcolony-2.2.2.jar</packagedDependency>
+		<packagedDependency>facebook-4.5.1.jar</packagedDependency>
+		<packagedDependency>vungle-publisher-adaptive-id-3.3.1.jar</packagedDependency>
+		<packagedDependency>nineoldandroids-2.4.0.jar</packagedDependency>
+		<packagedDependency>dagger-1.2.2.jar</packagedDependency>
+		<packagedDependency>javax.inject-1.jar</packagedDependency>
+		<packagedDependency>google-play-services.jar</packagedDependency>
 		</packagedDependencies>
-
     <packagedResources>
         <packagedResource>
             <packageName>com.google.android.gms</packageName>

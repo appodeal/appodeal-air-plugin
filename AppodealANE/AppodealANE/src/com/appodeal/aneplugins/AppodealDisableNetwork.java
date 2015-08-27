@@ -1,5 +1,6 @@
 package com.appodeal.aneplugins;
 
+import android.app.Activity;
 import android.util.Log;
 
 import com.adobe.fre.FREContext;
@@ -14,7 +15,8 @@ public class AppodealDisableNetwork implements FREFunction {
 		
 		try {
 			String network = args[0].getAsString();
-			Appodeal.disableNetwork(network);
+			Activity activity = context.getActivity();
+			Appodeal.disableNetwork(activity, network);
 		} catch (Exception e) {
 	    	Log.i("AppodealPlugin", e.toString());
 	    }

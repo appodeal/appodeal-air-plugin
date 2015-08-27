@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<item value="C:\Program Files\Adobe\Adobe Flash CC\AIR18\lib\android" key="org.eclipse.jdt.ui.lastextjar"/>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item value="2" key="layout"/>
 		<item value="true" key="group_libraries"/>
@@ -18,7 +19,7 @@
 	<section name="quick_assist_proposal_size">
 	</section>
 	<section name="BuildPathsPropertyPage">
-		<item value="3" key="pageIndex"/>
+		<item value="2" key="pageIndex"/>
 	</section>
 	<section name="completion_proposal_size">
 	</section>
@@ -42,6 +43,7 @@
 		<item value="false" key="JarManifestWizardPage.SAVE_MANIFEST"/>
 		<item value="false" key="JarPackageWizardPage.EXPORT_OUTPUT_FOLDER"/>
 		<list key="JarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="G:\Appodeal\AppodealAIRNative\AppodealANE12\appodealane.jar"/>
 			<item value="F:\Appodeal\AppodealAIRNative\AppodealANE12\appodealane.jar"/>
 			<item value="F:\Appodeal\AppodealAIRNative\AppodealANE11\appodealane.jar"/>
 			<item value="F:\Appodeal\AppodealANE10\appodealane.jar"/>

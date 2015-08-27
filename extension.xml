@@ -1,6 +1,6 @@
 <extension xmlns="http://ns.adobe.com/air/extension/17.0">
   <id>com.appodeal.aneplugin</id>
-  <versionNumber>1.12.8</versionNumber>
+  <versionNumber>1.13.1</versionNumber>
   <platforms>
     <platform name="Android-ARM">
       <applicationDeployment>
