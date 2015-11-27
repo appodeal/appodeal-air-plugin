@@ -18,7 +18,7 @@ public class AppodealDisableNetwork implements FREFunction {
 			Activity activity = context.getActivity();
 			Appodeal.disableNetwork(activity, network);
 		} catch (Exception e) {
-	    	Log.i("AppodealPlugin", e.toString());
+	    	Log.e("AppodealPlugin", String.valueOf(e));
 	    }
 		return null;
 

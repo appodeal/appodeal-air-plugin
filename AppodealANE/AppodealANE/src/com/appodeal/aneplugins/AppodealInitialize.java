@@ -18,18 +18,13 @@ public class AppodealInitialize implements FREFunction {
 		
 		try {
 			String AppKey = args[0].getAsString();
-			Appodeal.initialize(activity, AppKey);
-			//Log.i("AppodealPlugin", "Initializing Appodeal" + AppKey);
-			Appodeal.setInterstitialCallbacks(new AppodealInterstitialListener(ctx));
-			//Log.i("AppodealPlugin", "Interstitial Callbacks initialized");
-			Appodeal.setVideoCallbacks(new AppodealVideoListener(ctx));
-			//Log.i("AppodealPlugin", "Video Callbacks initialized");
-			Appodeal.setBannerCallbacks(new AppodealBannerListener(ctx));
-			//Log.i("AppodealPlugin", "Banner Callbacks initialized");
+			int AdType = args[1].getAsInt();
+			Appodeal.initialize(activity, AppKey, AdType);
 	    } catch (Exception e) {
-	    	Log.i("AppodealPlugin", e.toString());
+	    	Log.e("AppodealPlugin", e.toString());
 	    }
 		return null;
 	}
+
 
 }

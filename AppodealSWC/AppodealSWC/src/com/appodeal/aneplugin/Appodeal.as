@@ -7,6 +7,18 @@ package com.appodeal.aneplugin
 	
 	public class Appodeal extends EventDispatcher
 	{
+		
+		public static const NONE:int = 0;
+		public static const INTERSTITIAL:int = 1;
+		public static const VIDEO:int = 2;
+		public static const BANNER:int = 4;
+		public static const BANNER_BOTTOM:int = 8;
+		public static const BANNER_TOP:int = 16;
+		public static const BANNER_CENTER:int = 32;
+		public static const REWARDED_VIDEO:int = 128; 
+		public static const ALL:int = 255;
+		public static const ANY:int = 255;
+		
 		private var context:ExtensionContext;
 		
 		public function Appodeal()
@@ -27,16 +39,34 @@ package com.appodeal.aneplugin
 			return Capabilities.manufacturer.indexOf("iOS") != -1;
 		}
 		
-		public function initialize(appKey:String):void
+		public function initialize(appKey:String, adType:int):void
 		{
 			if (isAndroid())
-				context.call("initialize", appKey);
+				context.call("initialize", appKey, adType);
 		}
 		
-		public function initializeAdType(appKey:String, adType:int):void
+		public function setBannerCallbacks():void
 		{
 			if (isAndroid())
-				context.call("initializeAdTypes", appKey, adType);
+				context.call("setBannerCallbacks");
+		}
+		
+		public function setInterstitialCallbacks():void
+		{
+			if (isAndroid())
+				context.call("setInterstitialCallbacks");
+		}
+		
+		public function setVideoCallbacks():void
+		{
+			if (isAndroid())
+				context.call("setVideoCallbacks");
+		}
+		
+		public function setRewardedVideoCallbacks():void
+		{
+			if (isAndroid())
+				context.call("setRewardedVideoCallbacks");
 		}
 		
 		public function show(adType:int):Boolean
@@ -76,7 +106,7 @@ package com.appodeal.aneplugin
 		
 		public function cache(adType:int):void
 		{
-			if (isAndroid()) context.call("cacheBanner", adType);
+			if (isAndroid()) context.call("cache", adType);
 		}
 		
 		public function setAutoCache(adType:int, autoCache:Boolean):void
@@ -94,9 +124,19 @@ package com.appodeal.aneplugin
 			if (isAndroid()) context.call("setTesting", testing);
 		}
 		
+		public function setLogging(logging:Boolean):void
+		{
+			if (isAndroid()) context.call("setLogging", logging);
+		}
+		
 		public function disableNetwork(network:String):void
 		{
 			if (isAndroid()) context.call("disableNetwork", network);
+		}
+		
+		public function disableNetworkForAdType(network:String, adType:int):void
+		{
+			if (isAndroid()) context.call("disableNetworkForAdType", network, adType);
 		}
 		
 		public function disableLocationPermissionCheck():void
@@ -173,6 +213,36 @@ package com.appodeal.aneplugin
 				case "VIDEO_CLOSED":
 				{
 					e = new AdEvent(AdEvent.VIDEO_CLOSED);
+					break;
+				}
+					
+				case "REWARDED_VIDEO_LOADED":
+				{
+					e = new AdEvent(AdEvent.REWARDED_VIDEO_LOADED);
+					break;
+				}
+					
+				case "REWARDED_VIDEO_FINISHED":
+				{
+					e = new AdEvent(AdEvent.REWARDED_VIDEO_FINISHED);
+					break;
+				}
+					
+				case "REWARDED_VIDEO_FAILED_TO_LOAD":
+				{
+					e = new AdEvent(AdEvent.REWARDED_VIDEO_FAILED_TO_LOAD);
+					break;
+				}
+					
+				case "REWARDED_VIDEO_SHOWN":
+				{
+					e = new AdEvent(AdEvent.REWARDED_VIDEO_SHOWN);
+					break;
+				}
+					
+				case "REWARDED_VIDEO_CLOSED":
+				{
+					e = new AdEvent(AdEvent.REWARDED_VIDEO_CLOSED);
 					break;
 				}
 					

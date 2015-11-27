@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item value="209" key="DIALOG_Y_ORIGIN"/>
+		<item value="654" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.preferences.keysPreferencePage">
+	</section>
 	<section name="ImportExportAction">
 		<item value="org.eclipse.ui.wizards.import.ExternalProject" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
 		<item value="com.adobe.flexbuilder.editorcore.ui.project.wizards.export.exportrelease" key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID"/>

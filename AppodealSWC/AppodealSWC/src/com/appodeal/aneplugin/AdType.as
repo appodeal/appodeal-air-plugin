@@ -9,7 +9,8 @@ package com.appodeal.aneplugin
 		public static const BANNER_BOTTOM:int = 8;
 		public static const BANNER_TOP:int = 16;
 		public static const BANNER_CENTER:int = 32;
-		public static const ALL:int = 127;
-		public static const ANY:int = 127;
+		public static const REWARDED_VIDEO:int = 128; 
+		public static const ALL:int = 255;
+		public static const ANY:int = 255;
 	}
 }

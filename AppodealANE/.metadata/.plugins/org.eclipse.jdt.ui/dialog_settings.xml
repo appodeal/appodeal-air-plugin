@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<item value="C:\Program Files\Adobe\Adobe Flash CC\AIR18\lib\android" key="org.eclipse.jdt.ui.lastextjar"/>
+	<section name="RefactoringWizard.preview">
+		<item value="600" key="width"/>
+		<item value="400" key="height"/>
+	</section>
+	<section name="org.eclipse.ltk.ui.refactoring.settings">
+		<item value="false" key="updateQualifiedNames"/>
+		<item value="*" key="patterns"/>
+		<item value="false" key="updateSimilarElements"/>
+		<item value="1" key="updateSimilarElementsMatchStrategy"/>
+		<item value="false" key="updateTextualMatches"/>
+	</section>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item value="2" key="layout"/>
 		<item value="true" key="group_libraries"/>
@@ -20,6 +31,9 @@
 	</section>
 	<section name="BuildPathsPropertyPage">
 		<item value="2" key="pageIndex"/>
+	</section>
+	<section name="NewPackageWizardPage">
+		<item value="false" key="create_package_info_java"/>
 	</section>
 	<section name="completion_proposal_size">
 	</section>
@@ -43,11 +57,11 @@
 		<item value="false" key="JarManifestWizardPage.SAVE_MANIFEST"/>
 		<item value="false" key="JarPackageWizardPage.EXPORT_OUTPUT_FOLDER"/>
 		<list key="JarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="G:\Appodeal\AppodealAIRNative\PlayServices\play_services_8.1.0.jar"/>
+			<item value="G:\Appodeal\AppodealAIRNative\AppodealANE\AppodealANE_1.13.7.jar"/>
+			<item value="G:\Appodeal\AppodealAIRNative\AppodealANE12\AppodealANE_1.13.7.jar"/>
 			<item value="G:\Appodeal\AppodealAIRNative\AppodealANE12\appodealane.jar"/>
 			<item value="F:\Appodeal\AppodealAIRNative\AppodealANE12\appodealane.jar"/>
-			<item value="F:\Appodeal\AppodealAIRNative\AppodealANE11\appodealane.jar"/>
-			<item value="F:\Appodeal\AppodealANE10\appodealane.jar"/>
-			<item value="F:\Appodeal\AppodealANE10\Appodal.jar"/>
 		</list>
 	</section>
 	<section name="JavaElementSearchActions">
