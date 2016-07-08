@@ -1,0 +1,13 @@
+<platform xmlns="http://ns.adobe.com/air/extension/16.0">
+    <packagedDependencies>
+        <packagedDependency>google-play-services-8.1.0.jar</packagedDependency>
+        <packagedDependency>android-support-v4-23.1.2-trimmed.jar</packagedDependency>
+    </packagedDependencies>
+    <packagedResources>
+        <packagedResource> 
+            <packageName>com.google.android.gms</packageName>
+            <folderName>google-play-services-res</folderName>
+        </packagedResource>
+    </packagedResources>
+</platform>
+

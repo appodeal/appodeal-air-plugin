@@ -1,0 +1,23 @@
+<extension xmlns="http://ns.adobe.com/air/extension/16.0">
+	<id>com.appodeal.supportane</id>
+	<versionNumber>1</versionNumber>
+	<platforms>
+		<platform name="Android-ARM">
+		  <applicationDeployment>
+		    <nativeLibrary>SupportANE.jar</nativeLibrary>
+		    <initializer>com.appodeal.supportanes.AndroidSupportLib</initializer>
+		    <finalizer>com.appodeal.supportanes.AndroidSupportLib</finalizer>
+		  </applicationDeployment>
+		</platform>
+		<platform name="Android-x86">
+		  <applicationDeployment>
+		    <nativeLibrary>SupportANE.jar</nativeLibrary>
+		    <initializer>com.appodeal.supportanes.AndroidSupportLib</initializer>
+		    <finalizer>com.appodeal.supportanes.AndroidSupportLib</finalizer>
+		  </applicationDeployment>
+		</platform>
+		<platform name="default"> 
+			<applicationDeployment/> 
+		</platform>
+	</platforms>
+</extension>

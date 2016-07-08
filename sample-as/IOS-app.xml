@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<application xmlns="http://ns.adobe.com/air/application/20.0">
+    <id>com.appodeal.test</id>
+	<!--<id>com.appodeal.sandbox</id>-->
+    <filename>Appodeal</filename>
+    <name>Appodeal</name>
+    <versionNumber>0.0.4</versionNumber>
+    <extensions>
+        <extensionID>com.appodeal.aneplugin</extensionID>
+    </extensions>
+
+    <initialWindow>
+        <content>SWF file name is set automatically at compile time</content>
+        <visible>true</visible>
+        <autoOrients>true</autoOrients>
+        <fullScreen>true</fullScreen>
+    </initialWindow>
+
+    <iPhone>
+        <InfoAdditions>
+            <![CDATA[
+            <key>UIDeviceFamily</key>
+            <array>
+                <!-- iPhone and iPod touch devices -->
+                <string>1</string>
+                <!-- iPad devices -->
+                <string>2</string>
+            </array>
+            <key>MinimumOSVersion</key>
+			<string>7.1</string>
+            ]]>
+        </InfoAdditions>
+        <requestedDisplayResolution>high</requestedDisplayResolution>
+    </iPhone>
+
+</application>

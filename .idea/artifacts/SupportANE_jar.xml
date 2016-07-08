@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="SupportANE:jar">
+    <output-path>$PROJECT_DIR$/out/</output-path>
+    <root id="archive" name="SupportANE.jar">
+      <element id="module-output" name="android-support-lib" />
+    </root>
+  </artifact>
+</component>

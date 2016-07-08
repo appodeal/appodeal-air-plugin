@@ -1,0 +1,31 @@
+<extension xmlns="http://ns.adobe.com/air/extension/16.0">
+	<id>com.appodeal.aneplugin</id>
+	<versionNumber>1</versionNumber>
+	<platforms>
+		<platform name="iPhone-ARM">
+			<applicationDeployment>
+				<nativeLibrary>AppodealDevice.a</nativeLibrary>
+				<initializer>AppodealExtensionInitializer</initializer>
+				<finalizer>AppodealExtensionFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-ARM">
+		  <applicationDeployment>
+		    <nativeLibrary>AppodealANE.jar</nativeLibrary>
+		    <initializer>com.appodeal.aneplugins.AppodealExtension</initializer>
+		    <finalizer>com.appodeal.aneplugins.AppodealExtension</finalizer>
+		  </applicationDeployment>
+		</platform>
+		<platform name="Android-x86">
+		  <applicationDeployment>
+		    <nativeLibrary>AppodealANE.jar</nativeLibrary>
+		    <initializer>com.appodeal.aneplugins.AppodealExtension</initializer>
+		    <finalizer>com.appodeal.aneplugins.AppodealExtension</finalizer>
+		  </applicationDeployment>
+		</platform>
+        
+		<platform name="default"> 
+			<applicationDeployment/> 
+		</platform>
+	</platforms>
+</extension>

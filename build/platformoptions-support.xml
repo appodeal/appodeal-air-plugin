@@ -1,0 +1,6 @@
+<platform xmlns="http://ns.adobe.com/air/extension/16.0">
+    <packagedDependencies>
+        <packagedDependency>android-support-v4-23.1.2-trimmed.jar</packagedDependency>
+    </packagedDependencies>
+</platform>
+

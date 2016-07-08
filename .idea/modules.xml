@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/actionscript-def/actionscript-def.iml" filepath="$PROJECT_DIR$/actionscript-def/actionscript-def.iml" />
+      <module fileurl="file://$PROJECT_DIR$/actionscript-lib/actionscript-lib.iml" filepath="$PROJECT_DIR$/actionscript-lib/actionscript-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-lib/android-lib.iml" filepath="$PROJECT_DIR$/android-lib/android-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-playservices-lib/android-playservices-lib.iml" filepath="$PROJECT_DIR$/android-playservices-lib/android-playservices-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-support-lib/android-support-lib.iml" filepath="$PROJECT_DIR$/android-support-lib/android-support-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/as3-androidsupport-lib/as3-androidsupport-lib.iml" filepath="$PROJECT_DIR$/as3-androidsupport-lib/as3-androidsupport-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/as3-playservices-lib/as3-playservices-lib.iml" filepath="$PROJECT_DIR$/as3-playservices-lib/as3-playservices-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sample-as/sample-as.iml" filepath="$PROJECT_DIR$/sample-as/sample-as.iml" />
+    </modules>
+  </component>
+</project>

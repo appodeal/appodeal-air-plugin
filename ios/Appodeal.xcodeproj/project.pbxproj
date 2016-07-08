@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		220757E01C07525B00F515AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220757DF1C07525B00F515AB /* Foundation.framework */; };
+		220757E21C07525B00F515AB /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220757E11C07525B00F515AB /* CoreFoundation.framework */; };
+		220757E41C07525B00F515AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220757E31C07525B00F515AB /* UIKit.framework */; };
+		220757E61C07525B00F515AB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220757E51C07525B00F515AB /* MobileCoreServices.framework */; };
+		220757E81C07525B00F515AB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220757E71C07525B00F515AB /* CoreGraphics.framework */; };
+		220757EA1C07525B00F515AB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220757E91C07525B00F515AB /* SystemConfiguration.framework */; };
+		220757EC1C07525B00F515AB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220757EB1C07525B00F515AB /* AudioToolbox.framework */; };
+		220757EE1C07525B00F515AB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220757ED1C07525B00F515AB /* CFNetwork.framework */; };
+		220757F01C07525B00F515AB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220757EF1C07525B00F515AB /* QuartzCore.framework */; };
+		220757F21C07525B00F515AB /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220757F11C07525B00F515AB /* OpenGLES.framework */; };
+		220757F41C07525B00F515AB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220757F31C07525B00F515AB /* CoreLocation.framework */; };
+		220757F61C07525B00F515AB /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220757F51C07525B00F515AB /* CoreMedia.framework */; };
+		220757F81C07525B00F515AB /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220757F71C07525B00F515AB /* CoreVideo.framework */; };
+		220757FA1C07525B00F515AB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220757F91C07525B00F515AB /* AVFoundation.framework */; };
+		220757FC1C07525B00F515AB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220757FB1C07525B00F515AB /* Security.framework */; };
+		227027441C1D66020098981C /* AppodealANE.h in Headers */ = {isa = PBXBuildFile; fileRef = 227027401C1D66020098981C /* AppodealANE.h */; };
+		227027451C1D66020098981C /* AppodealANE.m in Sources */ = {isa = PBXBuildFile; fileRef = 227027411C1D66020098981C /* AppodealANE.m */; };
+		227027461C1D66020098981C /* freUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 227027421C1D66020098981C /* freUtils.h */; };
+		227027471C1D66020098981C /* freUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 227027431C1D66020098981C /* freUtils.m */; };
+		22B7B8051C106CD800A5B400 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B7B8041C106CD800A5B400 /* CoreTelephony.framework */; };
+		66E013C41C8DF166005508D8 /* FlashRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E013C31C8DF166005508D8 /* FlashRuntimeExtensions.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		220758031C07525B00F515AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 220757D41C07525B00F515AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 220757DB1C07525B00F515AB;
+			remoteInfo = Appodeal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		220757DC1C07525B00F515AB /* libAppodeal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAppodeal.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		220757DF1C07525B00F515AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		220757E11C07525B00F515AB /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		220757E31C07525B00F515AB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		220757E51C07525B00F515AB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		220757E71C07525B00F515AB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		220757E91C07525B00F515AB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		220757EB1C07525B00F515AB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		220757ED1C07525B00F515AB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		220757EF1C07525B00F515AB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		220757F11C07525B00F515AB /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		220757F31C07525B00F515AB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		220757F51C07525B00F515AB /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		220757F71C07525B00F515AB /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		220757F91C07525B00F515AB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		220757FB1C07525B00F515AB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		220757FF1C07525B00F515AB /* Appodeal.ane */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = Appodeal.ane; sourceTree = BUILT_PRODUCTS_DIR; };
+		220758091C07525B00F515AB /* Appodeal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Appodeal-Prefix.pch"; sourceTree = "<group>"; };
+		227027401C1D66020098981C /* AppodealANE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealANE.h; sourceTree = "<group>"; };
+		227027411C1D66020098981C /* AppodealANE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppodealANE.m; sourceTree = "<group>"; };
+		227027421C1D66020098981C /* freUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = freUtils.h; sourceTree = "<group>"; };
+		227027431C1D66020098981C /* freUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = freUtils.m; sourceTree = "<group>"; };
+		22B7B8041C106CD800A5B400 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		66E013C31C8DF166005508D8 /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashRuntimeExtensions.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		220757D91C07525B00F515AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B7B8051C106CD800A5B400 /* CoreTelephony.framework in Frameworks */,
+				220757F61C07525B00F515AB /* CoreMedia.framework in Frameworks */,
+				220757FC1C07525B00F515AB /* Security.framework in Frameworks */,
+				220757E21C07525B00F515AB /* CoreFoundation.framework in Frameworks */,
+				220757F41C07525B00F515AB /* CoreLocation.framework in Frameworks */,
+				220757E61C07525B00F515AB /* MobileCoreServices.framework in Frameworks */,
+				220757F81C07525B00F515AB /* CoreVideo.framework in Frameworks */,
+				220757EE1C07525B00F515AB /* CFNetwork.framework in Frameworks */,
+				220757E41C07525B00F515AB /* UIKit.framework in Frameworks */,
+				220757E81C07525B00F515AB /* CoreGraphics.framework in Frameworks */,
+				220757F21C07525B00F515AB /* OpenGLES.framework in Frameworks */,
+				220757EC1C07525B00F515AB /* AudioToolbox.framework in Frameworks */,
+				220757EA1C07525B00F515AB /* SystemConfiguration.framework in Frameworks */,
+				220757E01C07525B00F515AB /* Foundation.framework in Frameworks */,
+				220757FA1C07525B00F515AB /* AVFoundation.framework in Frameworks */,
+				220757F01C07525B00F515AB /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		220757D31C07525B00F515AB = {
+			isa = PBXGroup;
+			children = (
+				66E013C31C8DF166005508D8 /* FlashRuntimeExtensions.h */,
+				220758071C07525B00F515AB /* Appodeal */,
+				220757DE1C07525B00F515AB /* Frameworks */,
+				220757DD1C07525B00F515AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		220757DD1C07525B00F515AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				220757DC1C07525B00F515AB /* libAppodeal.a */,
+				220757FF1C07525B00F515AB /* Appodeal.ane */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		220757DE1C07525B00F515AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22B7B8041C106CD800A5B400 /* CoreTelephony.framework */,
+				220757DF1C07525B00F515AB /* Foundation.framework */,
+				220757E11C07525B00F515AB /* CoreFoundation.framework */,
+				220757E31C07525B00F515AB /* UIKit.framework */,
+				220757E51C07525B00F515AB /* MobileCoreServices.framework */,
+				220757E71C07525B00F515AB /* CoreGraphics.framework */,
+				220757E91C07525B00F515AB /* SystemConfiguration.framework */,
+				220757EB1C07525B00F515AB /* AudioToolbox.framework */,
+				220757ED1C07525B00F515AB /* CFNetwork.framework */,
+				220757EF1C07525B00F515AB /* QuartzCore.framework */,
+				220757F11C07525B00F515AB /* OpenGLES.framework */,
+				220757F31C07525B00F515AB /* CoreLocation.framework */,
+				220757F51C07525B00F515AB /* CoreMedia.framework */,
+				220757F71C07525B00F515AB /* CoreVideo.framework */,
+				220757F91C07525B00F515AB /* AVFoundation.framework */,
+				220757FB1C07525B00F515AB /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		220758071C07525B00F515AB /* Appodeal */ = {
+			isa = PBXGroup;
+			children = (
+				227027401C1D66020098981C /* AppodealANE.h */,
+				227027411C1D66020098981C /* AppodealANE.m */,
+				227027421C1D66020098981C /* freUtils.h */,
+				227027431C1D66020098981C /* freUtils.m */,
+				220758081C07525B00F515AB /* Supporting Files */,
+			);
+			path = Appodeal;
+			sourceTree = "<group>";
+		};
+		220758081C07525B00F515AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				220758091C07525B00F515AB /* Appodeal-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		220757DA1C07525B00F515AB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227027461C1D66020098981C /* freUtils.h in Headers */,
+				227027441C1D66020098981C /* AppodealANE.h in Headers */,
+				66E013C41C8DF166005508D8 /* FlashRuntimeExtensions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		220757DB1C07525B00F515AB /* Appodeal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 220758141C07525B00F515AB /* Build configuration list for PBXNativeTarget "Appodeal" */;
+			buildPhases = (
+				220757D81C07525B00F515AB /* Sources */,
+				220757D91C07525B00F515AB /* Frameworks */,
+				220757DA1C07525B00F515AB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Appodeal;
+			productName = Appodeal;
+			productReference = 220757DC1C07525B00F515AB /* libAppodeal.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		220757FE1C07525B00F515AB /* Appodeal.ANE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 220758171C07525B00F515AB /* Build configuration list for PBXNativeTarget "Appodeal.ANE" */;
+			buildPhases = (
+				220757FD1C07525B00F515AB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				220758041C07525B00F515AB /* PBXTargetDependency */,
+			);
+			name = Appodeal.ANE;
+			productName = Appodeal.ane;
+			productReference = 220757FF1C07525B00F515AB /* Appodeal.ane */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		220757D41C07525B00F515AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				TargetAttributes = {
+					220757DB1C07525B00F515AB = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					220757FE1C07525B00F515AB = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 220757D71C07525B00F515AB /* Build configuration list for PBXProject "Appodeal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 220757D31C07525B00F515AB;
+			productRefGroup = 220757DD1C07525B00F515AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				220757DB1C07525B00F515AB /* Appodeal */,
+				220757FE1C07525B00F515AB /* Appodeal.ANE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		220757FD1C07525B00F515AB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "\n\n$PROJECT_DIR/../build/build_ios.sh\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		220757D81C07525B00F515AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227027451C1D66020098981C /* AppodealANE.m in Sources */,
+				227027471C1D66020098981C /* freUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		220758041C07525B00F515AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 220757DB1C07525B00F515AB /* Appodeal */;
+			targetProxy = 220758031C07525B00F515AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		220758121C07525B00F515AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = /Users/sam/mc/fp/ane/appodeal/svn/sources/sdk;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = /Users/sam/wk/sdks/AIRSDK_16/include/;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		220758131C07525B00F515AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = /Users/sam/mc/fp/ane/appodeal/svn/sources/sdk;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = /Users/sam/wk/sdks/AIRSDK_16/include/;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+		220758151C07525B00F515AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Appodeal.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/sdk",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Appodeal/Appodeal-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		220758161C07525B00F515AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Appodeal.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/sdk",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Appodeal/Appodeal-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		220758181C07525B00F515AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AIR_SDK_PATH = /Users/sam/wk/sdks/AIRSDK_16;
+				EXECUTABLE_EXTENSION = ane;
+				EXECUTABLE_PREFIX = "";
+				NATIVEEXTENSION_SWC = /;
+				PRODUCT_NAME = Appodeal;
+			};
+			name = Debug;
+		};
+		220758191C07525B00F515AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AIR_SDK_PATH = /Users/sam/wk/sdks/AIRSDK_16;
+				EXECUTABLE_EXTENSION = ane;
+				EXECUTABLE_PREFIX = "";
+				NATIVEEXTENSION_SWC = /;
+				PRODUCT_NAME = Appodeal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		220757D71C07525B00F515AB /* Build configuration list for PBXProject "Appodeal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				220758121C07525B00F515AB /* Debug */,
+				220758131C07525B00F515AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		220758141C07525B00F515AB /* Build configuration list for PBXNativeTarget "Appodeal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				220758151C07525B00F515AB /* Debug */,
+				220758161C07525B00F515AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		220758171C07525B00F515AB /* Build configuration list for PBXNativeTarget "Appodeal.ANE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				220758181C07525B00F515AB /* Debug */,
+				220758191C07525B00F515AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 220757D41C07525B00F515AB /* Project object */;
+}

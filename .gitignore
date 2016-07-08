@@ -1,0 +1,4 @@
+ios/sdk/
+bin/
+sample-as/out/
+sample-as/*.ane

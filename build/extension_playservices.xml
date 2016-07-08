@@ -1,0 +1,24 @@
+<extension xmlns="http://ns.adobe.com/air/extension/16.0">
+	<id>com.appodeal.playservicesane</id>
+	<versionNumber>1</versionNumber>
+	<platforms>
+		<platform name="Android-ARM">
+		  <applicationDeployment>
+		    <nativeLibrary>PlayservicesANE.jar</nativeLibrary>
+		    <initializer>com.appodeal.playservicesanes.GooglePlayServicesLib</initializer>
+		    <finalizer>com.appodeal.playservicesanes.GooglePlayServicesLib</finalizer>
+		  </applicationDeployment>
+		</platform>
+		<platform name="Android-x86">
+		  <applicationDeployment>
+			  <nativeLibrary>PlayservicesANE.jar</nativeLibrary>
+			  <initializer>com.appodeal.playservicesanes.GooglePlayServicesLib</initializer>
+			  <finalizer>com.appodeal.playservicesanes.GooglePlayServicesLib</finalizer>
+		  </applicationDeployment>
+		</platform>
+        
+		<platform name="default"> 
+			<applicationDeployment/> 
+		</platform>
+	</platforms>
+</extension>
