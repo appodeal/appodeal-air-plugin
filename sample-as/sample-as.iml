@@ -11,7 +11,7 @@
             <entry library-id="debf4995-2687-49ec-8843-9d0c960f2639">
               <dependency linkage="Merged" />
             </entry>
-            <entry library-id="fb87439f-facf-4cf4-bd5e-4413d35682c4">
+            <entry library-id="e4ea46a6-93fc-4353-ac87-483cabd7a25b">
               <dependency linkage="Merged" />
             </entry>
           </entries>
@@ -19,7 +19,7 @@
         </dependencies>
         <compiler-options />
         <packaging-air-desktop />
-        <packaging-android use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/Android-app.xml" package-file-name="Main">
+        <packaging-android enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/Android-app.xml" package-file-name="Main">
           <files-to-package>
             <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/dex" path-in-package="dex" />
             <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/vg_close.png" path-in-package="vg_close.png" />
@@ -30,7 +30,7 @@
             <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/vg_privacy.png" path-in-package="vg_privacy.png" />
           </files-to-package>
         </packaging-android>
-        <packaging-ios enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/IOS-app.xml" package-file-name="Main">
+        <packaging-ios use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/IOS-app.xml" package-file-name="Main">
           <AirSigningOptions sdk="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk" keystore-path="$MODULE_DIR$/../build/Certificates.p12" provisioning-profile-path="$MODULE_DIR$/../build/dev.mobileprovision" />
         </packaging-ios>
       </configuration>
@@ -102,9 +102,9 @@
     </orderEntry>
     <orderEntry type="module-library" exported="">
       <library type="flex">
-        <properties id="fb87439f-facf-4cf4-bd5e-4413d35682c4" />
+        <properties id="e4ea46a6-93fc-4353-ac87-483cabd7a25b" />
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/AppodealAndroid.ane!/" />
+          <root url="jar://$MODULE_DIR$/Appodeal.ane!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

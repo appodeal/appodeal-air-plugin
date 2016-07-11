@@ -22,7 +22,7 @@ public class AppodealBannerListener implements BannerCallbacks {
     }
 
     @Override
-    public void onBannerLoaded(int height) {
+    public void onBannerLoaded(int height, boolean isPrecache) {
         _ctx.dispatchStatusEventAsync("BANNER_LOADED", "");
     }
 

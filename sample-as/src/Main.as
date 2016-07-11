@@ -1,5 +1,6 @@
 package {
-    import com.appodeal.aneplugin.Appodeal;
+import com.appodeal.aneplugin.AdEvent;
+import com.appodeal.aneplugin.Appodeal;
 
     import flash.display.Sprite;
     import flash.events.MouseEvent;
@@ -109,7 +110,109 @@ package {
                 appodeal.confirm(Appodeal.SKIPPABLE_VIDEO);
                 appodeal.initialize(appKey, Appodeal.INTERSTITIAL | Appodeal.SKIPPABLE_VIDEO | Appodeal.REWARDED_VIDEO | Appodeal.BANNER);
                 labelInit.text = "Initialized v." + appodeal.getVersion();
+
+                appodeal.addEventListener(AdEvent.INTERSTITIAL_LOADED, onInterstitial);
+                appodeal.addEventListener(AdEvent.INTERSTITIAL_FAILED_TO_LOAD, onInterstitial);
+                appodeal.addEventListener(AdEvent.INTERSTITIAL_SHOWN, onInterstitial);
+                appodeal.addEventListener(AdEvent.INTERSTITIAL_CLICKED, onInterstitial);
+                appodeal.addEventListener(AdEvent.INTERSTITIAL_CLOSED, onInterstitial);
+
+                function onInterstitial(event:AdEvent):void {
+                    switch (event.type) {
+                        case AdEvent.INTERSTITIAL_LOADED:
+                            trace('INTERSTITIAL_LOADED');
+                            break;
+                        case AdEvent.INTERSTITIAL_FAILED_TO_LOAD:
+                            trace('INTERSTITIAL_FAILED_TO_LOAD');
+                            break;
+                        case AdEvent.INTERSTITIAL_SHOWN:
+                            trace('INTERSTITIAL_SHOWN');
+                            break;
+                        case AdEvent.INTERSTITIAL_CLICKED:
+                            trace('INTERSTITIAL_CLICKED');
+                            break;
+                        case AdEvent.INTERSTITIAL_CLOSED:
+                            trace('INTERSTITIAL_CLOSED');
+                            break;
+                    }
+                }
+
+                appodeal.addEventListener(AdEvent.SKIPPABLE_VIDEO_LOADED, onVideo);
+                appodeal.addEventListener(AdEvent.SKIPPABLE_VIDEO_FAILED_TO_LOAD, onVideo);
+                appodeal.addEventListener(AdEvent.SKIPPABLE_VIDEO_SHOWN, onVideo);
+                appodeal.addEventListener(AdEvent.SKIPPABLE_VIDEO_FINISHED, onVideo);
+                appodeal.addEventListener(AdEvent.SKIPPABLE_VIDEO_CLOSED, onVideo);
+
+                function onVideo(event:AdEvent):void {
+                    switch (event.type) {
+                        case AdEvent.SKIPPABLE_VIDEO_LOADED:
+                            trace('SKIPPABLE_VIDEO_LOADED');
+                            break;
+                        case AdEvent.SKIPPABLE_VIDEO_FAILED_TO_LOAD:
+                            trace('SKIPPABLE_VIDEO_FAILED_TO_LOAD');
+                            break;
+                        case AdEvent.SKIPPABLE_VIDEO_SHOWN:
+                            trace('SKIPPABLE_VIDEO_SHOWN');
+                            break;
+                        case AdEvent.SKIPPABLE_VIDEO_FINISHED:
+                            trace('SKIPPABLE_VIDEO_FINISHED');
+                            break;
+                        case AdEvent.SKIPPABLE_VIDEO_CLOSED:
+                            trace('SKIPPABLE_VIDEO_CLOSED');
+                            break;
+                    }
+                }
+
+                appodeal.addEventListener(AdEvent.REWARDED_VIDEO_LOADED, onRewardedVideo);
+                appodeal.addEventListener(AdEvent.REWARDED_VIDEO_FAILED_TO_LOAD, onRewardedVideo);
+                appodeal.addEventListener(AdEvent.REWARDED_VIDEO_SHOWN, onRewardedVideo);
+                appodeal.addEventListener(AdEvent.REWARDED_VIDEO_FINISHED, onRewardedVideo);
+                appodeal.addEventListener(AdEvent.REWARDED_VIDEO_CLOSED, onRewardedVideo);
+
+                function onRewardedVideo(event:AdEvent):void {
+                    switch (event.type) {
+                        case AdEvent.REWARDED_VIDEO_LOADED:
+                            trace('REWARDED_VIDEO_LOADED');
+                            break;
+                        case AdEvent.REWARDED_VIDEO_FAILED_TO_LOAD:
+                            trace('REWARDED_VIDEO_FAILED_TO_LOAD');
+                            break;
+                        case AdEvent.REWARDED_VIDEO_SHOWN:
+                            trace('REWARDED_VIDEO_SHOWN');
+                            break;
+                        case AdEvent.REWARDED_VIDEO_FINISHED:
+                            trace('REWARDED_VIDEO_FINISHED: ', event.amount, event.name);
+                            break;
+                        case AdEvent.REWARDED_VIDEO_CLOSED:
+                            trace('REWARDED_VIDEO_CLOSED');
+                            break;
+                    }
+                }
+
+                appodeal.addEventListener(AdEvent.BANNER_LOADED, onBanner);
+                appodeal.addEventListener(AdEvent.BANNER_FAILED_TO_LOAD, onBanner);
+                appodeal.addEventListener(AdEvent.BANNER_SHOWN, onBanner); // только для Android
+                appodeal.addEventListener(AdEvent.BANNER_CLICKED, onBanner);
+
+                function onBanner(event:AdEvent):void {
+                    switch (event.type) {
+                        case AdEvent.BANNER_LOADED:
+                            trace('BANNER_LOADED');
+                            break;
+                        case AdEvent.BANNER_FAILED_TO_LOAD:
+                            trace('BANNER_FAILED_TO_LOAD');
+                            break;
+                        case AdEvent.BANNER_SHOWN:
+                            trace('BANNER_SHOWN');
+                            break;
+                        case AdEvent.BANNER_CLICKED:
+                            trace('BANNER_CLICKED');
+                            break;
+                    }
+                }
             });
+
+
 
             InterstitialButton.addEventListener(MouseEvent.CLICK, function (event:MouseEvent):void {
                 if (appodeal.isLoaded(Appodeal.INTERSTITIAL)) {

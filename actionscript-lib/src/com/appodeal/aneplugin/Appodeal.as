@@ -112,7 +112,6 @@ public class Appodeal extends EventDispatcher {
     public static const BANNER:int = 4;
     public static const BANNER_BOTTOM:int = 8;
     public static const BANNER_TOP:int = 16;
-    public static const BANNER_CENTER:int = 32;
     public static const REWARDED_VIDEO:int = 128;
     public static const NON_SKIPPABLE_VIDEO:int = 128;
     private static const ALL:int = 1023;
