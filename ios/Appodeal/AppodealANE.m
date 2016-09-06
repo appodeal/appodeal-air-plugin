@@ -17,15 +17,10 @@ const int VIDEO         = 2;
 const int BANNER        = 4;
 const int BANNER_BOTTOM = 8;
 const int BANNER_TOP    = 16;
-const int BANNER_CENTER = 32;
 const int REWARDED_VIDEO = 128;
-const int ALL           = 1023;
 
 int nativeAdTypesForType(int adTypes)
 {
-    if ((adTypes & ALL) > 0) {
-        return AppodealAdTypeAll;
-    }
     
     int nativeAdTypes = 0;
     
@@ -43,7 +38,6 @@ int nativeAdTypesForType(int adTypes)
     
     if ((adTypes & BANNER) > 0 ||
         (adTypes & BANNER_TOP) > 0 ||
-        (adTypes & BANNER_CENTER) > 0 ||
         (adTypes & BANNER_BOTTOM) > 0) {
         
         nativeAdTypes |= AppodealAdTypeBanner;
@@ -71,10 +65,6 @@ int nativeShowStyleForType(int adTypes)
     
     if ((adTypes & BANNER_TOP) > 0) {
         return AppodealShowStyleBannerTop;
-    }
-    
-    if ((adTypes & BANNER_CENTER) > 0) {
-        return AppodealShowStyleBannerCenter;
     }
     
     if ((adTypes & BANNER_BOTTOM) > 0) {

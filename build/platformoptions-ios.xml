@@ -27,7 +27,10 @@
         <option>-framework CoreImage</option>
         <option>-framework CoreFoundation</option>
         <option>-framework CFNetwork</option>
+        <option>-framework GLKit</option>
         <option>-framework CoreTelephony</option>
+        <option>-framework MobileCoreServices</option>
+        <option>-framework Security</option>
         <option>-lc++</option>
         <option>-lz</option>
         <option>-lsqlite3</option>

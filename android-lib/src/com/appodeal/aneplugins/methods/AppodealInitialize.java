@@ -7,7 +7,6 @@ import com.adobe.fre.FREContext;
 import com.adobe.fre.FREFunction;
 import com.adobe.fre.FREObject;
 import com.appodeal.ads.Appodeal;
-import com.appodeal.aneplugins.ActivityLifecycleAndComponentCallbacks;
 import com.appodeal.aneplugins.AppodealContext;
 import com.appodeal.aneplugins.utils.AdvertisingIDTask;
 
@@ -22,10 +21,8 @@ public class AppodealInitialize implements FREFunction {
         try {
             String AppKey = args[0].getAsString();
             int AdType = args[1].getAsInt();
+            Appodeal.disableNetwork(activity, "cheetah");
             Appodeal.initialize(activity, AppKey, AdType);
-
-            activity.getApplication().registerActivityLifecycleCallbacks(new ActivityLifecycleAndComponentCallbacks());
-            activity.getApplication().registerComponentCallbacks(new ActivityLifecycleAndComponentCallbacks());
 
             new AdvertisingIDTask(activity);
         } catch (Exception e) {

@@ -43,7 +43,6 @@ public class AdvertisingIDTask extends AsyncTask<Void, Void, String> {
                 SharedPreferences.Editor editor = sharedPref.edit();
                 editor.putString(Constants.ADVERTISING_ID, androidId);
                 editor.apply();
-                Log.w("AppodealPlugin", String.format("Advertising ID: %s", androidId));
             } catch (Exception e) {
                 Log.w("AppodealPlugin", e);
             }

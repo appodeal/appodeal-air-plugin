@@ -12,58 +12,530 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16a7e584-ee6c-49c2-9e68-9b3bea9940e7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android-lib/libs/appodeal-1.14.8.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-support/support-v4-18.0.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency/applovin-6.1.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency/appodeal-1.14.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency/chartboost-6.3.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency/inmobi-5.2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency/my-target-4.3.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency/yandex-metrica-2.30.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-hdpi/common_signin_btn_icon_disabled_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-hdpi/common_signin_btn_icon_disabled_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-hdpi/common_signin_btn_icon_disabled_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-hdpi/common_signin_btn_icon_disabled_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-hdpi/common_signin_btn_icon_normal_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-hdpi/common_signin_btn_icon_pressed_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-hdpi/common_signin_btn_icon_pressed_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-hdpi/common_signin_btn_text_disabled_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-hdpi/common_signin_btn_text_disabled_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-hdpi/common_signin_btn_text_disabled_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-hdpi/common_signin_btn_text_disabled_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-hdpi/common_signin_btn_text_normal_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-hdpi/common_signin_btn_text_pressed_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-hdpi/common_signin_btn_text_pressed_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-mdpi/common_signin_btn_icon_disabled_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-mdpi/common_signin_btn_icon_disabled_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-mdpi/common_signin_btn_icon_disabled_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-mdpi/common_signin_btn_icon_disabled_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-mdpi/common_signin_btn_icon_normal_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-mdpi/common_signin_btn_icon_pressed_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-mdpi/common_signin_btn_icon_pressed_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-mdpi/common_signin_btn_text_disabled_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-mdpi/common_signin_btn_text_disabled_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-mdpi/common_signin_btn_text_disabled_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-mdpi/common_signin_btn_text_disabled_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-mdpi/common_signin_btn_text_normal_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-mdpi/common_signin_btn_text_pressed_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-mdpi/common_signin_btn_text_pressed_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xhdpi/common_signin_btn_icon_disabled_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xhdpi/common_signin_btn_icon_disabled_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xhdpi/common_signin_btn_icon_disabled_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xhdpi/common_signin_btn_icon_disabled_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xhdpi/common_signin_btn_icon_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xhdpi/common_signin_btn_icon_normal_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xhdpi/common_signin_btn_icon_normal_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xhdpi/common_signin_btn_icon_pressed_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xhdpi/common_signin_btn_icon_pressed_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xhdpi/common_signin_btn_text_disabled_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xhdpi/common_signin_btn_text_disabled_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xhdpi/common_signin_btn_text_disabled_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xhdpi/common_signin_btn_text_disabled_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xhdpi/common_signin_btn_text_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xhdpi/common_signin_btn_text_normal_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xhdpi/common_signin_btn_text_normal_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xhdpi/common_signin_btn_text_pressed_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xhdpi/common_signin_btn_text_pressed_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xxhdpi/common_signin_btn_icon_disabled_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xxhdpi/common_signin_btn_icon_disabled_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xxhdpi/common_signin_btn_icon_disabled_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xxhdpi/common_signin_btn_icon_disabled_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xxhdpi/common_signin_btn_icon_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xxhdpi/common_signin_btn_icon_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xxhdpi/common_signin_btn_icon_normal_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xxhdpi/common_signin_btn_icon_normal_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xxhdpi/common_signin_btn_icon_pressed_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xxhdpi/common_signin_btn_icon_pressed_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xxhdpi/common_signin_btn_text_disabled_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xxhdpi/common_signin_btn_text_disabled_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xxhdpi/common_signin_btn_text_disabled_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xxhdpi/common_signin_btn_text_disabled_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xxhdpi/common_signin_btn_text_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xxhdpi/common_signin_btn_text_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xxhdpi/common_signin_btn_text_normal_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xxhdpi/common_signin_btn_text_normal_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xxhdpi/common_signin_btn_text_pressed_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal.ane-735315175/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xxhdpi/common_signin_btn_text_pressed_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-hdpi/common_signin_btn_icon_disabled_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-hdpi/common_signin_btn_icon_disabled_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-hdpi/common_signin_btn_icon_disabled_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-hdpi/common_signin_btn_icon_disabled_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-hdpi/common_signin_btn_icon_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-hdpi/common_signin_btn_icon_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-hdpi/common_signin_btn_icon_normal_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-hdpi/common_signin_btn_icon_normal_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-hdpi/common_signin_btn_icon_pressed_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-hdpi/common_signin_btn_icon_pressed_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-hdpi/common_signin_btn_text_disabled_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-hdpi/common_signin_btn_text_disabled_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-hdpi/common_signin_btn_text_disabled_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-hdpi/common_signin_btn_text_disabled_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-hdpi/common_signin_btn_text_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-hdpi/common_signin_btn_text_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-hdpi/common_signin_btn_text_normal_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-hdpi/common_signin_btn_text_normal_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-hdpi/common_signin_btn_text_pressed_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-hdpi/common_signin_btn_text_pressed_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-hdpi/ic_plusone_standard_off_client.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-mdpi/common_signin_btn_icon_disabled_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-mdpi/common_signin_btn_icon_disabled_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-mdpi/common_signin_btn_icon_disabled_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-mdpi/common_signin_btn_icon_disabled_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-mdpi/common_signin_btn_icon_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-mdpi/common_signin_btn_icon_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-mdpi/common_signin_btn_icon_normal_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-mdpi/common_signin_btn_icon_normal_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-mdpi/common_signin_btn_icon_pressed_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-mdpi/common_signin_btn_icon_pressed_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-mdpi/common_signin_btn_text_disabled_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-mdpi/common_signin_btn_text_disabled_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-mdpi/common_signin_btn_text_disabled_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-mdpi/common_signin_btn_text_disabled_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-mdpi/common_signin_btn_text_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-mdpi/common_signin_btn_text_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-mdpi/common_signin_btn_text_normal_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-mdpi/common_signin_btn_text_normal_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-mdpi/common_signin_btn_text_pressed_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-mdpi/common_signin_btn_text_pressed_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-mdpi/ic_plusone_standard_off_client.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-tvdpi/ic_plusone_medium_off_client.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-tvdpi/ic_plusone_standard_off_client.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xhdpi/common_signin_btn_icon_disabled_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xhdpi/common_signin_btn_icon_disabled_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xhdpi/common_signin_btn_icon_disabled_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xhdpi/common_signin_btn_icon_disabled_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xhdpi/common_signin_btn_icon_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xhdpi/common_signin_btn_icon_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xhdpi/common_signin_btn_icon_normal_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xhdpi/common_signin_btn_icon_normal_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xhdpi/common_signin_btn_icon_pressed_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xhdpi/common_signin_btn_icon_pressed_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xhdpi/common_signin_btn_text_disabled_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xhdpi/common_signin_btn_text_disabled_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xhdpi/common_signin_btn_text_disabled_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xhdpi/common_signin_btn_text_disabled_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xhdpi/common_signin_btn_text_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xhdpi/common_signin_btn_text_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xhdpi/common_signin_btn_text_normal_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xhdpi/common_signin_btn_text_normal_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xhdpi/common_signin_btn_text_pressed_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xhdpi/common_signin_btn_text_pressed_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xhdpi/ic_plusone_medium_off_client.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xhdpi/ic_plusone_standard_off_client.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xxhdpi/common_signin_btn_icon_disabled_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xxhdpi/common_signin_btn_icon_disabled_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xxhdpi/common_signin_btn_icon_disabled_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xxhdpi/common_signin_btn_icon_disabled_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xxhdpi/common_signin_btn_icon_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xxhdpi/common_signin_btn_icon_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xxhdpi/common_signin_btn_icon_normal_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xxhdpi/common_signin_btn_icon_normal_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xxhdpi/common_signin_btn_icon_pressed_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xxhdpi/common_signin_btn_icon_pressed_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xxhdpi/common_signin_btn_text_disabled_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xxhdpi/common_signin_btn_text_disabled_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xxhdpi/common_signin_btn_text_disabled_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xxhdpi/common_signin_btn_text_disabled_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xxhdpi/common_signin_btn_text_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xxhdpi/common_signin_btn_text_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xxhdpi/common_signin_btn_text_normal_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xxhdpi/common_signin_btn_text_normal_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xxhdpi/common_signin_btn_text_pressed_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xxhdpi/common_signin_btn_text_pressed_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xxhdpi/ic_plusone_medium_off_client.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xxhdpi/ic_plusone_small_off_client.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppodealSWC/.metadata/.plugins/com.adobe.flexide.codemodel.bridge/SwcCache/Appodeal_1.13.7.ane-1891042167/META-INF/ANE/Android-ARM/google-play-services-res/drawable-xxhdpi/ic_plusone_standard_off_client.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android-lib/libs/appodeal-1.14.15.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/ActivityLifecycleAndComponentCallbacks.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/usersettings/AppodealUserSettingsSetFacebookId.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/usersettings/AppodealUserSettingsSetVkId.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-8.1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/color/common_signin_btn_text_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/color/common_signin_btn_text_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/color/wallet_primary_text_holo_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/color/wallet_secondary_text_holo_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-hdpi/cast_ic_notification_0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-hdpi/cast_ic_notification_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-hdpi/cast_ic_notification_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-hdpi/cast_ic_notification_on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-hdpi/common_full_open_on_phone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-hdpi/common_ic_googleplayservices.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-hdpi/common_signin_btn_icon_disabled_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-hdpi/common_signin_btn_icon_disabled_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-hdpi/common_signin_btn_icon_disabled_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-hdpi/common_signin_btn_icon_disabled_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-hdpi/common_signin_btn_icon_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-hdpi/common_signin_btn_icon_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-hdpi/common_signin_btn_icon_normal_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-hdpi/common_signin_btn_icon_normal_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-hdpi/common_signin_btn_icon_pressed_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-hdpi/common_signin_btn_icon_pressed_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-hdpi/common_signin_btn_text_disabled_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-hdpi/common_signin_btn_text_disabled_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-hdpi/common_signin_btn_text_disabled_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-hdpi/common_signin_btn_text_disabled_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-hdpi/common_signin_btn_text_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-hdpi/common_signin_btn_text_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-hdpi/common_signin_btn_text_normal_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-hdpi/common_signin_btn_text_normal_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-hdpi/common_signin_btn_text_pressed_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-hdpi/common_signin_btn_text_pressed_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-hdpi/ic_plusone_medium_off_client.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-hdpi/ic_plusone_small_off_client.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-hdpi/ic_plusone_standard_off_client.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-hdpi/ic_plusone_tall_off_client.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-hdpi/powered_by_google_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-hdpi/powered_by_google_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-mdpi/cast_ic_notification_0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-mdpi/cast_ic_notification_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-mdpi/cast_ic_notification_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-mdpi/cast_ic_notification_on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-mdpi/common_full_open_on_phone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-mdpi/common_signin_btn_icon_disabled_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-mdpi/common_signin_btn_icon_disabled_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-mdpi/common_signin_btn_icon_disabled_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-mdpi/common_signin_btn_icon_disabled_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-mdpi/common_signin_btn_icon_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-mdpi/common_signin_btn_icon_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-mdpi/common_signin_btn_icon_normal_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-mdpi/common_signin_btn_icon_normal_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-mdpi/common_signin_btn_icon_pressed_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-mdpi/common_signin_btn_icon_pressed_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-mdpi/common_signin_btn_text_disabled_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-mdpi/common_signin_btn_text_disabled_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-mdpi/common_signin_btn_text_disabled_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-mdpi/common_signin_btn_text_disabled_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-mdpi/common_signin_btn_text_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-mdpi/common_signin_btn_text_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-mdpi/common_signin_btn_text_normal_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-mdpi/common_signin_btn_text_normal_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-mdpi/common_signin_btn_text_pressed_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-mdpi/common_signin_btn_text_pressed_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-mdpi/ic_plusone_medium_off_client.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-mdpi/ic_plusone_small_off_client.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-mdpi/ic_plusone_standard_off_client.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-mdpi/ic_plusone_tall_off_client.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-mdpi/powered_by_google_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-mdpi/powered_by_google_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-tvdpi/common_full_open_on_phone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-tvdpi/ic_plusone_medium_off_client.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-tvdpi/ic_plusone_small_off_client.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-tvdpi/ic_plusone_standard_off_client.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-tvdpi/ic_plusone_tall_off_client.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xhdpi/cast_ic_notification_0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xhdpi/cast_ic_notification_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xhdpi/cast_ic_notification_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xhdpi/cast_ic_notification_on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xhdpi/common_full_open_on_phone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xhdpi/common_signin_btn_icon_disabled_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xhdpi/common_signin_btn_icon_disabled_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xhdpi/common_signin_btn_icon_disabled_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xhdpi/common_signin_btn_icon_disabled_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xhdpi/common_signin_btn_icon_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xhdpi/common_signin_btn_icon_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xhdpi/common_signin_btn_icon_normal_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xhdpi/common_signin_btn_icon_normal_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xhdpi/common_signin_btn_icon_pressed_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xhdpi/common_signin_btn_icon_pressed_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xhdpi/common_signin_btn_text_disabled_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xhdpi/common_signin_btn_text_disabled_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xhdpi/common_signin_btn_text_disabled_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xhdpi/common_signin_btn_text_disabled_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xhdpi/common_signin_btn_text_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xhdpi/common_signin_btn_text_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xhdpi/common_signin_btn_text_normal_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xhdpi/common_signin_btn_text_normal_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xhdpi/common_signin_btn_text_pressed_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xhdpi/common_signin_btn_text_pressed_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xhdpi/ic_plusone_medium_off_client.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xhdpi/ic_plusone_small_off_client.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xhdpi/ic_plusone_standard_off_client.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xhdpi/ic_plusone_tall_off_client.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xhdpi/powered_by_google_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xhdpi/powered_by_google_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xxhdpi/cast_ic_notification_0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xxhdpi/cast_ic_notification_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xxhdpi/cast_ic_notification_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xxhdpi/cast_ic_notification_on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xxhdpi/common_full_open_on_phone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xxhdpi/common_signin_btn_icon_disabled_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xxhdpi/common_signin_btn_icon_disabled_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xxhdpi/common_signin_btn_icon_disabled_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xxhdpi/common_signin_btn_icon_disabled_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xxhdpi/common_signin_btn_icon_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xxhdpi/common_signin_btn_icon_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xxhdpi/common_signin_btn_icon_normal_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xxhdpi/common_signin_btn_icon_normal_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xxhdpi/common_signin_btn_icon_pressed_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xxhdpi/common_signin_btn_icon_pressed_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xxhdpi/common_signin_btn_text_disabled_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xxhdpi/common_signin_btn_text_disabled_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xxhdpi/common_signin_btn_text_disabled_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xxhdpi/common_signin_btn_text_disabled_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xxhdpi/common_signin_btn_text_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xxhdpi/common_signin_btn_text_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xxhdpi/common_signin_btn_text_normal_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xxhdpi/common_signin_btn_text_normal_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xxhdpi/common_signin_btn_text_pressed_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xxhdpi/common_signin_btn_text_pressed_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xxhdpi/ic_plusone_medium_off_client.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xxhdpi/ic_plusone_small_off_client.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xxhdpi/ic_plusone_standard_off_client.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xxhdpi/ic_plusone_tall_off_client.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xxhdpi/powered_by_google_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable-xxhdpi/powered_by_google_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable/cast_ic_notification_connecting.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable/common_signin_btn_icon_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable/common_signin_btn_icon_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable/common_signin_btn_text_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/drawable/common_signin_btn_text_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/raw/gtm_analytics" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-af/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-am/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-am/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-ar/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-ar/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-az-rAZ/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-bg/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-bg/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-bn-rBD/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-ca/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-ca/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-cs/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-cs/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-da/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-da/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-de/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-de/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-el/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-el/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-en-rAU/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-en-rAU/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-en-rGB/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-en-rGB/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-en-rIN/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-en-rIN/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-es-rUS/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-es-rUS/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-es/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-es/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-et-rEE/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-eu-rES/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-fa/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-fa/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-fi/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-fi/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-fr-rCA/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-fr/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-fr/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-gl-rES/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-gu-rIN/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-hi/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-hi/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-hr/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-hr/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-hu/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-hu/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-hy-rAM/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-in/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-in/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-is-rIS/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-it/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-it/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-iw/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-iw/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-ja/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-ja/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-ka-rGE/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-kk-rKZ/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-km-rKH/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-kn-rIN/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-ko/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-ko/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-ky-rKG/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-lo-rLA/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-lt/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-lt/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-lv/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-lv/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-mk-rMK/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-ml-rIN/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-mn-rMN/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-mr-rIN/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-ms-rMY/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-ms-rMY/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-my-rMM/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-nb/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-nb/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-ne-rNP/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-nl/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-nl/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-pa-rIN/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-pl/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-pl/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-pt-rBR/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-pt-rBR/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-pt-rPT/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-pt-rPT/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-pt/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-pt/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-ro/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-ro/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-ru/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-ru/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-si-rLK/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-sk/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-sk/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-sl/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-sl/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-sq-rAL/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-sr/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-sr/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-sv/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-sv/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-sw/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-sw/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-ta-rIN/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-te-rIN/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-th/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-th/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-tl/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-tl/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-tr/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-tr/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-uk/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-uk/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-ur-rPK/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-uz-rUZ/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-vi/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-vi/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-zh-rCN/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-zh-rCN/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-zh-rHK/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-zh-rHK/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-zh-rTW/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-zh-rTW/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values-zu/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values/admob_ads_attrs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values/admob_iap_style.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values/admob_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values/auth_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values/base_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values/cast_ids.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values/cast_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values/common_attrs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values/common_colors.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values/common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values/maps_attrs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values/version.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values/wallet_attrs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values/wallet_colors.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values/wallet_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-playservices/google-play-services-res/values/wallet_styles.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency-android-support/android-support-v4-23.1.2-trimmed.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency/applovin-6.2.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency/appodeal-1.14.15.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency/chartboost-6.4.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency/flurry-analytics-6.2.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency/inmobi-5.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency/my-target-4.5.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency/unity-ads-1.5.6.jar" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/sample-as/assets/dex/avocarrot.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sample-as/assets/dex/facebook.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sample-as/assets/dex/flurry.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sample-as/assets/dex/pubnative.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sample-as/assets/dex/startapp.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sample-as/assets/dex/yandex.dex" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/Appodeal.xcodeproj/project.xcworkspace/xcuserdata/NazarKozak.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/ios/Appodeal.xcodeproj/project.xcworkspace/xcuserdata/NazarKozak.xcuserdatad/UserInterfaceState.xcuserstate" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/AppodealANE.jar" afterPath="$PROJECT_DIR$/out/AppodealANE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/PlayservicesANE.jar" afterPath="$PROJECT_DIR$/out/PlayservicesANE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/SupportANE.jar" afterPath="$PROJECT_DIR$/out/SupportANE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/actionscript-def.swc" afterPath="$PROJECT_DIR$/out/actionscript-def.swc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/actionscript-lib.swc" afterPath="$PROJECT_DIR$/out/actionscript-lib.swc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android-lib/com/appodeal/aneplugins/AppodealContext.class" afterPath="$PROJECT_DIR$/out/production/android-lib/com/appodeal/aneplugins/AppodealContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android-lib/com/appodeal/aneplugins/AppodealExtension.class" afterPath="$PROJECT_DIR$/out/production/android-lib/com/appodeal/aneplugins/AppodealExtension.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android-lib/com/appodeal/aneplugins/Constants.class" afterPath="$PROJECT_DIR$/out/production/android-lib/com/appodeal/aneplugins/Constants.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android-lib/com/appodeal/aneplugins/callbacks/AppodealBannerListener.class" afterPath="$PROJECT_DIR$/out/production/android-lib/com/appodeal/aneplugins/callbacks/AppodealBannerListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android-lib/com/appodeal/aneplugins/callbacks/AppodealNonSkippableVideoListener.class" afterPath="$PROJECT_DIR$/out/production/android-lib/com/appodeal/aneplugins/callbacks/AppodealNonSkippableVideoListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android-lib/com/appodeal/aneplugins/callbacks/AppodealRewardedVideoListener.class" afterPath="$PROJECT_DIR$/out/production/android-lib/com/appodeal/aneplugins/callbacks/AppodealRewardedVideoListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android-lib/com/appodeal/aneplugins/callbacks/AppodealSetBannerCallbacks.class" afterPath="$PROJECT_DIR$/out/production/android-lib/com/appodeal/aneplugins/callbacks/AppodealSetBannerCallbacks.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android-lib/com/appodeal/aneplugins/callbacks/AppodealSkippableVideoListener.class" afterPath="$PROJECT_DIR$/out/production/android-lib/com/appodeal/aneplugins/callbacks/AppodealSkippableVideoListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/AppodealDevice.a" afterPath="$PROJECT_DIR$/out/AppodealDevice.a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android-lib/com/appodeal/aneplugins/R.class" afterPath="$PROJECT_DIR$/out/production/android-lib/com/appodeal/aneplugins/R.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android-lib/com/appodeal/aneplugins/methods/AppodealInitialize.class" afterPath="$PROJECT_DIR$/out/production/android-lib/com/appodeal/aneplugins/methods/AppodealInitialize.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android-lib/com/appodeal/aneplugins/utils/AdvertisingIDTask$1.class" afterPath="$PROJECT_DIR$/out/production/android-lib/com/appodeal/aneplugins/utils/AdvertisingIDTask$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android-lib/com/appodeal/aneplugins/utils/AdvertisingIDTask.class" afterPath="$PROJECT_DIR$/out/production/android-lib/com/appodeal/aneplugins/utils/AdvertisingIDTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android-lib/com/appodeal/aneplugins/utils/AppodealGetAdID.class" afterPath="$PROJECT_DIR$/out/production/android-lib/com/appodeal/aneplugins/utils/AppodealGetAdID.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android-lib/com/appodeal/aneplugins/utils/AppodealToast.class" afterPath="$PROJECT_DIR$/out/production/android-lib/com/appodeal/aneplugins/utils/AppodealToast.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample-as/assets/dex/adcolony.dex" afterPath="$PROJECT_DIR$/sample-as/assets/dex/adcolony.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/flexCompiler.xml" afterPath="$PROJECT_DIR$/.idea/flexCompiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample-as/assets/dex/facebook.dex" afterPath="$PROJECT_DIR$/sample-as/assets/dex/facebook.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample-as/assets/dex/flurry.dex" afterPath="$PROJECT_DIR$/sample-as/assets/dex/flurry.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample-as/assets/dex/startapp.dex" afterPath="$PROJECT_DIR$/sample-as/assets/dex/startapp.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ant.xml" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/actionscript-def/src/com/appodeal/aneplugin/Appodeal.as" afterPath="$PROJECT_DIR$/actionscript-def/src/com/appodeal/aneplugin/Appodeal.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/actionscript-lib/src/com/appodeal/aneplugin/Appodeal.as" afterPath="$PROJECT_DIR$/actionscript-lib/src/com/appodeal/aneplugin/Appodeal.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/AppodealContext.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/AppodealContext.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/AppodealExtension.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/AppodealExtension.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/Constants.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/Constants.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/actionscript-def/actionscript-def.iml" afterPath="$PROJECT_DIR$/actionscript-def/actionscript-def.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/actionscript-lib/actionscript-lib.iml" afterPath="$PROJECT_DIR$/actionscript-lib/actionscript-lib.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/android-lib.iml" afterPath="$PROJECT_DIR$/android-lib/android-lib.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealBannerListener.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealBannerListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealInterstitialListener.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealInterstitialListener.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealNonSkippableVideoListener.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealNonSkippableVideoListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealRemoveAllListeners.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealRemoveAllListeners.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealRemoveBannerListener.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealRemoveBannerListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealRemoveInterstitialListener.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealRemoveInterstitialListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealRemoveNonSkippableVideoListener.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealRemoveNonSkippableVideoListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealRemoveRewardedVideoListener.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealRemoveRewardedVideoListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealRemoveSkippableVideoListener.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealRemoveSkippableVideoListener.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealRewardedVideoListener.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealRewardedVideoListener.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealSetBannerCallbacks.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealSetBannerCallbacks.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealSetInterstitialCallbacks.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealSetInterstitialCallbacks.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealSetNonSkippableVideoCallbacks.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealSetNonSkippableVideoCallbacks.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealSetRewardedVideoCallbacks.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealSetRewardedVideoCallbacks.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealSetSkippableVideoCallbacks.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealSetSkippableVideoCallbacks.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealSkippableVideoListener.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealSkippableVideoListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealCache.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealCache.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealConfirm.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealConfirm.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealDisableForAdType.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealDisableForAdType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealDisableLocationPermissionCheck.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealDisableLocationPermissionCheck.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealDisableNetwork.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealDisableNetwork.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealDisableWriteExternalStoragePermissionCheck.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealDisableWriteExternalStoragePermissionCheck.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealGetVersion.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealGetVersion.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealHide.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealHide.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealInitialize.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealInitialize.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/extension.xml" afterPath="$PROJECT_DIR$/build/extension.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealIsLoaded.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealIsLoaded.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealIsPrecache.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealIsPrecache.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealRequestMPermissions.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealRequestMPermissions.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealSetAutoCache.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealSetAutoCache.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealSetLogging.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealSetLogging.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealSetOnLoadedTriggerBoth.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealSetOnLoadedTriggerBoth.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealSetTesting.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealSetTesting.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealShowPlacement.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealShowPlacement.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealTrackInAppPurchase.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealTrackInAppPurchase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/usersettings/AppodealUserSettingsSetAge.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/usersettings/AppodealUserSettingsSetAge.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/usersettings/AppodealUserSettingsSetAlcohol.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/usersettings/AppodealUserSettingsSetAlcohol.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/usersettings/AppodealUserSettingsSetBirthday.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/usersettings/AppodealUserSettingsSetBirthday.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/usersettings/AppodealUserSettingsSetEmail.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/usersettings/AppodealUserSettingsSetEmail.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/usersettings/AppodealUserSettingsSetGender.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/usersettings/AppodealUserSettingsSetGender.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/usersettings/AppodealUserSettingsSetInterests.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/usersettings/AppodealUserSettingsSetInterests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/usersettings/AppodealUserSettingsSetOccupation.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/usersettings/AppodealUserSettingsSetOccupation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/usersettings/AppodealUserSettingsSetRelation.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/usersettings/AppodealUserSettingsSetRelation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/usersettings/AppodealUserSettingsSetSmoking.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/usersettings/AppodealUserSettingsSetSmoking.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/utils/AdvertisingIDTask.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/utils/AdvertisingIDTask.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/utils/AppodealGetDensity.java" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/utils/AppodealGetDensity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-playservices-lib/android-playservices-lib.iml" afterPath="$PROJECT_DIR$/android-playservices-lib/android-playservices-lib.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-lib/android-support-lib.iml" afterPath="$PROJECT_DIR$/android-support-lib/android-support-lib.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/as3-androidsupport-lib/as3-androidsupport-lib.iml" afterPath="$PROJECT_DIR$/as3-androidsupport-lib/as3-androidsupport-lib.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/as3-playservices-lib/as3-playservices-lib.iml" afterPath="$PROJECT_DIR$/as3-playservices-lib/as3-playservices-lib.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/platformoptions-and.xml" afterPath="$PROJECT_DIR$/build/platformoptions-and.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/platformoptions-ios.xml" afterPath="$PROJECT_DIR$/build/platformoptions-ios.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/platformoptions-playservices.xml" afterPath="$PROJECT_DIR$/build/platformoptions-playservices.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/platformoptions-support.xml" afterPath="$PROJECT_DIR$/build/platformoptions-support.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/Appodeal/AppodealANE.m" afterPath="$PROJECT_DIR$/ios/Appodeal/AppodealANE.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample-as/Android-app.xml" afterPath="$PROJECT_DIR$/sample-as/Android-app.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample-as/IOS-app.xml" afterPath="$PROJECT_DIR$/sample-as/IOS-app.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample-as/sample-as.iml" afterPath="$PROJECT_DIR$/sample-as/sample-as.iml" />
@@ -96,19 +568,19 @@
         <entry file="file://$PROJECT_DIR$/sample-as/src/Main.as">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+              <caret line="144" column="81" selection-start-line="144" selection-start-column="81" selection-end-line="144" selection-end-column="81" />
               <folding>
-                <element signature="e#14#53#0" expanded="true" />
+                <element signature="e#10#48#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppodealConfirm.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealConfirm.java">
+      <file leaf-file-name="Android-app.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sample-as/Android-app.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42600897">
-              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.5072464">
+              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -135,9 +607,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealSetInterstitialCallbacks.java" />
-        <option value="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/utils/AppodealGetAdID.java" />
-        <option value="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/utils/AdvertisingIDTask.java" />
         <option value="$PROJECT_DIR$/as3-playservices-lib/src/com/appodeal/playservicesane/Dummy.java" />
         <option value="$PROJECT_DIR$/as3-playservices-lib/src/com/appodeal/playservicesane/Dummy.as" />
         <option value="$PROJECT_DIR$/as3-androidsupport-lib/src/com/appodeal/supportane/Dummy.as" />
@@ -160,32 +629,35 @@
         <option value="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealIsLoadedWirhPriceFloor.java" />
         <option value="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealRequestMPermissions.java" />
         <option value="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealDisableWriteExternalStoragePermissionCheck.java" />
-        <option value="$PROJECT_DIR$/build/platformoptions-support.xml" />
-        <option value="$PROJECT_DIR$/sample-as/IOS-app.xml" />
-        <option value="$PROJECT_DIR$/build/platformoptions-playservices.xml" />
         <option value="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealToast.java" />
         <option value="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealLog.java" />
-        <option value="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealBannerListener.java" />
         <option value="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealRewardedVideoListener.java" />
         <option value="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealSetBannerCallbacks.java" />
         <option value="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealNonSkippableVideoListener.java" />
         <option value="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealSkippableVideoListener.java" />
         <option value="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/AppodealExtension.java" />
         <option value="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/AppodealContext.java" />
-        <option value="$PROJECT_DIR$/actionscript-lib/src/com/appodeal/aneplugin/Appodeal.as" />
         <option value="$PROJECT_DIR$/actionscript-def/src/com/appodeal/aneplugin/Appodeal.as" />
         <option value="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/utils/AppodealLog.java" />
         <option value="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/utils/AppodealToast.java" />
-        <option value="$PROJECT_DIR$/sample-as/Android-app.xml" />
-        <option value="$PROJECT_DIR$/sample-as/src/Main.as" />
         <option value="$PROJECT_DIR$/build/extension.xml" />
-        <option value="$PROJECT_DIR$/build/platformoptions-ios.xml" />
         <option value="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealOrientationChangeListener.java" />
         <option value="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/Constants.java" />
         <option value="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/ActivityLifecycleAndComponentCallbacks.java" />
+        <option value="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealConfirm.java" />
+        <option value="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealBannerListener.java" />
+        <option value="$PROJECT_DIR$/actionscript-def/src/com/appodeal/aneplugin/AdType.as" />
+        <option value="$PROJECT_DIR$/actionscript-lib/src/com/appodeal/aneplugin/AdType.as" />
+        <option value="$PROJECT_DIR$/actionscript-lib/src/com/appodeal/aneplugin/Appodeal.as" />
+        <option value="$PROJECT_DIR$/sample-as/IOS-app.xml" />
+        <option value="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/utils/AdvertisingIDTask.java" />
+        <option value="$PROJECT_DIR$/build/platformoptions-support.xml" />
+        <option value="$PROJECT_DIR$/build/platformoptions-ios.xml" />
         <option value="$PROJECT_DIR$/build/platformoptions-and.xml" />
         <option value="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealInitialize.java" />
-        <option value="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealConfirm.java" />
+        <option value="$PROJECT_DIR$/sample-as/Android-app.xml" />
+        <option value="$PROJECT_DIR$/build/platformoptions-playservices.xml" />
+        <option value="$PROJECT_DIR$/sample-as/src/Main.as" />
       </list>
     </option>
   </component>
@@ -206,9 +678,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="24" />
-    <option name="width" value="1440" />
-    <option name="height" value="815" />
+    <option name="x" value="-1" />
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="1023" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -221,7 +694,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -235,6 +708,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppodealSource" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppodealSource" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="actionscript-def" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches">
+        <subPane />
+      </pane>
       <pane id="Scope">
         <subPane subId="Production">
           <PATH>
@@ -323,20 +819,6 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="actionscript-lib">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="actionscript-lib">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
         <subPane subId="Default">
           <PATH>
@@ -387,16 +869,6 @@
               <option name="myItemId" value="AppodealSource" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppodealSource" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -428,7 +900,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="android-lib" />
+              <option name="myItemId" value="actionscript-lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -438,7 +910,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="android-lib" />
+              <option name="myItemId" value="actionscript-lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -446,7 +918,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="aneplugins" />
+              <option name="myItemId" value="aneplugin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -454,37 +926,28 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="AppodealSource" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android-lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches">
-        <subPane />
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppodealSource" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppodealSource" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="actionscript-def" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppodealSource" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="actionscript-def" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aneplugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -502,7 +965,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20073801" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sample-as/AppodealAndroid.ane!/" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Library/MobileDevice/Provisioning Profiles/5937a8ef-961d-4188-9901-2c26a295bf9b.mobileprovision" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -995,6 +1458,11 @@
       <item index="0" class="java.lang.String" itemvalue="Flash App.sample-as" />
     </list>
   </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="StructureViewFactory">
     <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
@@ -1059,45 +1527,88 @@
       <workItem from="1464041851720" duration="6698000" />
       <workItem from="1465338125966" duration="7518000" />
       <workItem from="1465913917822" duration="571000" />
+      <workItem from="1468273368111" duration="1657000" />
+      <workItem from="1468277208332" duration="1252000" />
+      <workItem from="1468544060005" duration="1379000" />
+      <workItem from="1468667655993" duration="157000" />
+      <workItem from="1469087188314" duration="2060000" />
+      <workItem from="1469099681619" duration="1271000" />
+      <workItem from="1469102576292" duration="11548000" />
+      <workItem from="1470393677914" duration="408000" />
+      <workItem from="1471509178189" duration="44000" />
+      <workItem from="1473108424623" duration="5090000" />
+      <workItem from="1473114351279" duration="1137000" />
+      <workItem from="1473115625822" duration="800000" />
+      <workItem from="1473120229373" duration="159000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133197000" />
+    <option name="totallyTimeSpent" value="160159000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1440" height="815" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1" y="23" width="1680" height="1023" extended-state="1" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4016973" sideWeight="0.50572246" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20886981" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25799337" sideWeight="0.51892555" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23931624" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13447782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13308914" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22475107" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40057224" sideWeight="0.49427754" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25856355" sideWeight="0.4978701" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25799337" sideWeight="0.48107448" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32796207" sideWeight="0.4978701" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25856355" sideWeight="0.51892555" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13308914" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2596685" sideWeight="0.4978701" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25856355" sideWeight="0.48107448" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23931624" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32796207" sideWeight="0.4978701" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1112,7 +1623,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1127,376 +1638,371 @@
         <filter targetName="prepare" isVisible="true" />
         <filter targetName="package" isVisible="true" />
         <filter targetName="package_andr" isVisible="true" />
+        <filter targetName="play_services" isVisible="true" />
+        <filter targetName="android_support" isVisible="true" />
       </targetFilters>
       <expanded value="true" />
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sample-as/src/Main.as">
+    <entry file="file://$PROJECT_DIR$/sample-as/Android-app.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#53#0" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/utils/AppodealLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11972634">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/utils/AppodealGetDensity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06841505">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/utils/AppodealGetAdID.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06841505">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/utils/AdvertisingIDTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.73546183">
+          <caret line="54" column="77" selection-start-line="54" selection-start-column="77" selection-end-line="54" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/usersettings/AppodealUserSettingsSetAge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06841505">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/usersettings/AppodealUserSettingsSetAlcohol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06841505">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/usersettings/AppodealUserSettingsSetBirthday.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06841505">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06841505">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealConfirm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android-support-lib/src/com/appodeal/supportanes/AndroidSupportLibContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15486726">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android-support-lib/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android-playservices-lib/build.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.9729729">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android-playservices-lib/ant.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android-playservices-lib/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08108108">
-          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android-playservices-lib/src/com/appodeal/playservicesanes/GooglePlayServicesLib.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3426396">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android-playservices-lib/src/com/appodeal/playservicesanes/GooglePlayServicesLibContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26649746">
-          <caret line="7" column="41" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android-support-lib/src/com/appodeal/supportanes/AndroidSupportLib.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2284264">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/actionscript-def/actionscript-def.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30973452">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/actionscript-lib/actionscript-lib.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/as3-playservices-lib/as3-playservices-lib.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22123894">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/as3-androidsupport-lib/as3-androidsupport-lib.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17699115">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.06841505">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealDisableForAdType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41911766">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.06841505">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealIsLoaded.java">
+    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealDisableLocationPermissionCheck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3529412">
-          <caret line="21" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.06841505">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealRequestMPermissions.java">
+    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealDisableNetwork.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4470939">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/extension_androidsupport.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5332303">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.06841505">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealDisableWriteExternalStoragePermissionCheck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20119224">
-          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android-lib/build.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.0163934">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/platformoptions-playservices.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32697546">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealRemoveAllListeners.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20179372">
+        <state vertical-scroll-proportion="0.15393387">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealRemoveBannerListener.java">
+    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealGetVersion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.089686096">
+        <state vertical-scroll-proportion="0.06841505">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealHide.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06841505">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealIsLoaded.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06841505">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealIsPrecache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06841505">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealRequestMPermissions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06841505">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealSetAutoCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06841505">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealSetLogging.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06841505">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealSetOnLoadedTriggerBoth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06841505">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealShowPlacement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06841505">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealShow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06841505">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealTrackInAppPurchase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06841505">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealSetTesting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06841505">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealBannerListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38116592">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealSetBannerCallbacks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17937219">
-          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealSkippableVideoListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5156951">
-          <caret line="34" column="55" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealRewardedVideoListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49327356">
-          <caret line="31" column="54" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealNonSkippableVideoListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5605381">
-          <caret line="34" column="58" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/platformoptions-support.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.046511628">
-          <caret line="2" column="65" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/AppodealExtension.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53984576">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/actionscript-def/src/com/appodeal/aneplugin/AdEvent.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.16591929">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/AppodealContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.529148">
-          <caret line="57" column="34" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/actionscript-def/src/com/appodeal/aneplugin/Appodeal.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68609864">
-          <caret line="202" column="41" selection-start-line="202" selection-start-column="41" selection-end-line="202" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/actionscript-lib/src/com/appodeal/aneplugin/Appodeal.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.84304935">
-          <caret line="566" column="0" selection-start-line="566" selection-start-column="0" selection-end-line="566" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/utils/AppodealLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42473918">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/utils/AppodealToast.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04470939">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/build.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74418604">
-          <caret line="171" column="50" selection-start-line="171" selection-start-column="50" selection-end-line="171" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample-as/IOS-app.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1627907">
-          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/extension.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19417475">
-          <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/platformoptions-ios.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44186047">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealInterstitialListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3353204">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealShow.java">
+    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealNonSkippableVideoListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4918033">
-          <caret line="28" column="0" selection-start-line="10" selection-start-column="26" selection-end-line="28" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealDisableNetwork.java">
+    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealRemoveAllListeners.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31296572">
-          <caret line="20" column="34" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/platformoptions-and.xml">
+    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealRemoveBannerListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37209302">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/ActivityLifecycleAndComponentCallbacks.java">
+    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealRemoveInterstitialListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.529148">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample-as/Android-app.xml">
+    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealSkippableVideoListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6775194">
-          <caret line="163" column="0" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.06841505">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/Constants.java">
+    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealSetSkippableVideoCallbacks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13452914">
-          <caret line="6" column="53" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.06841505">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/extension_android.xml">
+    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealSetRewardedVideoCallbacks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44186047">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.06841505">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealSetNonSkippableVideoCallbacks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06841505">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealSetInterstitialCallbacks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06841505">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealSetBannerCallbacks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06841505">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealRewardedVideoListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06841505">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealRemoveSkippableVideoListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06841505">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealRemoveRewardedVideoListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06841505">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/callbacks/AppodealRemoveNonSkippableVideoListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06841505">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/platformoptions-ios.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5099648">
+          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealInitialize.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62780267">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.32188842">
+          <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample-as/IOS-app.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/extension_android.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/platformoptions-and.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/platformoptions-support.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17777778">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/platformoptions-playservices.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sample-as/src/Main.as">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+          <caret line="144" column="81" selection-start-line="144" selection-start-column="81" selection-end-line="144" selection-end-column="81" />
           <folding>
-            <element signature="e#14#53#0" expanded="true" />
+            <element signature="e#10#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealConfirm.java">
+    <entry file="file://$PROJECT_DIR$/sample-as/Android-app.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42600897">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.5072464">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -1504,6 +2010,17 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20073801" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
@@ -1520,7 +2037,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Android (android-lib)|Android</last-edited>
+          <last-edited>Android (android-support-lib)|Android</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1544,7 +2061,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>Android API 23 Platform</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
