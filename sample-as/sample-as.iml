@@ -19,7 +19,7 @@
         </dependencies>
         <compiler-options />
         <packaging-air-desktop />
-        <packaging-android use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/Android-app.xml" package-file-name="Main">
+        <packaging-android enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/Android-app.xml" package-file-name="Main">
           <files-to-package>
             <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/dex" path-in-package="dex" />
             <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/vg_close.png" path-in-package="vg_close.png" />
@@ -31,7 +31,7 @@
           </files-to-package>
         </packaging-android>
         <packaging-ios enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/IOS-app.xml" package-file-name="Main">
-          <AirSigningOptions sdk="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk" keystore-path="$MODULE_DIR$/../../../../Sabzira/ios/dev_cert.p12" provisioning-profile-path="$USER_HOME$/Library/MobileDevice/Provisioning Profiles/5937a8ef-961d-4188-9901-2c26a295bf9b.mobileprovision" />
+          <AirSigningOptions sdk="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk" keystore-path="$MODULE_DIR$/../../../../Sabzira/ios/development-certificate.p12" provisioning-profile-path="$USER_HOME$/Library/MobileDevice/Provisioning Profiles/583244ca-3e27-4d0a-af61-e3299d77261d.mobileprovision" />
         </packaging-ios>
       </configuration>
     </configurations>

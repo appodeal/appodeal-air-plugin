@@ -37,6 +37,8 @@ import com.appodeal.aneplugin.Appodeal;
             appodeal.log("MYNEWAPP", appodeal.getVersion());
             appodeal.toast("Initialized");
 
+            trace(appodeal.getIDFA());
+
             labelInit.defaultTextFormat = new TextFormat('Verdana', 12, 0x000000);
             labelInit.text = label;
             labelInit.width = 400;
@@ -133,7 +135,6 @@ import com.appodeal.aneplugin.Appodeal;
 
             HideButton.addEventListener(MouseEvent.CLICK, function (event:MouseEvent):void {
                 appodeal.show(Appodeal.BANNER_BOTTOM);
-
             });
 
         }
@@ -142,11 +143,12 @@ import com.appodeal.aneplugin.Appodeal;
         {
             appodeal = new Appodeal();
 
-            var appKey:String = "fee50c333ff3825fd6ad6d38cff78154de3025546d47a84f";//"722fb56678445f72fe2ec58b2fa436688b920835405d3ca6";
+            var appKey:String = "fee50c333ff3825fd6ad6d38cff78154de3025546d47a84f";
+            //var appKey:String = "722fb56678445f72fe2ec58b2fa436688b920835405d3ca6";
 
             labelInit.text = "Initialized v." + appodeal.getVersion();
 
-            appodeal.initialize(appKey, AdType.INTERSTITIAL | AdType.REWARDED_VIDEO | AdType.BANNER);
+            appodeal.initialize(appKey, Appodeal.INTERSTITIAL | Appodeal.REWARDED_VIDEO | Appodeal.SKIPPABLE_VIDEO | Appodeal.BANNER);
 
             appodeal.disableLocationPermissionCheck();
 
@@ -160,6 +162,11 @@ import com.appodeal.aneplugin.Appodeal;
             appodeal.addEventListener(AdEvent.REWARDED_VIDEO_SHOWN, onRewardedVideo);
             appodeal.addEventListener(AdEvent.REWARDED_VIDEO_FINISHED, onRewardedVideo);
             appodeal.addEventListener(AdEvent.REWARDED_VIDEO_CLOSED, onRewardedVideo);
+            appodeal.addEventListener(AdEvent.SKIPPABLE_VIDEO_LOADED, onSkippableVideo);
+            appodeal.addEventListener(AdEvent.SKIPPABLE_VIDEO_FAILED_TO_LOAD, onSkippableVideo);
+            appodeal.addEventListener(AdEvent.SKIPPABLE_VIDEO_SHOWN, onSkippableVideo);
+            appodeal.addEventListener(AdEvent.SKIPPABLE_VIDEO_CLOSED, onSkippableVideo);
+            appodeal.addEventListener(AdEvent.SKIPPABLE_VIDEO_FINISHED, onSkippableVideo);
             appodeal.addEventListener(AdEvent.BANNER_LOADED, onBanner);
             appodeal.addEventListener(AdEvent.BANNER_FAILED_TO_LOAD, onBanner);
             appodeal.addEventListener(AdEvent.BANNER_SHOWN, onBanner);
@@ -187,16 +194,31 @@ import com.appodeal.aneplugin.Appodeal;
                     break;
             }
         }
+        private function onSkippableVideo(event:AdEvent):void
+        {
+            switch (event.type) {
+                case AdEvent.SKIPPABLE_VIDEO_LOADED:
+                    trace('onSkippableVideo: ad loaded');
+                    break;
+                case AdEvent.SKIPPABLE_VIDEO_FAILED_TO_LOAD:
+                    trace('onSkippableVideo: failed to load ad');
+                    break;
+                case AdEvent.SKIPPABLE_VIDEO_SHOWN:
+                    trace('onSkippableVideo: ad shown');
+                    break;
+                case AdEvent.SKIPPABLE_VIDEO_FINISHED:
+                    trace('onSkippableVideo: ad clicked, your reward:', event.amount, event.name);
+                    break;
+                case AdEvent.SKIPPABLE_VIDEO_CLOSED:
+                    trace('onSkippableVideo: ad closed');
+                    break;
+            }
+        }
         private function onBanner(event:AdEvent):void
         {
             switch (event.type) {
                 case AdEvent.BANNER_LOADED:
                     trace('onBanner:ad loaded');
-                    if (!bannedShown)
-                    {
-                        bannedShown = true;
-                        showBanner();
-                    }
                     break;
                 case AdEvent.BANNER_FAILED_TO_LOAD:
                     trace('onBanner: failed to load ad');
@@ -214,11 +236,6 @@ import com.appodeal.aneplugin.Appodeal;
             switch (event.type) {
                 case AdEvent.REWARDED_VIDEO_LOADED:
                     trace('onRewardedVideo: ad loaded');
-                    if (!videoShown)
-                    {
-                        videoShown = true;
-                        showRewarded();
-                    }
                     break;
                 case AdEvent.REWARDED_VIDEO_FAILED_TO_LOAD:
                     trace('onRewardedVideo: failed to load ad');
