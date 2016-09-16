@@ -96,10 +96,14 @@ void AppodealExtensionContextInitializer(
     static FRENamedFunction functions[] = {
         MAP_FUNCTION(appodeal_initialize, NULL, appodeal_initialize),
         MAP_FUNCTION(appodeal_show, NULL, appodeal_show),
+        MAP_FUNCTION(appodeal_showPlacement, NULL, appodeal_showPlacement),
         MAP_FUNCTION(appodeal_hide, NULL, appodeal_hide),
         MAP_FUNCTION(appodeal_cache, NULL, appodeal_cache),
         MAP_FUNCTION(appodeal_setAutoCache, NULL, appodeal_setAutoCache),
         MAP_FUNCTION(appodeal_setTesting, NULL, appodeal_setTesting),
+        MAP_FUNCTION(appodeal_setBannerAnimationEnabled, NULL, appodeal_setBannerAnimationEnabled),
+        MAP_FUNCTION(appodeal_setBannerBackgroundVisible, NULL, appodeal_setBannerBackgroundVisible),
+        MAP_FUNCTION(appodeal_setSmartBannersEnabled, NULL, appodeal_setSmartBannersEnabled),
         MAP_FUNCTION(appodeal_getVersion, NULL, appodeal_getVersion),
         MAP_FUNCTION(appodeal_getIDFA, NULL, appodeal_getIDFA),
         MAP_FUNCTION(appodeal_getDensity, NULL, appodeal_getDensity),
@@ -139,10 +143,14 @@ void AppodealExtensionFinalizer(void * extData)
 
 DEFINE_ANE_FUNCTION(appodeal_initialize)  {return [appodealAne initialize:argc paramseters:argv];}
 DEFINE_ANE_FUNCTION(appodeal_show)  {return [appodealAne show:argc paramseters:argv];}
+DEFINE_ANE_FUNCTION(appodeal_showPlacement)  {return [appodealAne showPlacement:argc paramseters:argv];}
 DEFINE_ANE_FUNCTION(appodeal_hide) {return [appodealAne hide:argc paramseters:argv];}
 DEFINE_ANE_FUNCTION(appodeal_cache) {return [appodealAne cache:argc paramseters:argv];}
 DEFINE_ANE_FUNCTION(appodeal_setAutoCache) {return [appodealAne setAutoCache:argc paramseters:argv];}
 DEFINE_ANE_FUNCTION(appodeal_setTesting) {return [appodealAne setTesting:argc paramseters:argv];}
+DEFINE_ANE_FUNCTION(appodeal_setBannerAnimationEnabled) {return [appodealAne setBannerAnimationEnabled:argc paramseters:argv];}
+DEFINE_ANE_FUNCTION(appodeal_setBannerBackgroundVisible) {return [appodealAne setBannerBackgroundVisible:argc paramseters:argv];}
+DEFINE_ANE_FUNCTION(appodeal_setSmartBannersEnabled) {return [appodealAne setSmartBannersEnabled:argc paramseters:argv];}
 DEFINE_ANE_FUNCTION(appodeal_getVersion) {return [appodealAne getVersion:argc paramseters:argv];}
 DEFINE_ANE_FUNCTION(appodeal_getIDFA) {return [appodealAne getIDFA:argc paramseters:argv];}
 DEFINE_ANE_FUNCTION(appodeal_getDensity) {return [appodealAne getDensity:argc paramseters:argv];}
@@ -202,7 +210,7 @@ DEFINE_ANE_FUNCTION(appodeal_callbacks) {return [appodealAne callbacks:argc para
              rootViewController:rootController];
     return appodeal_boolToFre(res);
 }
--(FREObject)showWithPlacement:(uint32_t)argc paramseters:(FREObject []) argv
+-(FREObject)showPlacement:(uint32_t)argc paramseters:(FREObject []) argv
 {
     DLog(@"AppodealANE.showWithPlacement");
     int showStyle = appodeal_freToInt(argv[0]);
@@ -239,6 +247,24 @@ DEFINE_ANE_FUNCTION(appodeal_callbacks) {return [appodealAne callbacks:argc para
 {
     DLog(@"AppodealANE.setTesting");
     [Appodeal setDebugEnabled:appodeal_freToBool(argv[0])];
+    return NULL;
+}
+-(FREObject)setBannerAnimationEnabled:(uint32_t)argc paramseters:(FREObject []) argv
+{
+    DLog(@"AppodealANE.setBannerAnimationEnabled");
+    [Appodeal setBannerAnimationEnabled:appodeal_freToBool(argv[0])];
+    return NULL;
+}
+-(FREObject)setBannerBackgroundVisible:(uint32_t)argc paramseters:(FREObject []) argv
+{
+    DLog(@"AppodealANE.setBannerBackgroundVisible");
+    [Appodeal setBannerBackgroundVisible:appodeal_freToBool(argv[0])];
+    return NULL;
+}
+-(FREObject)setSmartBannersEnabled:(uint32_t)argc paramseters:(FREObject []) argv
+{
+    DLog(@"AppodealANE.setSmartBannersEnabled");
+    [Appodeal setSmartBannersEnabled:appodeal_freToBool(argv[0])];
     return NULL;
 }
 -(FREObject)getVersion:(uint32_t)argc paramseters:(FREObject []) argv
@@ -293,10 +319,10 @@ DEFINE_ANE_FUNCTION(appodeal_callbacks) {return [appodealAne callbacks:argc para
             [Appodeal setUserEmail:appodeal_freToString(argv[1])];
             break;
         case 4:
-            [Appodeal setUserFacebookId:appodeal_freToString(argv[1])];
+            [Appodeal setUserId:appodeal_freToString(argv[1])];
             break;
         case 5:
-            [Appodeal setUserVkId:appodeal_freToString(argv[1])];
+            //[Appodeal setUserVkId:appodeal_freToString(argv[1])];
             break;
         case 6:
             [Appodeal setUserInterests:appodeal_freToString(argv[1])];

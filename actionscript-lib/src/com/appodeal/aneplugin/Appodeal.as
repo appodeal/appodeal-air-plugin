@@ -301,6 +301,18 @@ public class Appodeal extends EventDispatcher {
         return call("isLoaded", adType);
     }
 
+    public function setBannerAnimationEnabled(bannerAnimationEnabled:Boolean):void {
+        call("setBannerAnimationEnabled", bannerAnimationEnabled);
+    }
+
+    public function setBannerBackgroundVisible(bannerBackgroundVisible:Boolean):void {
+        call("setBannerBackgroundVisible", bannerBackgroundVisible);
+    }
+
+    public function setSmartBannersEnabled(smartBannerEnabled:Boolean):void {
+        call("setSmartBannersEnabled", smartBannerEnabled);
+    }
+
     public function isLoadedWithPriceFloor(adType:int):Boolean
     {
         if (isIOS()) {

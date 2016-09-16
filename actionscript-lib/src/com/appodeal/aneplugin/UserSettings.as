@@ -17,6 +17,7 @@ package com.appodeal.aneplugin
             indexes['setRelation'] = 9;
             indexes['setSmoking'] = 10;
             indexes['setAlcohol'] = 11;
+            indexes['setId'] = 12;
         }
 
         private function call(name:String, ...args):void
@@ -96,6 +97,10 @@ package com.appodeal.aneplugin
         public function set alcohol(value:int):void
         {
             call('setAlcohol', value);
+        }
+        public function set id(value:String):void
+        {
+            call('setId', value);
         }
     }
 }
