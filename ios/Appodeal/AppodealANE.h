@@ -10,7 +10,9 @@
 #import <UIKit/UIKit.h>
 #import "freUtils.h"
 #import <Appodeal/Appodeal.h>
-
+#import "GoogleMobileAds/GoogleMobileAds.h"
+#import "UnityAds/UnityAds.h"
+#import "VungleSDK/VungleSDK.h"
 #define DEFINE_ANE_FUNCTION(fn) FREObject (fn)(FREContext context, void* functionData, uint32_t argc, FREObject argv[])
 #define DISPATCH_STATUS_EVENT(extensionContext, code, status) FREDispatchStatusEventAsync((extensionContext), (uint8_t*)code, (uint8_t*)status)
 
@@ -32,6 +34,7 @@ void AppodealExtensionFinalizer(void * extData);
 
 DEFINE_ANE_FUNCTION(appodeal_initialize);
 DEFINE_ANE_FUNCTION(appodeal_show);
+DEFINE_ANE_FUNCTION(appodeal_showWithPlacement);
 DEFINE_ANE_FUNCTION(appodeal_hide);
 DEFINE_ANE_FUNCTION(appodeal_cache);
 DEFINE_ANE_FUNCTION(appodeal_setAutoCache);
@@ -46,7 +49,7 @@ DEFINE_ANE_FUNCTION(appodeal_userSettings);
 DEFINE_ANE_FUNCTION(appodeal_callbacks);
 
 
-@interface AppodealANE : NSObject <AppodealInterstitialDelegate, AppodealBannerDelegate, AppodealVideoDelegate, AppodealRewardedVideoDelegate>
+@interface AppodealANE : NSObject <AppodealInterstitialDelegate, AppodealBannerDelegate, AppodealSkippableVideoDelegate, AppodealRewardedVideoDelegate>
 
 @property (nonatomic) FREObject context;
 @property (nonatomic, strong) UIViewController* rootController;
@@ -55,6 +58,7 @@ DEFINE_ANE_FUNCTION(appodeal_callbacks);
 
 -(FREObject)initialize:(uint32_t)argc paramseters:(FREObject []) argv;
 -(FREObject)show:(uint32_t)argc paramseters:(FREObject []) argv;
+-(FREObject)showWithPlacement:(uint32_t)argc paramseters:(FREObject []) argv;
 -(FREObject)hide:(uint32_t)argc paramseters:(FREObject []) argv;
 -(FREObject)cache:(uint32_t)argc paramseters:(FREObject []) argv;
 -(FREObject)setAutoCache:(uint32_t)argc paramseters:(FREObject []) argv;

@@ -13,7 +13,7 @@
 ////////////////////////////////////
 
 const int INTERSTITIAL  = 1;
-const int VIDEO         = 2;
+const int SKIPPABLE_VIDEO         = 2;
 const int BANNER        = 4;
 const int BANNER_BOTTOM = 8;
 const int BANNER_TOP    = 16;
@@ -28,7 +28,7 @@ int nativeAdTypesForType(int adTypes)
         nativeAdTypes |= AppodealAdTypeInterstitial;
     }
     
-    if ((adTypes & VIDEO) > 0) {
+    if ((adTypes & SKIPPABLE_VIDEO) > 0) {
         nativeAdTypes |= AppodealAdTypeSkippableVideo;
     }
     
@@ -49,7 +49,7 @@ int nativeAdTypesForType(int adTypes)
 int nativeShowStyleForType(int adTypes)
 {
     bool isInterstitial = (adTypes & INTERSTITIAL) > 0;
-    bool isVideo = (adTypes & VIDEO) > 0;
+    bool isVideo = (adTypes & SKIPPABLE_VIDEO) > 0;
     
     if (isInterstitial && isVideo) {
         return AppodealShowStyleVideoOrInterstitial;
@@ -202,6 +202,17 @@ DEFINE_ANE_FUNCTION(appodeal_callbacks) {return [appodealAne callbacks:argc para
              rootViewController:rootController];
     return appodeal_boolToFre(res);
 }
+-(FREObject)showWithPlacement:(uint32_t)argc paramseters:(FREObject []) argv
+{
+    DLog(@"AppodealANE.showWithPlacement");
+    int showStyle = appodeal_freToInt(argv[0]);
+    showStyle = nativeShowStyleForType(showStyle);
+    //
+   // BOOL res = [Appodeal showAd:showStyle
+   //          rootViewController:rootController];
+    BOOL res = [Appodeal showAd:showStyle forPlacement:appodeal_freToString(argv[1]) rootViewController:rootController];
+    return appodeal_boolToFre(res);
+}
 -(FREObject)hide:(uint32_t)argc paramseters:(FREObject []) argv
 {
     DLog(@"AppodealANE.hideBanner");
@@ -327,7 +338,7 @@ DEFINE_ANE_FUNCTION(appodeal_callbacks) {return [appodealAne callbacks:argc para
             }
             break;
         case 2:
-            [Appodeal setVideoDelegate:isSet?self:nil];
+            [Appodeal setSkippableVideoDelegate:isSet?self:nil];
             break;
         case 3:
             [Appodeal setRewardedVideoDelegate:isSet?self:nil];
@@ -384,29 +395,29 @@ DEFINE_ANE_FUNCTION(appodeal_callbacks) {return [appodealAne callbacks:argc para
 }
 
 
-- (void)videoDidLoadAd
+- (void)skippableVideoDidLoadAd
 {
-    DLog(@"AppodealANE.videoDidLoadAd");
+    DLog(@"AppodealANE.skippableVideoDidLoadAd");
     DISPATCH_STATUS_EVENT(context, "SKIPPABLE_VIDEO_LOADED", "");
 }
-- (void)videoDidFailToLoadAd
+- (void)skippableVideoDidFailToLoadAd
 {
-    DLog(@"AppodealANE.videoDidFailToLoadAd");
+    DLog(@"AppodealANE.skippableVideoDidFailToLoadAd");
     DISPATCH_STATUS_EVENT(context, "SKIPPABLE_VIDEO_FAILED_TO_LOAD", "");
 }
-- (void)videoDidPresent
+- (void)skippableVideoDidPresent
 {
-    DLog(@"AppodealANE.videoDidPresent");
+    DLog(@"AppodealANE.skippableVideoDidPresent");
     DISPATCH_STATUS_EVENT(context, "SKIPPABLE_VIDEO_SHOWN", "");
 }
-- (void)videoWillDismiss
+- (void)skippableVideoWillDismiss
 {
-    DLog(@"AppodealANE.videoWillDismiss");
+    DLog(@"AppodealANE.skippableVideoWillDismiss");
     DISPATCH_STATUS_EVENT(context, "SKIPPABLE_VIDEO_CLOSED", "");
 }
-- (void)videoDidFinish
+- (void)skippableVideoDidFinish
 {
-    DLog(@"AppodealANE.videoDidFinish");
+    DLog(@"AppodealANE.skippableVideoDidFinish");
     DISPATCH_STATUS_EVENT(context, "SKIPPABLE_VIDEO_FINISHED", "");
 }
 

@@ -27,6 +27,13 @@
 		227027461C1D66020098981C /* freUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 227027421C1D66020098981C /* freUtils.h */; };
 		227027471C1D66020098981C /* freUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 227027431C1D66020098981C /* freUtils.m */; };
 		22B7B8051C106CD800A5B400 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B7B8041C106CD800A5B400 /* CoreTelephony.framework */; };
+		3BCAD52D1D8A997D005BD577 /* Appodeal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCAD52C1D8A997D005BD577 /* Appodeal.framework */; };
+		3BCAD5321D8A9985005BD577 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCAD5301D8A9985005BD577 /* GoogleMobileAds.framework */; };
+		3BCAD5331D8A9985005BD577 /* libAPDGoogleAdMobAdapter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCAD5311D8A9985005BD577 /* libAPDGoogleAdMobAdapter.a */; };
+		3BCF55DE1D8BD13D0006198B /* libAPDUnityAdapter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCF55DB1D8BD13D0006198B /* libAPDUnityAdapter.a */; };
+		3BCF55DF1D8BD13D0006198B /* UnityAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCF55DD1D8BD13D0006198B /* UnityAds.framework */; };
+		3BCF55EA1D8BD3E10006198B /* libAPDVungleAdapter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCF55E11D8BD3E10006198B /* libAPDVungleAdapter.a */; };
+		3BCF55EB1D8BD3E10006198B /* VungleSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCF55E91D8BD3E10006198B /* VungleSDK.framework */; };
 		66E013C41C8DF166005508D8 /* FlashRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E013C31C8DF166005508D8 /* FlashRuntimeExtensions.h */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +71,21 @@
 		227027421C1D66020098981C /* freUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = freUtils.h; sourceTree = "<group>"; };
 		227027431C1D66020098981C /* freUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = freUtils.m; sourceTree = "<group>"; };
 		22B7B8041C106CD800A5B400 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		3BCAD52B1D8A997D005BD577 /* Appodeal.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Appodeal.bundle; path = sdk/Appodeal.bundle; sourceTree = "<group>"; };
+		3BCAD52C1D8A997D005BD577 /* Appodeal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Appodeal.framework; sourceTree = "<group>"; };
+		3BCAD5301D8A9985005BD577 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		3BCAD5311D8A9985005BD577 /* libAPDGoogleAdMobAdapter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAPDGoogleAdMobAdapter.a; sourceTree = "<group>"; };
+		3BCF55DB1D8BD13D0006198B /* libAPDUnityAdapter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAPDUnityAdapter.a; sourceTree = "<group>"; };
+		3BCF55DC1D8BD13D0006198B /* UnityAds.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UnityAds.bundle; sourceTree = "<group>"; };
+		3BCF55DD1D8BD13D0006198B /* UnityAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UnityAds.framework; sourceTree = "<group>"; };
+		3BCF55E11D8BD3E10006198B /* libAPDVungleAdapter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAPDVungleAdapter.a; sourceTree = "<group>"; };
+		3BCF55E31D8BD3E10006198B /* __vungle.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = __vungle.db; sourceTree = "<group>"; };
+		3BCF55E41D8BD3E10006198B /* vg_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_close.png; sourceTree = "<group>"; };
+		3BCF55E51D8BD3E10006198B /* vg_cta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_cta.png; sourceTree = "<group>"; };
+		3BCF55E61D8BD3E10006198B /* vg_mute_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_mute_off.png; sourceTree = "<group>"; };
+		3BCF55E71D8BD3E10006198B /* vg_mute_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_mute_on.png; sourceTree = "<group>"; };
+		3BCF55E81D8BD3E10006198B /* vg_privacy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_privacy.png; sourceTree = "<group>"; };
+		3BCF55E91D8BD3E10006198B /* VungleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VungleSDK.framework; sourceTree = "<group>"; };
 		66E013C31C8DF166005508D8 /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashRuntimeExtensions.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,11 +94,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BCAD5321D8A9985005BD577 /* GoogleMobileAds.framework in Frameworks */,
 				22B7B8051C106CD800A5B400 /* CoreTelephony.framework in Frameworks */,
+				3BCF55DF1D8BD13D0006198B /* UnityAds.framework in Frameworks */,
 				220757F61C07525B00F515AB /* CoreMedia.framework in Frameworks */,
 				220757FC1C07525B00F515AB /* Security.framework in Frameworks */,
 				220757E21C07525B00F515AB /* CoreFoundation.framework in Frameworks */,
+				3BCF55DE1D8BD13D0006198B /* libAPDUnityAdapter.a in Frameworks */,
 				220757F41C07525B00F515AB /* CoreLocation.framework in Frameworks */,
+				3BCF55EA1D8BD3E10006198B /* libAPDVungleAdapter.a in Frameworks */,
+				3BCF55EB1D8BD3E10006198B /* VungleSDK.framework in Frameworks */,
 				220757E61C07525B00F515AB /* MobileCoreServices.framework in Frameworks */,
 				220757F81C07525B00F515AB /* CoreVideo.framework in Frameworks */,
 				220757EE1C07525B00F515AB /* CFNetwork.framework in Frameworks */,
@@ -85,8 +112,10 @@
 				220757F21C07525B00F515AB /* OpenGLES.framework in Frameworks */,
 				220757EC1C07525B00F515AB /* AudioToolbox.framework in Frameworks */,
 				220757EA1C07525B00F515AB /* SystemConfiguration.framework in Frameworks */,
+				3BCAD52D1D8A997D005BD577 /* Appodeal.framework in Frameworks */,
 				220757E01C07525B00F515AB /* Foundation.framework in Frameworks */,
 				220757FA1C07525B00F515AB /* AVFoundation.framework in Frameworks */,
+				3BCAD5331D8A9985005BD577 /* libAPDGoogleAdMobAdapter.a in Frameworks */,
 				220757F01C07525B00F515AB /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -97,6 +126,8 @@
 		220757D31C07525B00F515AB = {
 			isa = PBXGroup;
 			children = (
+				3BCAD52E1D8A9985005BD577 /* Adapters */,
+				3BCAD52A1D8A997D005BD577 /* sdk */,
 				66E013C31C8DF166005508D8 /* FlashRuntimeExtensions.h */,
 				220758071C07525B00F515AB /* Appodeal */,
 				220757DE1C07525B00F515AB /* Frameworks */,
@@ -116,6 +147,7 @@
 		220757DE1C07525B00F515AB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3BCAD52B1D8A997D005BD577 /* Appodeal.bundle */,
 				22B7B8041C106CD800A5B400 /* CoreTelephony.framework */,
 				220757DF1C07525B00F515AB /* Foundation.framework */,
 				220757E11C07525B00F515AB /* CoreFoundation.framework */,
@@ -156,6 +188,66 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3BCAD52A1D8A997D005BD577 /* sdk */ = {
+			isa = PBXGroup;
+			children = (
+				3BCAD52C1D8A997D005BD577 /* Appodeal.framework */,
+			);
+			path = sdk;
+			sourceTree = "<group>";
+		};
+		3BCAD52E1D8A9985005BD577 /* Adapters */ = {
+			isa = PBXGroup;
+			children = (
+				3BCF55E01D8BD3E10006198B /* APDVungleAdapter.embeddedframework */,
+				3BCF55DA1D8BD13D0006198B /* APDUnityAdapter.embeddedframework */,
+				3BCAD52F1D8A9985005BD577 /* APDGoogleAdMobAdapter.embeddedframework */,
+			);
+			path = Adapters;
+			sourceTree = "<group>";
+		};
+		3BCAD52F1D8A9985005BD577 /* APDGoogleAdMobAdapter.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				3BCAD5301D8A9985005BD577 /* GoogleMobileAds.framework */,
+				3BCAD5311D8A9985005BD577 /* libAPDGoogleAdMobAdapter.a */,
+			);
+			path = APDGoogleAdMobAdapter.embeddedframework;
+			sourceTree = "<group>";
+		};
+		3BCF55DA1D8BD13D0006198B /* APDUnityAdapter.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				3BCF55DB1D8BD13D0006198B /* libAPDUnityAdapter.a */,
+				3BCF55DC1D8BD13D0006198B /* UnityAds.bundle */,
+				3BCF55DD1D8BD13D0006198B /* UnityAds.framework */,
+			);
+			path = APDUnityAdapter.embeddedframework;
+			sourceTree = "<group>";
+		};
+		3BCF55E01D8BD3E10006198B /* APDVungleAdapter.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				3BCF55E11D8BD3E10006198B /* libAPDVungleAdapter.a */,
+				3BCF55E21D8BD3E10006198B /* Resources */,
+				3BCF55E91D8BD3E10006198B /* VungleSDK.framework */,
+			);
+			path = APDVungleAdapter.embeddedframework;
+			sourceTree = "<group>";
+		};
+		3BCF55E21D8BD3E10006198B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3BCF55E31D8BD3E10006198B /* __vungle.db */,
+				3BCF55E41D8BD3E10006198B /* vg_close.png */,
+				3BCF55E51D8BD3E10006198B /* vg_cta.png */,
+				3BCF55E61D8BD3E10006198B /* vg_mute_off.png */,
+				3BCF55E71D8BD3E10006198B /* vg_mute_on.png */,
+				3BCF55E81D8BD3E10006198B /* vg_privacy.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -193,7 +285,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 220758171C07525B00F515AB /* Build configuration list for PBXNativeTarget "Appodeal.ANE" */;
 			buildPhases = (
-				220757FD1C07525B00F515AB /* ShellScript */,
+				220757FD1C07525B00F515AB /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -240,18 +332,19 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		220757FD1C07525B00F515AB /* ShellScript */ = {
+		220757FD1C07525B00F515AB /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
+			name = "Run Script";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/bash;
-			shellScript = "\n\n$PROJECT_DIR/../build/build_ios.sh\n\n";
+			shellScript = "\n$PROJECT_DIR/../build/build_ios.sh";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -284,7 +377,7 @@
 				CLANG_ENABLE_OBJC_ARC = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = /Users/sam/mc/fp/ane/appodeal/svn/sources/sdk;
+				FRAMEWORK_SEARCH_PATHS = "/Users/paveldunyashev/Downloads/appodeal-air-plugin-master/ios/sdk";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
@@ -299,10 +392,10 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
-				USER_HEADER_SEARCH_PATHS = /Users/sam/wk/sdks/AIRSDK_16/include/;
+				USER_HEADER_SEARCH_PATHS = /Users/paveldunyashev/airsdk/include/;
 				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
@@ -315,7 +408,7 @@
 				CLANG_ENABLE_OBJC_ARC = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
-				FRAMEWORK_SEARCH_PATHS = /Users/sam/mc/fp/ane/appodeal/svn/sources/sdk;
+				FRAMEWORK_SEARCH_PATHS = "/Users/paveldunyashev/Downloads/appodeal-air-plugin-master/ios/sdk";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
@@ -323,10 +416,10 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
-				USER_HEADER_SEARCH_PATHS = /Users/sam/wk/sdks/AIRSDK_16/include/;
+				USER_HEADER_SEARCH_PATHS = /Users/paveldunyashev/airsdk/include/;
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
@@ -340,9 +433,20 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/sdk",
+					"$(PROJECT_DIR)/Adapters/APDGoogleAdMobAdapter.embeddedframework",
+					"$(PROJECT_DIR)/Adapters/APDGoogleAdMobAdapter.embeddedframework/APDUnityAdapter.embeddedframework",
+					"$(PROJECT_DIR)/Adapters/APDUnityAdapter.embeddedframework",
+					"$(PROJECT_DIR)/Adapters/APDVungleAdapter.embeddedframework",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Appodeal/Appodeal-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Adapters/APDGoogleAdMobAdapter.embeddedframework",
+					"$(PROJECT_DIR)/Adapters/APDGoogleAdMobAdapter.embeddedframework/APDUnityAdapter.embeddedframework",
+					"$(PROJECT_DIR)/Adapters/APDUnityAdapter.embeddedframework",
+					"$(PROJECT_DIR)/Adapters/APDVungleAdapter.embeddedframework",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -357,9 +461,20 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/sdk",
+					"$(PROJECT_DIR)/Adapters/APDGoogleAdMobAdapter.embeddedframework",
+					"$(PROJECT_DIR)/Adapters/APDGoogleAdMobAdapter.embeddedframework/APDUnityAdapter.embeddedframework",
+					"$(PROJECT_DIR)/Adapters/APDUnityAdapter.embeddedframework",
+					"$(PROJECT_DIR)/Adapters/APDVungleAdapter.embeddedframework",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Appodeal/Appodeal-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Adapters/APDGoogleAdMobAdapter.embeddedframework",
+					"$(PROJECT_DIR)/Adapters/APDGoogleAdMobAdapter.embeddedframework/APDUnityAdapter.embeddedframework",
+					"$(PROJECT_DIR)/Adapters/APDUnityAdapter.embeddedframework",
+					"$(PROJECT_DIR)/Adapters/APDVungleAdapter.embeddedframework",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
