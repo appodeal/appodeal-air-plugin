@@ -3,7 +3,7 @@
 
   <!-- Config -->
   <property name="tempbuild" value="../temp/ios/build"/>
-  <property name="air.sdk" value="/Users/paveldunyashev/airsdk"/>
+  <property name="air.sdk" value="Users/NazarKozak/Library/Android/sdk/AIRSDK_Compiler"/>
 
   <!-- All -->
   <target depends="clean,prepare,package,package_andr" description="Full build of extension" name="all" />
