@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
-<application xmlns="http://ns.adobe.com/air/application/20.0">
+<application xmlns="http://ns.adobe.com/air/application/23.0">
     <id>com.appodeal.test</id>
     <filename>Appodeal</filename>
     <name>Appodeal</name>
@@ -27,7 +27,6 @@
 				    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 				    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
 				    <application>
-
                         <meta-data android:name="com.appodeal.framework" android:value="air" />
                         <receiver android:name="com.appodeal.ads.AppodealPackageAddedReceiver" android:exported="true" android:enabled="true">
                         <intent-filter>
@@ -85,47 +84,50 @@
                         <activity android:name="org.nexage.sourcekit.vast.activity.VPAIDActivity"
                               android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
 
-                        <!--suppress AndroidDomInspection -->
                         <activity android:name="com.appodeal.ads.networks.vpaid.VPAIDActivity"
                               android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
 
                         <activity android:name="com.appodeal.ads.networks.SpotXActivity"
                               android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
-                        <!--suppress AndroidDomInspection -->
+
                         <activity android:name="com.facebook.ads.InterstitialAdActivity" android:configChanges="keyboardHidden|orientation|screenSize" />
 
-                        <activity android:name="com.unity3d.ads.android.view.UnityAdsFullscreenActivity"
-                              android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
-                              android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:hardwareAccelerated="true" />
-                        <activity android:name="com.unity3d.ads.android2.view.UnityAdsFullscreenActivity"
-                              android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
-                              android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:hardwareAccelerated="true" />
+                        <activity android:name="com.unity3d.ads.adunit.AdUnitActivity"
+                            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+                            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:hardwareAccelerated="true" />
+                        <activity android:name="com.unity3d.ads.adunit.AdUnitSoftwareActivity"
+                            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+                            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:hardwareAccelerated="false" />
+                        <activity android:name="com.unity3d.ads2.adunit.AdUnitActivity"
+                            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+                            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:hardwareAccelerated="true" />
+                        <activity android:name="com.unity3d.ads2.adunit.AdUnitSoftwareActivity"
+                            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+                            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:hardwareAccelerated="false" />
 
-
-                        <!--suppress AndroidDomInspection -->
                         <activity android:name="com.jirbo.adcolony.AdColonyOverlay"
                               android:configChanges="keyboardHidden|orientation|screenSize"
                               android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
-                        <!--suppress AndroidDomInspection -->
+
                         <activity android:name="com.jirbo.adcolony.AdColonyFullscreen"
                               android:configChanges="keyboardHidden|orientation|screenSize"
                               android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
-                        <!--suppress AndroidDomInspection -->
+
                         <activity android:name="com.jirbo.adcolony.AdColonyBrowser"
                               android:configChanges="keyboardHidden|orientation|screenSize"
                               android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
-                        <!--suppress AndroidDomInspection -->
+
                         <activity android:name="com.vungle.publisher.FullScreenAdActivity"
                               android:configChanges="keyboardHidden|orientation|screenSize"
                               android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
-                        <!--suppress AndroidDomInspection -->
+
                         <activity android:name="com.startapp.android.publish.list3d.List3DActivity"
                               android:theme="@android:style/Theme" />
-                        <!--suppress AndroidDomInspection -->
+
                         <activity android:name="com.startapp.android.publish.OverlayActivity"
                               android:theme="@android:style/Theme.Translucent"
                               android:configChanges="orientation|keyboardHidden|screenSize" />
-                        <!--suppress AndroidDomInspection -->
+
                         <activity android:name="com.startapp.android.publish.FullScreenActivity"
                               android:theme="@android:style/Theme"
                               android:configChanges="orientation|keyboardHidden|screenSize" />
@@ -144,15 +146,25 @@
                                 <action android:name="com.android.vending.INSTALL_REFERRER" />
                             </intent-filter>
                         </receiver>
-                        <!--suppress AndroidDomInspection -->
+
                         <activity android:name="com.yandex.mobile.ads.AdActivity"
                               android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
 
-                        <!--suppress AndroidDomInspection -->
                         <activity android:name="com.flurry.android.FlurryFullscreenTakeoverActivity"
                               android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
 
                         <activity android:name="com.appodeal.ads.VideoPlayerActivity" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"/>
+
+                        <activity android:name="com.revmob.FullscreenActivity" android:theme="@android:style/Theme.Translucent"
+                              android:configChanges="keyboardHidden|orientation"/>
+
+                        <activity android:name="com.tapjoy.TJAdUnitActivity" android:configChanges="orientation|keyboardHidden|screenSize"
+                              android:hardwareAccelerated="true" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+                        <activity android:name="com.tapjoy.mraid.view.ActionHandler" android:configChanges="orientation|keyboardHidden|screenSize" />
+                        <activity android:name="com.tapjoy.mraid.view.Browser" android:configChanges="orientation|keyboardHidden|screenSize" />
+                        <activity android:name="com.tapjoy.TJContentActivity" android:configChanges="orientation|keyboardHidden|screenSize"
+                              android:theme="@android:style/Theme.Translucent.NoTitleBar" android:hardwareAccelerated="true" />
+
 					</application>
 				</manifest>
 		]]></manifestAdditions>

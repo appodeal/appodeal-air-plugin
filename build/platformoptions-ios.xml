@@ -4,14 +4,10 @@
         <option>-ObjC</option>
         <option>-ios_version_min 8.1</option>
         <option>-framework AdSupport</option>
-        <!--option>-framework GoogleMobileAds</option>
-        <option>-framework UnityAds</option>
-        <option>-framework VungleSDK</option-->
         <option>-framework AVFoundation</option>
         <option>-framework AudioToolbox</option>
         <option>-framework JavaScriptCore</option>
         <option>-framework Twitter</option>
-        <!--option>-framework CoreTelefony</option-->
         <option>-framework CoreGraphics</option>
         <option>-framework CoreMotion</option>
         <option>-framework CoreBluetooth</option>
@@ -42,8 +38,5 @@
     </linkerOptions>
     <packagedDependencies>
         <packagedDependency>Appodeal.framework</packagedDependency>
-        <!--packagedDependency>GoogleMobileAds.framework</packagedDependency>
-        <packagedDependency>UnityAds.framework</packagedDependency>
-        <packagedDependency>VungleSDK.framework</packagedDependency-->
     </packagedDependencies>
 </platform>

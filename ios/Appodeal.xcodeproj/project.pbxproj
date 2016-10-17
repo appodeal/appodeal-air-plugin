@@ -27,13 +27,8 @@
 		227027461C1D66020098981C /* freUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 227027421C1D66020098981C /* freUtils.h */; };
 		227027471C1D66020098981C /* freUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 227027431C1D66020098981C /* freUtils.m */; };
 		22B7B8051C106CD800A5B400 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B7B8041C106CD800A5B400 /* CoreTelephony.framework */; };
-		3BCAD52D1D8A997D005BD577 /* Appodeal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCAD52C1D8A997D005BD577 /* Appodeal.framework */; };
-		3BCAD5321D8A9985005BD577 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCAD5301D8A9985005BD577 /* GoogleMobileAds.framework */; };
-		3BCAD5331D8A9985005BD577 /* libAPDGoogleAdMobAdapter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCAD5311D8A9985005BD577 /* libAPDGoogleAdMobAdapter.a */; };
-		3BCF55DE1D8BD13D0006198B /* libAPDUnityAdapter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCF55DB1D8BD13D0006198B /* libAPDUnityAdapter.a */; };
-		3BCF55DF1D8BD13D0006198B /* UnityAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCF55DD1D8BD13D0006198B /* UnityAds.framework */; };
-		3BCF55EA1D8BD3E10006198B /* libAPDVungleAdapter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCF55E11D8BD3E10006198B /* libAPDVungleAdapter.a */; };
-		3BCF55EB1D8BD3E10006198B /* VungleSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCF55E91D8BD3E10006198B /* VungleSDK.framework */; };
+		6649D8471DB39D640050FE86 /* Appodeal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6649D8271DB39D640050FE86 /* Appodeal.framework */; };
+		6649D8491DB445180050FE86 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6649D8481DB445180050FE86 /* GLKit.framework */; };
 		66E013C41C8DF166005508D8 /* FlashRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E013C31C8DF166005508D8 /* FlashRuntimeExtensions.h */; };
 /* End PBXBuildFile section */
 
@@ -71,21 +66,38 @@
 		227027421C1D66020098981C /* freUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = freUtils.h; sourceTree = "<group>"; };
 		227027431C1D66020098981C /* freUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = freUtils.m; sourceTree = "<group>"; };
 		22B7B8041C106CD800A5B400 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
-		3BCAD52B1D8A997D005BD577 /* Appodeal.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Appodeal.bundle; path = sdk/Appodeal.bundle; sourceTree = "<group>"; };
-		3BCAD52C1D8A997D005BD577 /* Appodeal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Appodeal.framework; sourceTree = "<group>"; };
-		3BCAD5301D8A9985005BD577 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
-		3BCAD5311D8A9985005BD577 /* libAPDGoogleAdMobAdapter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAPDGoogleAdMobAdapter.a; sourceTree = "<group>"; };
-		3BCF55DB1D8BD13D0006198B /* libAPDUnityAdapter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAPDUnityAdapter.a; sourceTree = "<group>"; };
-		3BCF55DC1D8BD13D0006198B /* UnityAds.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UnityAds.bundle; sourceTree = "<group>"; };
-		3BCF55DD1D8BD13D0006198B /* UnityAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UnityAds.framework; sourceTree = "<group>"; };
-		3BCF55E11D8BD3E10006198B /* libAPDVungleAdapter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAPDVungleAdapter.a; sourceTree = "<group>"; };
-		3BCF55E31D8BD3E10006198B /* __vungle.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = __vungle.db; sourceTree = "<group>"; };
-		3BCF55E41D8BD3E10006198B /* vg_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_close.png; sourceTree = "<group>"; };
-		3BCF55E51D8BD3E10006198B /* vg_cta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_cta.png; sourceTree = "<group>"; };
-		3BCF55E61D8BD3E10006198B /* vg_mute_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_mute_off.png; sourceTree = "<group>"; };
-		3BCF55E71D8BD3E10006198B /* vg_mute_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_mute_on.png; sourceTree = "<group>"; };
-		3BCF55E81D8BD3E10006198B /* vg_privacy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_privacy.png; sourceTree = "<group>"; };
-		3BCF55E91D8BD3E10006198B /* VungleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VungleSDK.framework; sourceTree = "<group>"; };
+		6649D8271DB39D640050FE86 /* Appodeal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Appodeal.framework; sourceTree = "<group>"; };
+		6649D8291DB39D640050FE86 /* Appodeal.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Appodeal.bundle; sourceTree = "<group>"; };
+		6649D82A1DB39D640050FE86 /* MPAdBrowserController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MPAdBrowserController.xib; sourceTree = "<group>"; };
+		6649D82B1DB39D640050FE86 /* MPCloseBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPCloseBtn.png; sourceTree = "<group>"; };
+		6649D82C1DB39D640050FE86 /* MPCloseBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPCloseBtn@2x.png"; sourceTree = "<group>"; };
+		6649D82D1DB39D640050FE86 /* MPCloseBtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPCloseBtn@3x.png"; sourceTree = "<group>"; };
+		6649D82E1DB39D640050FE86 /* MPCloseButtonX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPCloseButtonX.png; sourceTree = "<group>"; };
+		6649D82F1DB39D640050FE86 /* MPCloseButtonX@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPCloseButtonX@2x.png"; sourceTree = "<group>"; };
+		6649D8301DB39D640050FE86 /* MPCloseButtonX@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPCloseButtonX@3x.png"; sourceTree = "<group>"; };
+		6649D8311DB39D640050FE86 /* MPDAAIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPDAAIcon.png; sourceTree = "<group>"; };
+		6649D8321DB39D640050FE86 /* MPDAAIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPDAAIcon@2x.png"; sourceTree = "<group>"; };
+		6649D8331DB39D640050FE86 /* MPDAAIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPDAAIcon@3x.png"; sourceTree = "<group>"; };
+		6649D8341DB39D640050FE86 /* MPMutedBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPMutedBtn.png; sourceTree = "<group>"; };
+		6649D8351DB39D640050FE86 /* MPMutedBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPMutedBtn@2x.png"; sourceTree = "<group>"; };
+		6649D8361DB39D640050FE86 /* MPMutedBtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPMutedBtn@3x.png"; sourceTree = "<group>"; };
+		6649D8371DB39D640050FE86 /* MPPlayBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPPlayBtn.png; sourceTree = "<group>"; };
+		6649D8381DB39D640050FE86 /* MPPlayBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPPlayBtn@2x.png"; sourceTree = "<group>"; };
+		6649D8391DB39D640050FE86 /* MPPlayBtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPPlayBtn@3x.png"; sourceTree = "<group>"; };
+		6649D83A1DB39D640050FE86 /* MPUnmutedBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPUnmutedBtn.png; sourceTree = "<group>"; };
+		6649D83B1DB39D640050FE86 /* MPUnmutedBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPUnmutedBtn@2x.png"; sourceTree = "<group>"; };
+		6649D83C1DB39D640050FE86 /* MPUnmutedBtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPUnmutedBtn@3x.png"; sourceTree = "<group>"; };
+		6649D83D1DB39D640050FE86 /* MRAID.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MRAID.bundle; sourceTree = "<group>"; };
+		6649D83E1DB39D640050FE86 /* requestThirdPartyAd.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = requestThirdPartyAd.json; sourceTree = "<group>"; };
+		6649D83F1DB39D640050FE86 /* StartApp.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = StartApp.bundle; sourceTree = "<group>"; };
+		6649D8401DB39D640050FE86 /* TapjoyResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TapjoyResources.bundle; sourceTree = "<group>"; };
+		6649D8411DB39D640050FE86 /* UnityAds.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UnityAds.bundle; sourceTree = "<group>"; };
+		6649D8421DB39D640050FE86 /* vg_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_close.png; sourceTree = "<group>"; };
+		6649D8431DB39D640050FE86 /* vg_cta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_cta.png; sourceTree = "<group>"; };
+		6649D8441DB39D640050FE86 /* vg_mute_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_mute_off.png; sourceTree = "<group>"; };
+		6649D8451DB39D640050FE86 /* vg_mute_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_mute_on.png; sourceTree = "<group>"; };
+		6649D8461DB39D640050FE86 /* vg_privacy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_privacy.png; sourceTree = "<group>"; };
+		6649D8481DB445180050FE86 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		66E013C31C8DF166005508D8 /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashRuntimeExtensions.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,16 +106,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BCAD5321D8A9985005BD577 /* GoogleMobileAds.framework in Frameworks */,
+				6649D8491DB445180050FE86 /* GLKit.framework in Frameworks */,
 				22B7B8051C106CD800A5B400 /* CoreTelephony.framework in Frameworks */,
-				3BCF55DF1D8BD13D0006198B /* UnityAds.framework in Frameworks */,
 				220757F61C07525B00F515AB /* CoreMedia.framework in Frameworks */,
 				220757FC1C07525B00F515AB /* Security.framework in Frameworks */,
 				220757E21C07525B00F515AB /* CoreFoundation.framework in Frameworks */,
-				3BCF55DE1D8BD13D0006198B /* libAPDUnityAdapter.a in Frameworks */,
 				220757F41C07525B00F515AB /* CoreLocation.framework in Frameworks */,
-				3BCF55EA1D8BD3E10006198B /* libAPDVungleAdapter.a in Frameworks */,
-				3BCF55EB1D8BD3E10006198B /* VungleSDK.framework in Frameworks */,
 				220757E61C07525B00F515AB /* MobileCoreServices.framework in Frameworks */,
 				220757F81C07525B00F515AB /* CoreVideo.framework in Frameworks */,
 				220757EE1C07525B00F515AB /* CFNetwork.framework in Frameworks */,
@@ -112,10 +120,9 @@
 				220757F21C07525B00F515AB /* OpenGLES.framework in Frameworks */,
 				220757EC1C07525B00F515AB /* AudioToolbox.framework in Frameworks */,
 				220757EA1C07525B00F515AB /* SystemConfiguration.framework in Frameworks */,
-				3BCAD52D1D8A997D005BD577 /* Appodeal.framework in Frameworks */,
+				6649D8471DB39D640050FE86 /* Appodeal.framework in Frameworks */,
 				220757E01C07525B00F515AB /* Foundation.framework in Frameworks */,
 				220757FA1C07525B00F515AB /* AVFoundation.framework in Frameworks */,
-				3BCAD5331D8A9985005BD577 /* libAPDGoogleAdMobAdapter.a in Frameworks */,
 				220757F01C07525B00F515AB /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -126,7 +133,6 @@
 		220757D31C07525B00F515AB = {
 			isa = PBXGroup;
 			children = (
-				3BCAD52E1D8A9985005BD577 /* Adapters */,
 				3BCAD52A1D8A997D005BD577 /* sdk */,
 				66E013C31C8DF166005508D8 /* FlashRuntimeExtensions.h */,
 				220758071C07525B00F515AB /* Appodeal */,
@@ -147,7 +153,7 @@
 		220757DE1C07525B00F515AB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3BCAD52B1D8A997D005BD577 /* Appodeal.bundle */,
+				6649D8481DB445180050FE86 /* GLKit.framework */,
 				22B7B8041C106CD800A5B400 /* CoreTelephony.framework */,
 				220757DF1C07525B00F515AB /* Foundation.framework */,
 				220757E11C07525B00F515AB /* CoreFoundation.framework */,
@@ -191,59 +197,45 @@
 		3BCAD52A1D8A997D005BD577 /* sdk */ = {
 			isa = PBXGroup;
 			children = (
-				3BCAD52C1D8A997D005BD577 /* Appodeal.framework */,
+				6649D8271DB39D640050FE86 /* Appodeal.framework */,
+				6649D8281DB39D640050FE86 /* Resources */,
 			);
 			path = sdk;
 			sourceTree = "<group>";
 		};
-		3BCAD52E1D8A9985005BD577 /* Adapters */ = {
+		6649D8281DB39D640050FE86 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				3BCF55E01D8BD3E10006198B /* APDVungleAdapter.embeddedframework */,
-				3BCF55DA1D8BD13D0006198B /* APDUnityAdapter.embeddedframework */,
-				3BCAD52F1D8A9985005BD577 /* APDGoogleAdMobAdapter.embeddedframework */,
-			);
-			path = Adapters;
-			sourceTree = "<group>";
-		};
-		3BCAD52F1D8A9985005BD577 /* APDGoogleAdMobAdapter.embeddedframework */ = {
-			isa = PBXGroup;
-			children = (
-				3BCAD5301D8A9985005BD577 /* GoogleMobileAds.framework */,
-				3BCAD5311D8A9985005BD577 /* libAPDGoogleAdMobAdapter.a */,
-			);
-			path = APDGoogleAdMobAdapter.embeddedframework;
-			sourceTree = "<group>";
-		};
-		3BCF55DA1D8BD13D0006198B /* APDUnityAdapter.embeddedframework */ = {
-			isa = PBXGroup;
-			children = (
-				3BCF55DB1D8BD13D0006198B /* libAPDUnityAdapter.a */,
-				3BCF55DC1D8BD13D0006198B /* UnityAds.bundle */,
-				3BCF55DD1D8BD13D0006198B /* UnityAds.framework */,
-			);
-			path = APDUnityAdapter.embeddedframework;
-			sourceTree = "<group>";
-		};
-		3BCF55E01D8BD3E10006198B /* APDVungleAdapter.embeddedframework */ = {
-			isa = PBXGroup;
-			children = (
-				3BCF55E11D8BD3E10006198B /* libAPDVungleAdapter.a */,
-				3BCF55E21D8BD3E10006198B /* Resources */,
-				3BCF55E91D8BD3E10006198B /* VungleSDK.framework */,
-			);
-			path = APDVungleAdapter.embeddedframework;
-			sourceTree = "<group>";
-		};
-		3BCF55E21D8BD3E10006198B /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				3BCF55E31D8BD3E10006198B /* __vungle.db */,
-				3BCF55E41D8BD3E10006198B /* vg_close.png */,
-				3BCF55E51D8BD3E10006198B /* vg_cta.png */,
-				3BCF55E61D8BD3E10006198B /* vg_mute_off.png */,
-				3BCF55E71D8BD3E10006198B /* vg_mute_on.png */,
-				3BCF55E81D8BD3E10006198B /* vg_privacy.png */,
+				6649D8291DB39D640050FE86 /* Appodeal.bundle */,
+				6649D82A1DB39D640050FE86 /* MPAdBrowserController.xib */,
+				6649D82B1DB39D640050FE86 /* MPCloseBtn.png */,
+				6649D82C1DB39D640050FE86 /* MPCloseBtn@2x.png */,
+				6649D82D1DB39D640050FE86 /* MPCloseBtn@3x.png */,
+				6649D82E1DB39D640050FE86 /* MPCloseButtonX.png */,
+				6649D82F1DB39D640050FE86 /* MPCloseButtonX@2x.png */,
+				6649D8301DB39D640050FE86 /* MPCloseButtonX@3x.png */,
+				6649D8311DB39D640050FE86 /* MPDAAIcon.png */,
+				6649D8321DB39D640050FE86 /* MPDAAIcon@2x.png */,
+				6649D8331DB39D640050FE86 /* MPDAAIcon@3x.png */,
+				6649D8341DB39D640050FE86 /* MPMutedBtn.png */,
+				6649D8351DB39D640050FE86 /* MPMutedBtn@2x.png */,
+				6649D8361DB39D640050FE86 /* MPMutedBtn@3x.png */,
+				6649D8371DB39D640050FE86 /* MPPlayBtn.png */,
+				6649D8381DB39D640050FE86 /* MPPlayBtn@2x.png */,
+				6649D8391DB39D640050FE86 /* MPPlayBtn@3x.png */,
+				6649D83A1DB39D640050FE86 /* MPUnmutedBtn.png */,
+				6649D83B1DB39D640050FE86 /* MPUnmutedBtn@2x.png */,
+				6649D83C1DB39D640050FE86 /* MPUnmutedBtn@3x.png */,
+				6649D83D1DB39D640050FE86 /* MRAID.bundle */,
+				6649D83E1DB39D640050FE86 /* requestThirdPartyAd.json */,
+				6649D83F1DB39D640050FE86 /* StartApp.bundle */,
+				6649D8401DB39D640050FE86 /* TapjoyResources.bundle */,
+				6649D8411DB39D640050FE86 /* UnityAds.bundle */,
+				6649D8421DB39D640050FE86 /* vg_close.png */,
+				6649D8431DB39D640050FE86 /* vg_cta.png */,
+				6649D8441DB39D640050FE86 /* vg_mute_off.png */,
+				6649D8451DB39D640050FE86 /* vg_mute_on.png */,
+				6649D8461DB39D640050FE86 /* vg_privacy.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";

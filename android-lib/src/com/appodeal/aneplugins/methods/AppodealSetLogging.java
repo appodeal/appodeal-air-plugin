@@ -13,8 +13,12 @@ public class AppodealSetLogging implements FREFunction {
     public FREObject call(FREContext context, FREObject[] args) {
 
         try {
-            boolean testing = args[0].getAsBool();
-            Appodeal.setLogging(testing);
+            boolean logging = args[0].getAsBool();
+            if (logging) {
+                Appodeal.setLogLevel(com.appodeal.ads.utils.Log.LogLevel.verbose);
+            } else {
+                Appodeal.setLogLevel(com.appodeal.ads.utils.Log.LogLevel.none);
+            }
         } catch (Exception exception) {
             Log.w("AppodealPlugin", exception);
         }

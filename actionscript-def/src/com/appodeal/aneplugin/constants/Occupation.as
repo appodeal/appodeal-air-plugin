@@ -1,10 +1,5 @@
-/**
- * Created by sam on 01.12.15.
- */
-package com.appodeal.aneplugin.constants
-{
-    public class Occupation
-    {
+package com.appodeal.aneplugin.constants {
+    public class Occupation {
         public static const OTHER:int = 0;
         public static const WORK:int = 1;
         public static const SCHOOL:int = 2;

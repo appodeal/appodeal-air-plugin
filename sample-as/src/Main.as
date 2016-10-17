@@ -2,8 +2,14 @@ package {
 import com.appodeal.aneplugin.AdEvent;
 import com.appodeal.aneplugin.AdType;
 import com.appodeal.aneplugin.Appodeal;
+import com.appodeal.aneplugin.UserSettings;
+import com.appodeal.aneplugin.constants.Alcohol;
+import com.appodeal.aneplugin.constants.Gender;
+import com.appodeal.aneplugin.constants.Occupation;
+import com.appodeal.aneplugin.constants.Relation;
+import com.appodeal.aneplugin.constants.Smoking;
 
-    import flash.display.Sprite;
+import flash.display.Sprite;
     import flash.events.MouseEvent;
     import flash.text.TextField;
     import flash.text.TextFormat;
@@ -24,7 +30,8 @@ import com.appodeal.aneplugin.Appodeal;
 
 
         private var appodeal:Appodeal;
-        private var bannedShown:Boolean;
+        private var userSettings:UserSettings;
+
         private var videoShown:Boolean = true;
 
         public function Main() {
@@ -139,18 +146,38 @@ import com.appodeal.aneplugin.Appodeal;
 
         }
 
-        private function init():void
-        {
-            appodeal = new Appodeal();
+        private function init():void {
 
-            var appKey:String = "fee50c333ff3825fd6ad6d38cff78154de3025546d47a84f";
-            //var appKey:String = "722fb56678445f72fe2ec58b2fa436688b920835405d3ca6";
+            appodeal = new Appodeal();
+            userSettings = new UserSettings();
+
+            //var appKey:String = "fee50c333ff3825fd6ad6d38cff78154de3025546d47a84f";
+            var appKey:String = "722fb56678445f72fe2ec58b2fa436688b920835405d3ca6";
 
             labelInit.text = "Initialized v." + appodeal.getVersion();
 
-            appodeal.initialize(appKey, Appodeal.INTERSTITIAL | Appodeal.REWARDED_VIDEO | Appodeal.SKIPPABLE_VIDEO | Appodeal.BANNER);
+            userSettings.setAge(25);
+            userSettings.setAlcohol(Alcohol.NEUTRAL);
+            userSettings.setBirthday("01/01/1990");
+            userSettings.setEmail("hi@appodeal.com");
+            userSettings.setGender(Gender.MALE);
+            userSettings.setInterests("gym, cinema, cars, games, tvshows");
+            userSettings.setOccupation(Occupation.WORK);
+            userSettings.setRelationship(Relation.DATING);
+            userSettings.setSmoking(Smoking.NEUTRAL);
+            userSettings.setUserId("custom_user_id");
 
-            appodeal.disableLocationPermissionCheck();
+            appodeal.set728x90Banners(false);
+            appodeal.setSmartBanners(false);
+            appodeal.setBannerAnimation(false);
+            appodeal.setBannerBackground(true);
+
+            appodeal.setLogging(true);
+
+            //appodeal.disableLocationPermissionCheck();
+
+            appodeal.confirm(Appodeal.SKIPPABLE_VIDEO);
+            appodeal.initialize(appKey, Appodeal.INTERSTITIAL | Appodeal.REWARDED_VIDEO | Appodeal.SKIPPABLE_VIDEO | Appodeal.BANNER);
 
             appodeal.addEventListener(AdEvent.INTERSTITIAL_LOADED, onInterstitial);
             appodeal.addEventListener(AdEvent.INTERSTITIAL_FAILED_TO_LOAD, onInterstitial);
@@ -271,21 +298,6 @@ import com.appodeal.aneplugin.Appodeal;
                     trace('onInterstitial: ad closed');
                     break;
             }
-        }
-        public function showInterstitial():void
-        {
-            appodeal.show(AdType.INTERSTITIAL);
-        }
-        public function showRewarded():void
-        {
-            if (appodeal.isLoaded(AdType.REWARDED_VIDEO))
-            {
-                appodeal.show(AdType.REWARDED_VIDEO);
-            }
-        }
-        public function showBanner(show:Boolean = true):void
-        {
-            show ? appodeal.show(AdType.BANNER_BOTTOM) : appodeal.hide(AdType.BANNER_BOTTOM);
         }
 
     }
