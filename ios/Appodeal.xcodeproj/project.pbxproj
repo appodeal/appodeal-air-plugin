@@ -27,6 +27,8 @@
 		227027461C1D66020098981C /* freUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 227027421C1D66020098981C /* freUtils.h */; };
 		227027471C1D66020098981C /* freUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 227027431C1D66020098981C /* freUtils.m */; };
 		22B7B8051C106CD800A5B400 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B7B8041C106CD800A5B400 /* CoreTelephony.framework */; };
+		6649D8471DB39D640050FE86 /* Appodeal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6649D8271DB39D640050FE86 /* Appodeal.framework */; };
+		6649D8491DB445180050FE86 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6649D8481DB445180050FE86 /* GLKit.framework */; };
 		66E013C41C8DF166005508D8 /* FlashRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E013C31C8DF166005508D8 /* FlashRuntimeExtensions.h */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +66,38 @@
 		227027421C1D66020098981C /* freUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = freUtils.h; sourceTree = "<group>"; };
 		227027431C1D66020098981C /* freUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = freUtils.m; sourceTree = "<group>"; };
 		22B7B8041C106CD800A5B400 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		6649D8271DB39D640050FE86 /* Appodeal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Appodeal.framework; sourceTree = "<group>"; };
+		6649D8291DB39D640050FE86 /* Appodeal.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Appodeal.bundle; sourceTree = "<group>"; };
+		6649D82A1DB39D640050FE86 /* MPAdBrowserController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MPAdBrowserController.xib; sourceTree = "<group>"; };
+		6649D82B1DB39D640050FE86 /* MPCloseBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPCloseBtn.png; sourceTree = "<group>"; };
+		6649D82C1DB39D640050FE86 /* MPCloseBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPCloseBtn@2x.png"; sourceTree = "<group>"; };
+		6649D82D1DB39D640050FE86 /* MPCloseBtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPCloseBtn@3x.png"; sourceTree = "<group>"; };
+		6649D82E1DB39D640050FE86 /* MPCloseButtonX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPCloseButtonX.png; sourceTree = "<group>"; };
+		6649D82F1DB39D640050FE86 /* MPCloseButtonX@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPCloseButtonX@2x.png"; sourceTree = "<group>"; };
+		6649D8301DB39D640050FE86 /* MPCloseButtonX@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPCloseButtonX@3x.png"; sourceTree = "<group>"; };
+		6649D8311DB39D640050FE86 /* MPDAAIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPDAAIcon.png; sourceTree = "<group>"; };
+		6649D8321DB39D640050FE86 /* MPDAAIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPDAAIcon@2x.png"; sourceTree = "<group>"; };
+		6649D8331DB39D640050FE86 /* MPDAAIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPDAAIcon@3x.png"; sourceTree = "<group>"; };
+		6649D8341DB39D640050FE86 /* MPMutedBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPMutedBtn.png; sourceTree = "<group>"; };
+		6649D8351DB39D640050FE86 /* MPMutedBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPMutedBtn@2x.png"; sourceTree = "<group>"; };
+		6649D8361DB39D640050FE86 /* MPMutedBtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPMutedBtn@3x.png"; sourceTree = "<group>"; };
+		6649D8371DB39D640050FE86 /* MPPlayBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPPlayBtn.png; sourceTree = "<group>"; };
+		6649D8381DB39D640050FE86 /* MPPlayBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPPlayBtn@2x.png"; sourceTree = "<group>"; };
+		6649D8391DB39D640050FE86 /* MPPlayBtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPPlayBtn@3x.png"; sourceTree = "<group>"; };
+		6649D83A1DB39D640050FE86 /* MPUnmutedBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPUnmutedBtn.png; sourceTree = "<group>"; };
+		6649D83B1DB39D640050FE86 /* MPUnmutedBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPUnmutedBtn@2x.png"; sourceTree = "<group>"; };
+		6649D83C1DB39D640050FE86 /* MPUnmutedBtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPUnmutedBtn@3x.png"; sourceTree = "<group>"; };
+		6649D83D1DB39D640050FE86 /* MRAID.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MRAID.bundle; sourceTree = "<group>"; };
+		6649D83E1DB39D640050FE86 /* requestThirdPartyAd.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = requestThirdPartyAd.json; sourceTree = "<group>"; };
+		6649D83F1DB39D640050FE86 /* StartApp.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = StartApp.bundle; sourceTree = "<group>"; };
+		6649D8401DB39D640050FE86 /* TapjoyResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TapjoyResources.bundle; sourceTree = "<group>"; };
+		6649D8411DB39D640050FE86 /* UnityAds.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UnityAds.bundle; sourceTree = "<group>"; };
+		6649D8421DB39D640050FE86 /* vg_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_close.png; sourceTree = "<group>"; };
+		6649D8431DB39D640050FE86 /* vg_cta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_cta.png; sourceTree = "<group>"; };
+		6649D8441DB39D640050FE86 /* vg_mute_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_mute_off.png; sourceTree = "<group>"; };
+		6649D8451DB39D640050FE86 /* vg_mute_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_mute_on.png; sourceTree = "<group>"; };
+		6649D8461DB39D640050FE86 /* vg_privacy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_privacy.png; sourceTree = "<group>"; };
+		6649D8481DB445180050FE86 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		66E013C31C8DF166005508D8 /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashRuntimeExtensions.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6649D8491DB445180050FE86 /* GLKit.framework in Frameworks */,
 				22B7B8051C106CD800A5B400 /* CoreTelephony.framework in Frameworks */,
 				220757F61C07525B00F515AB /* CoreMedia.framework in Frameworks */,
 				220757FC1C07525B00F515AB /* Security.framework in Frameworks */,
@@ -85,6 +120,7 @@
 				220757F21C07525B00F515AB /* OpenGLES.framework in Frameworks */,
 				220757EC1C07525B00F515AB /* AudioToolbox.framework in Frameworks */,
 				220757EA1C07525B00F515AB /* SystemConfiguration.framework in Frameworks */,
+				6649D8471DB39D640050FE86 /* Appodeal.framework in Frameworks */,
 				220757E01C07525B00F515AB /* Foundation.framework in Frameworks */,
 				220757FA1C07525B00F515AB /* AVFoundation.framework in Frameworks */,
 				220757F01C07525B00F515AB /* QuartzCore.framework in Frameworks */,
@@ -97,6 +133,7 @@
 		220757D31C07525B00F515AB = {
 			isa = PBXGroup;
 			children = (
+				3BCAD52A1D8A997D005BD577 /* sdk */,
 				66E013C31C8DF166005508D8 /* FlashRuntimeExtensions.h */,
 				220758071C07525B00F515AB /* Appodeal */,
 				220757DE1C07525B00F515AB /* Frameworks */,
@@ -116,6 +153,7 @@
 		220757DE1C07525B00F515AB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6649D8481DB445180050FE86 /* GLKit.framework */,
 				22B7B8041C106CD800A5B400 /* CoreTelephony.framework */,
 				220757DF1C07525B00F515AB /* Foundation.framework */,
 				220757E11C07525B00F515AB /* CoreFoundation.framework */,
@@ -156,6 +194,52 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3BCAD52A1D8A997D005BD577 /* sdk */ = {
+			isa = PBXGroup;
+			children = (
+				6649D8271DB39D640050FE86 /* Appodeal.framework */,
+				6649D8281DB39D640050FE86 /* Resources */,
+			);
+			path = sdk;
+			sourceTree = "<group>";
+		};
+		6649D8281DB39D640050FE86 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6649D8291DB39D640050FE86 /* Appodeal.bundle */,
+				6649D82A1DB39D640050FE86 /* MPAdBrowserController.xib */,
+				6649D82B1DB39D640050FE86 /* MPCloseBtn.png */,
+				6649D82C1DB39D640050FE86 /* MPCloseBtn@2x.png */,
+				6649D82D1DB39D640050FE86 /* MPCloseBtn@3x.png */,
+				6649D82E1DB39D640050FE86 /* MPCloseButtonX.png */,
+				6649D82F1DB39D640050FE86 /* MPCloseButtonX@2x.png */,
+				6649D8301DB39D640050FE86 /* MPCloseButtonX@3x.png */,
+				6649D8311DB39D640050FE86 /* MPDAAIcon.png */,
+				6649D8321DB39D640050FE86 /* MPDAAIcon@2x.png */,
+				6649D8331DB39D640050FE86 /* MPDAAIcon@3x.png */,
+				6649D8341DB39D640050FE86 /* MPMutedBtn.png */,
+				6649D8351DB39D640050FE86 /* MPMutedBtn@2x.png */,
+				6649D8361DB39D640050FE86 /* MPMutedBtn@3x.png */,
+				6649D8371DB39D640050FE86 /* MPPlayBtn.png */,
+				6649D8381DB39D640050FE86 /* MPPlayBtn@2x.png */,
+				6649D8391DB39D640050FE86 /* MPPlayBtn@3x.png */,
+				6649D83A1DB39D640050FE86 /* MPUnmutedBtn.png */,
+				6649D83B1DB39D640050FE86 /* MPUnmutedBtn@2x.png */,
+				6649D83C1DB39D640050FE86 /* MPUnmutedBtn@3x.png */,
+				6649D83D1DB39D640050FE86 /* MRAID.bundle */,
+				6649D83E1DB39D640050FE86 /* requestThirdPartyAd.json */,
+				6649D83F1DB39D640050FE86 /* StartApp.bundle */,
+				6649D8401DB39D640050FE86 /* TapjoyResources.bundle */,
+				6649D8411DB39D640050FE86 /* UnityAds.bundle */,
+				6649D8421DB39D640050FE86 /* vg_close.png */,
+				6649D8431DB39D640050FE86 /* vg_cta.png */,
+				6649D8441DB39D640050FE86 /* vg_mute_off.png */,
+				6649D8451DB39D640050FE86 /* vg_mute_on.png */,
+				6649D8461DB39D640050FE86 /* vg_privacy.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -193,7 +277,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 220758171C07525B00F515AB /* Build configuration list for PBXNativeTarget "Appodeal.ANE" */;
 			buildPhases = (
-				220757FD1C07525B00F515AB /* ShellScript */,
+				220757FD1C07525B00F515AB /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -240,18 +324,19 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		220757FD1C07525B00F515AB /* ShellScript */ = {
+		220757FD1C07525B00F515AB /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
+			name = "Run Script";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/bash;
-			shellScript = "\n\n$PROJECT_DIR/../build/build_ios.sh\n\n";
+			shellScript = "\n$PROJECT_DIR/../build/build_ios.sh";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -284,7 +369,7 @@
 				CLANG_ENABLE_OBJC_ARC = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = /Users/sam/mc/fp/ane/appodeal/svn/sources/sdk;
+				FRAMEWORK_SEARCH_PATHS = "/Users/paveldunyashev/Downloads/appodeal-air-plugin-master/ios/sdk";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
@@ -299,10 +384,10 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
-				USER_HEADER_SEARCH_PATHS = /Users/sam/wk/sdks/AIRSDK_16/include/;
+				USER_HEADER_SEARCH_PATHS = /Users/paveldunyashev/airsdk/include/;
 				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
@@ -315,7 +400,7 @@
 				CLANG_ENABLE_OBJC_ARC = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
-				FRAMEWORK_SEARCH_PATHS = /Users/sam/mc/fp/ane/appodeal/svn/sources/sdk;
+				FRAMEWORK_SEARCH_PATHS = "/Users/paveldunyashev/Downloads/appodeal-air-plugin-master/ios/sdk";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
@@ -323,10 +408,10 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
-				USER_HEADER_SEARCH_PATHS = /Users/sam/wk/sdks/AIRSDK_16/include/;
+				USER_HEADER_SEARCH_PATHS = /Users/paveldunyashev/airsdk/include/;
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
@@ -340,9 +425,20 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/sdk",
+					"$(PROJECT_DIR)/Adapters/APDGoogleAdMobAdapter.embeddedframework",
+					"$(PROJECT_DIR)/Adapters/APDGoogleAdMobAdapter.embeddedframework/APDUnityAdapter.embeddedframework",
+					"$(PROJECT_DIR)/Adapters/APDUnityAdapter.embeddedframework",
+					"$(PROJECT_DIR)/Adapters/APDVungleAdapter.embeddedframework",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Appodeal/Appodeal-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Adapters/APDGoogleAdMobAdapter.embeddedframework",
+					"$(PROJECT_DIR)/Adapters/APDGoogleAdMobAdapter.embeddedframework/APDUnityAdapter.embeddedframework",
+					"$(PROJECT_DIR)/Adapters/APDUnityAdapter.embeddedframework",
+					"$(PROJECT_DIR)/Adapters/APDVungleAdapter.embeddedframework",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -357,9 +453,20 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/sdk",
+					"$(PROJECT_DIR)/Adapters/APDGoogleAdMobAdapter.embeddedframework",
+					"$(PROJECT_DIR)/Adapters/APDGoogleAdMobAdapter.embeddedframework/APDUnityAdapter.embeddedframework",
+					"$(PROJECT_DIR)/Adapters/APDUnityAdapter.embeddedframework",
+					"$(PROJECT_DIR)/Adapters/APDVungleAdapter.embeddedframework",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Appodeal/Appodeal-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Adapters/APDGoogleAdMobAdapter.embeddedframework",
+					"$(PROJECT_DIR)/Adapters/APDGoogleAdMobAdapter.embeddedframework/APDUnityAdapter.embeddedframework",
+					"$(PROJECT_DIR)/Adapters/APDUnityAdapter.embeddedframework",
+					"$(PROJECT_DIR)/Adapters/APDVungleAdapter.embeddedframework",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

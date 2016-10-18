@@ -32,7 +32,7 @@
     <copy file="../out/actionscript-lib.swc" todir="../bin/"/>
     <copy file="../build/extension.xml" todir="../bin/"/>
 
-    <!-- Unzip swc's -->    
+    <!-- Unzip swc's -->
     <unzip dest="../bin/temp" overwrite="true" src="../out/actionscript-lib.swc">
       <patternset>
         <include name="library.swf"/>

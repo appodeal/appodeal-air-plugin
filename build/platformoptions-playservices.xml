@@ -1,13 +1,13 @@
 <platform xmlns="http://ns.adobe.com/air/extension/16.0">
     <packagedDependencies>
-        <packagedDependency>play-services-ads-9.4.0.jar</packagedDependency>
-        <packagedDependency>play-services-ads-lite-9.4.0.jar</packagedDependency>
-        <packagedDependency>play-services-base-9.4.0.jar</packagedDependency>
-        <packagedDependency>play-services-basement-9.4.0.jar</packagedDependency>
-        <packagedDependency>play-services-clearcut-9.4.0.jar</packagedDependency>
-        <packagedDependency>play-services-gass-9.4.0.jar</packagedDependency>
-        <packagedDependency>play-services-location-9.4.0.jar</packagedDependency>
-        <packagedDependency>play-services-tasks-9.4.0.jar</packagedDependency>
+        <packagedDependency>play-services-ads-9.6.1.jar</packagedDependency>
+        <packagedDependency>play-services-ads-lite-9.6.1.jar</packagedDependency>
+        <packagedDependency>play-services-base-9.6.1.jar</packagedDependency>
+        <packagedDependency>play-services-basement-9.6.1.jar</packagedDependency>
+        <packagedDependency>play-services-clearcut-9.6.1.jar</packagedDependency>
+        <packagedDependency>play-services-gass-9.6.1.jar</packagedDependency>
+        <packagedDependency>play-services-location-9.6.1.jar</packagedDependency>
+        <packagedDependency>play-services-tasks-9.6.1.jar</packagedDependency>
     </packagedDependencies>
     <packagedResources>
         <packagedResource>
@@ -28,4 +28,3 @@
         </packagedResource>
     </packagedResources>
 </platform>
-

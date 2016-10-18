@@ -51,6 +51,13 @@ public class AppodealContext extends FREContext {
         map.put("appodeal_setLogging", new AppodealSetLogging());
         map.put("appodeal_getVersion", new AppodealGetVersion());
         map.put("appodeal_trackInAppPurchase", new AppodealTrackInAppPurchase());
+        map.put("appodeal_set728x90Banners", new AppodealSet728x90Banners());
+        map.put("appodeal_setSmartBanners", new AppodealSetSmartBanners());
+        map.put("appodeal_setBannerAnimation", new AppodealSetBannerAnimation());
+        map.put("appodeal_setCustomBooleanRule", new AppodealSetCustomBooleanRule());
+        map.put("appodeal_setCustomIntegerRule", new AppodealSetCustomIntegerRule());
+        map.put("appodeal_setCustomDoubleRule", new AppodealSetCustomDoubleRule());
+        map.put("appodeal_setCustomStringRule", new AppodealSetCustomStringRule());
 
         //Utils
         map.put("appodeal_getDensity", new AppodealGetDensity());
@@ -62,15 +69,13 @@ public class AppodealContext extends FREContext {
         map.put("appodeal_userSettings_setAge", new AppodealUserSettingsSetAge());
         map.put("appodeal_userSettings_setBirthday", new AppodealUserSettingsSetBirthday());
         map.put("appodeal_userSettings_setEmail", new AppodealUserSettingsSetEmail());
-        map.put("appodeal_userSettings_setFacebookId", new AppodealUserSettingsSetFacebookId());
-        map.put("appodeal_userSettings_setVkId", new AppodealUserSettingsSetVkId());
         map.put("appodeal_userSettings_setInterests", new AppodealUserSettingsSetInterests());
-
         map.put("appodeal_userSettings_setAlcohol", new AppodealUserSettingsSetAlcohol());
         map.put("appodeal_userSettings_setGender", new AppodealUserSettingsSetGender());
         map.put("appodeal_userSettings_setOccupation", new AppodealUserSettingsSetOccupation());
         map.put("appodeal_userSettings_setRelation", new AppodealUserSettingsSetRelation());
         map.put("appodeal_userSettings_setSmoking", new AppodealUserSettingsSetSmoking());
+        map.put("appodeal_userSettings_setUserId", new AppodealUserSettingsSetUserId());
         return map;
     }
 

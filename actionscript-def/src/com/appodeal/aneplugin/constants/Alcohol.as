@@ -1,6 +1,3 @@
-/**
- * Created by sam on 01.12.15.
- */
 package com.appodeal.aneplugin.constants
 {
     public class Alcohol

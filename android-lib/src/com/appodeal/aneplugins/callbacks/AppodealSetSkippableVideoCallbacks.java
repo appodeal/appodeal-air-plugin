@@ -7,7 +7,6 @@ import com.adobe.fre.FREFunction;
 import com.adobe.fre.FREObject;
 import com.appodeal.ads.Appodeal;
 import com.appodeal.aneplugins.AppodealContext;
-import com.appodeal.aneplugins.callbacks.AppodealSkippableVideoListener;
 
 public class AppodealSetSkippableVideoCallbacks implements FREFunction {
 

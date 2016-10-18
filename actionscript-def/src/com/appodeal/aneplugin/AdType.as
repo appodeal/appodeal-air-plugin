@@ -1,7 +1,5 @@
-package com.appodeal.aneplugin
-{
-	public class AdType
-	{
+package com.appodeal.aneplugin {
+	public class AdType {
 		public static const NONE:int = 0;
 		public static const INTERSTITIAL:int = 1;
 		public static const SKIPPABLE_VIDEO:int = 2;

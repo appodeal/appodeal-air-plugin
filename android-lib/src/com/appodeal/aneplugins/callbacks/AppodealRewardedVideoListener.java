@@ -5,8 +5,6 @@ import com.appodeal.aneplugins.AppodealContext;
 
 public class AppodealRewardedVideoListener implements RewardedVideoCallbacks {
 
-
-
     protected AppodealContext _ctx = null;
 
     public AppodealRewardedVideoListener(AppodealContext ctx) {

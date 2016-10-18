@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
-<application xmlns="http://ns.adobe.com/air/application/20.0">
+<application xmlns="http://ns.adobe.com/air/application/23.0">
     <id>com.sabzira.PianoTiles1ios</id>
 	<!--<id>com.appodeal.sandbox</id>-->
     <filename>Piano Tiles</filename>
@@ -33,7 +33,7 @@
                 <string>2</string>
             </array>
             <key>MinimumOSVersion</key>
-			<string>7.1</string>
+			<string>8.1</string>
             ]]>
         </InfoAdditions>
         <requestedDisplayResolution>high</requestedDisplayResolution>

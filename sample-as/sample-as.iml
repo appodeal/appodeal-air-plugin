@@ -5,23 +5,25 @@
       <configuration name="sample-as" target-platform="Mobile" pure-as="true" main-class="Main" output-file="Main.swf" output-folder="$MODULE_DIR$/out">
         <dependencies target-player="19.0">
           <entries>
-            <entry library-id="441843da-c7ba-48b6-8269-a185ee245a3a">
+            <entry library-id="3801bfec-7fca-41b2-8fc4-572fe5637196">
               <dependency linkage="Merged" />
             </entry>
-            <entry library-id="8ea90bb8-6a01-43ab-9737-4ddf7372827d">
+            <entry library-id="090b1bf8-5beb-4aad-9405-43a5b43bdb92">
               <dependency linkage="Merged" />
             </entry>
-            <entry library-id="1a16c1bb-c3a5-4ed3-b748-614c3aa4a190">
+            <entry library-id="e17ef2bc-d30d-4a8c-a6b2-3e493ba990b0">
               <dependency linkage="Merged" />
             </entry>
           </entries>
-          <sdk name="FlexSDK" />
+          <sdk name="AIRSDK_Compiler" />
         </dependencies>
         <compiler-options />
         <packaging-air-desktop />
         <packaging-android enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/Android-app.xml" package-file-name="Main">
           <files-to-package>
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/com" path-in-package="com" />
             <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/dex" path-in-package="dex" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/js" path-in-package="js" />
             <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/vg_close.png" path-in-package="vg_close.png" />
             <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/vg_cta.png" path-in-package="vg_cta.png" />
             <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/vg_cta_disabled.png" path-in-package="vg_cta_disabled.png" />
@@ -31,7 +33,7 @@
           </files-to-package>
         </packaging-android>
         <packaging-ios enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/IOS-app.xml" package-file-name="Main">
-          <AirSigningOptions sdk="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk" keystore-path="$MODULE_DIR$/../../../../Sabzira/ios/development-certificate.p12" provisioning-profile-path="$USER_HOME$/Library/MobileDevice/Provisioning Profiles/583244ca-3e27-4d0a-af61-e3299d77261d.mobileprovision" />
+          <AirSigningOptions sdk="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk" keystore-path="$MODULE_DIR$/../../../../Sabzira/Certificate/Certificates.p12" provisioning-profile-path="$MODULE_DIR$/../../../../Sabzira/Certificate/Provision_dev_pt1ios.mobileprovision" />
         </packaging-ios>
       </configuration>
     </configurations>
@@ -42,7 +44,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="FlexSDK" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="jdk" jdkName="AIRSDK_Compiler" jdkType="Flex SDK Type (new)" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library" exported="">
       <library>
@@ -82,17 +84,7 @@
     </orderEntry>
     <orderEntry type="module-library" exported="">
       <library type="flex">
-        <properties id="441843da-c7ba-48b6-8269-a185ee245a3a" />
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/Appodeal.ane!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library type="flex">
-        <properties id="8ea90bb8-6a01-43ab-9737-4ddf7372827d" />
+        <properties id="3801bfec-7fca-41b2-8fc4-572fe5637196" />
         <CLASSES>
           <root url="jar://$MODULE_DIR$/AppodealPlayServices.ane!/" />
         </CLASSES>
@@ -102,9 +94,19 @@
     </orderEntry>
     <orderEntry type="module-library" exported="">
       <library type="flex">
-        <properties id="1a16c1bb-c3a5-4ed3-b748-614c3aa4a190" />
+        <properties id="090b1bf8-5beb-4aad-9405-43a5b43bdb92" />
         <CLASSES>
           <root url="jar://$MODULE_DIR$/AppodealSupportLib.ane!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="e17ef2bc-d30d-4a8c-a6b2-3e493ba990b0" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Appodeal.ane!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

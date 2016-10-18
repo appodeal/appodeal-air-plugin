@@ -1,9 +1,7 @@
-package com.appodeal.aneplugin
-{
-import flash.events.Event;
+package com.appodeal.aneplugin {
+	import flash.events.Event;
 
-	public class AdEvent extends Event
-	{
+	public class AdEvent extends Event {
 		public static const INTERSTITIAL_SHOWN:String = "interstitialShown";
 		public static const INTERSTITIAL_LOADED:String = "interstitialLoaded";
 		public static const INTERSTITIAL_FAILED_TO_LOAD:String = "interstitialFailedToLoad";
@@ -36,13 +34,12 @@ import flash.events.Event;
 		internal var _amount:int;
 		internal var _name:String;
 
-		public function AdEvent(type:String)
-		{
+		public function AdEvent(type:String) {
 			super(type, false, false);
 		}
 
-		public function get amount():int {return _amount;}
-		public function get name():String {return _name;}
+		public function get amount():int { return _amount; }
+		public function get name():String { return _name; }
 	}
 
 }

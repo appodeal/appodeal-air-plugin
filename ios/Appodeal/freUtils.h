@@ -1,11 +1,3 @@
-//
-//  freUtils.m
-//  Appodeal
-//
-//  Created by Serious Sam on 27.11.15.
-//
-//
-
 #import <Foundation/Foundation.h>
 #import "FlashRuntimeExtensions.h"
 
@@ -24,6 +16,3 @@ double appodeal_freToDouble(FREObject object);
 
 FREObject appodeal_stringToFre(NSString *source);
 NSString* appodeal_freToString(FREObject object);
-
-NSString* appodeal_getIDFAValue();
-double appodeal_getDensityValue();
