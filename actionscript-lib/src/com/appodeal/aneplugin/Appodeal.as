@@ -116,8 +116,9 @@ package com.appodeal.aneplugin {
         public static const REWARDED_VIDEO:int = 128;
         public static const NON_SKIPPABLE_VIDEO:int = 256;
 
-        public static const VERSION:int = 1;
-        public static const BUILD:int = 8;
+        public static const VERSION:int = 2;
+        public static const BUILD:int = 1;
+        public static const PATCH:int = 1;
 
         private static const NOT_SUPPORTED_ON_IOS:String = 'not supported on iOS';
         private static const NOT_SUPPORTED_ON_ANDROID:String = 'not supported on ANDROID';
@@ -190,7 +191,6 @@ package com.appodeal.aneplugin {
 
             if((adType & INTERSTITIAL) > 0) {
                 AdType |= 1;
-
             }
 
             if((adType & SKIPPABLE_VIDEO) > 0) {
@@ -204,7 +204,8 @@ package com.appodeal.aneplugin {
             if((adType & REWARDED_VIDEO) > 0) {
                 if(isAndroid()) {
                     AdType |= 128;
-                } else if (isIOS()) {
+                }
+                if (isIOS()) {
                     AdType |= 16;
                 }
             }
@@ -212,7 +213,8 @@ package com.appodeal.aneplugin {
             if((adType & NON_SKIPPABLE_VIDEO) > 0) {
                 if(isAndroid()) {
                     AdType |= 128;
-                } else if (isIOS()) {
+                }
+                if (isIOS()) {
                     AdType |= 64;
                 }
             }
@@ -247,10 +249,32 @@ package com.appodeal.aneplugin {
                 if ((showType & NON_SKIPPABLE_VIDEO) > 0) {
                     return 7;
                 }
-            }
 
-            if(isAndroid()) {
-                ShowType = getAdtype(showType);
+            } else if(isAndroid()) {
+
+                if((showType & INTERSTITIAL) > 0) {
+                    ShowType |= 1;
+                }
+
+                if((showType & SKIPPABLE_VIDEO) > 0) {
+                    ShowType |= 2;
+                }
+
+                if((showType & BANNER) > 0) {
+                    ShowType |= 4;
+                }
+
+                if((showType & BANNER_BOTTOM) > 0) {
+                    ShowType |= 8;
+                }
+
+                if((showType & BANNER_TOP) > 0) {
+                    ShowType |= 16;
+                }
+
+                if(((showType & REWARDED_VIDEO) > 0) || ((showType & NON_SKIPPABLE_VIDEO) > 0)) {
+                    ShowType |= 128;
+                }
             }
 
             return ShowType;
@@ -291,7 +315,7 @@ package com.appodeal.aneplugin {
         }
 
         public function setAutoCache(adType:int, autoCache:Boolean):void {
-            call("setAutoCache", adType, autoCache);
+            call("setAutoCache", getAdtype(adType), autoCache);
         }
 
         public function setTesting(testing:Boolean):void {

@@ -11,7 +11,7 @@
             <entry library-id="090b1bf8-5beb-4aad-9405-43a5b43bdb92">
               <dependency linkage="Merged" />
             </entry>
-            <entry library-id="e17ef2bc-d30d-4a8c-a6b2-3e493ba990b0">
+            <entry library-id="d7b4e8fb-925d-4846-b315-93edf6624bf9">
               <dependency linkage="Merged" />
             </entry>
           </entries>
@@ -32,8 +32,8 @@
             <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/vg_privacy.png" path-in-package="vg_privacy.png" />
           </files-to-package>
         </packaging-android>
-        <packaging-ios enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/IOS-app.xml" package-file-name="Main">
-          <AirSigningOptions sdk="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk" keystore-path="$MODULE_DIR$/../../../../Sabzira/Certificate/Certificates.p12" provisioning-profile-path="$MODULE_DIR$/../../../../Sabzira/Certificate/Provision_dev_pt1ios.mobileprovision" />
+        <packaging-ios use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/IOS-app.xml" package-file-name="Main">
+          <AirSigningOptions sdk="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk" keystore-path="$MODULE_DIR$/../../../../Sabzira/Certificate/Certificates.p12" provisioning-profile-path="$MODULE_DIR$/../../../../Sabzira/Certificate/Provision_dev_pt1ios.mobileprovision" />
         </packaging-ios>
       </configuration>
     </configurations>
@@ -104,9 +104,9 @@
     </orderEntry>
     <orderEntry type="module-library" exported="">
       <library type="flex">
-        <properties id="e17ef2bc-d30d-4a8c-a6b2-3e493ba990b0" />
+        <properties id="d7b4e8fb-925d-4846-b315-93edf6624bf9" />
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/Appodeal.ane!/" />
+          <root url="jar://$MODULE_DIR$/AppodealAndroid.ane!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

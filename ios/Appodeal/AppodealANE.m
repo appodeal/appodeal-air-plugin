@@ -149,8 +149,8 @@ DEFINE_ANE_FUNCTION(appodeal_callbacks) {return [appodealAne callbacks:argc para
 }
 
 -(FREObject)setAutoCache:(uint32_t)argc paramseters:(FREObject []) argv {
-    DLog(@"AppodealANE.setAutoCache");
     int type = appodeal_freToInt(argv[0]);
+    DLog(@"AppodealANE.setAutoCache " + type);
     [Appodeal setAutocache:appodeal_freToBool(argv[1]) types:type];
     return NULL;
 }

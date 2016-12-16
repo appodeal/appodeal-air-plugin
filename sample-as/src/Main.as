@@ -1,6 +1,5 @@
 package {
 import com.appodeal.aneplugin.AdEvent;
-import com.appodeal.aneplugin.AdType;
 import com.appodeal.aneplugin.Appodeal;
 import com.appodeal.aneplugin.UserSettings;
 import com.appodeal.aneplugin.constants.Alcohol;
@@ -19,9 +18,9 @@ import flash.display.Sprite;
     public class Main extends Sprite {
 
         private var label:String = "Initialize";
-        private var label1:String = "Interstitial";
-        private var label2:String = "Video";
-        private var label3:String = "Rewarded Video";
+        private var label1:String = "Interstitial not ready";
+        private var label2:String = "Video not ready";
+        private var label3:String = "Rewarded Video not ready";
         private var labelInit:TextField = new TextField();
         private var labelVideo:TextField = new TextField();
         private var labelRewardedVideo:TextField = new TextField();
@@ -125,18 +124,22 @@ import flash.display.Sprite;
             InterstitialButton.addEventListener(MouseEvent.CLICK, function (event:MouseEvent):void {
                 if (appodeal.isLoaded(Appodeal.INTERSTITIAL)) {
                     appodeal.show(Appodeal.INTERSTITIAL);
+                } else {
+                    appodeal.cache(Appodeal.INTERSTITIAL);
                 }
             });
 
             VideoButton.addEventListener(MouseEvent.CLICK, function (event:MouseEvent):void {
-                if (appodeal.isLoaded(Appodeal.SKIPPABLE_VIDEO)) {
-                    appodeal.show(Appodeal.SKIPPABLE_VIDEO);
+                if (appodeal.isLoaded(Appodeal.INTERSTITIAL) || appodeal.isLoaded(Appodeal.SKIPPABLE_VIDEO)) {
+                    appodeal.showWithPlacement(Appodeal.INTERSTITIAL | Appodeal.SKIPPABLE_VIDEO, "placement_name");
                 }
             });
 
             RewardedVideoButton.addEventListener(MouseEvent.CLICK, function (event:MouseEvent):void {
                 if (appodeal.isLoaded(Appodeal.REWARDED_VIDEO)) {
                     appodeal.show(Appodeal.REWARDED_VIDEO);
+                } else {
+                    appodeal.cache(Appodeal.REWARDED_VIDEO);
                 }
             });
 
@@ -151,8 +154,8 @@ import flash.display.Sprite;
             appodeal = new Appodeal();
             userSettings = new UserSettings();
 
-            //var appKey:String = "fee50c333ff3825fd6ad6d38cff78154de3025546d47a84f";
-            var appKey:String = "722fb56678445f72fe2ec58b2fa436688b920835405d3ca6";
+            var appKey:String = "fee50c333ff3825fd6ad6d38cff78154de3025546d47a84f";
+            //var appKey:String = "722fb56678445f72fe2ec58b2fa436688b920835405d3ca6";
 
             labelInit.text = "Initialized v." + appodeal.getVersion();
 
@@ -177,6 +180,10 @@ import flash.display.Sprite;
             //appodeal.disableLocationPermissionCheck();
 
             appodeal.confirm(Appodeal.SKIPPABLE_VIDEO);
+
+            //appodeal.setAutoCache(Appodeal.INTERSTITIAL, false);
+            //appodeal.setAutoCache(Appodeal.SKIPPABLE_VIDEO, false);
+            //appodeal.setAutoCache(Appodeal.REWARDED_VIDEO, false);
             appodeal.initialize(appKey, Appodeal.INTERSTITIAL | Appodeal.REWARDED_VIDEO | Appodeal.SKIPPABLE_VIDEO | Appodeal.BANNER);
 
             appodeal.addEventListener(AdEvent.INTERSTITIAL_LOADED, onInterstitial);
@@ -225,12 +232,14 @@ import flash.display.Sprite;
         {
             switch (event.type) {
                 case AdEvent.SKIPPABLE_VIDEO_LOADED:
+                    labelVideo.text = "Video ready to play";
                     trace('onSkippableVideo: ad loaded');
                     break;
                 case AdEvent.SKIPPABLE_VIDEO_FAILED_TO_LOAD:
                     trace('onSkippableVideo: failed to load ad');
                     break;
                 case AdEvent.SKIPPABLE_VIDEO_SHOWN:
+                    labelVideo.text = label2;
                     trace('onSkippableVideo: ad shown');
                     break;
                 case AdEvent.SKIPPABLE_VIDEO_FINISHED:
@@ -263,11 +272,13 @@ import flash.display.Sprite;
             switch (event.type) {
                 case AdEvent.REWARDED_VIDEO_LOADED:
                     trace('onRewardedVideo: ad loaded');
+                    labelRewardedVideo.text = "Rewarded Video ready to play";
                     break;
                 case AdEvent.REWARDED_VIDEO_FAILED_TO_LOAD:
                     trace('onRewardedVideo: failed to load ad');
                     break;
                 case AdEvent.REWARDED_VIDEO_SHOWN:
+                    labelRewardedVideo.text = label3;
                     trace('onRewardedVideo: ad shown');
                     break;
                 case AdEvent.REWARDED_VIDEO_FINISHED:
@@ -283,12 +294,14 @@ import flash.display.Sprite;
         {
             switch (event.type) {
                 case AdEvent.INTERSTITIAL_LOADED:
+                    labelInterstitial.text = "Interstitial ready to show";
                     trace('onInterstitial: ad loaded');
                     break;
                 case AdEvent.INTERSTITIAL_FAILED_TO_LOAD:
                     trace('onInterstitial: failed to load ad');
                     break;
                 case AdEvent.INTERSTITIAL_SHOWN:
+                    labelInterstitial.text = label1;
                     trace('onInterstitial: ad shown');
                     break;
                 case AdEvent.INTERSTITIAL_CLICKED:
