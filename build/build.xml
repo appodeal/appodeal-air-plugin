@@ -77,7 +77,7 @@
     <exec dir="../bin" executable="${air.sdk}/bin/adt" failonerror="true">
 
       <arg value="-package"/>
-      <arg line="-storetype pkcs12 -keystore ../build/Sertificate.p12 -storepass 123"/>
+      <arg line="-storetype pkcs12 -keystore ../build/Sertificate.p12 -storepass 123 -tsa none"/>
       <arg value="-target"/>
       <arg value="ane"/>
       <arg value="../bin/Appodeal.ane"/>
@@ -95,7 +95,7 @@
     <exec dir="../bin" executable="${air.sdk}/bin/adt" failonerror="true">
 
       <arg value="-package"/>
-      <arg line="-storetype pkcs12 -keystore ../build/Sertificate.p12 -storepass 123"/>
+      <arg line="-storetype pkcs12 -keystore ../build/Sertificate.p12 -storepass 123 -tsa none"/>
       <arg value="-target"/>
       <arg value="ane"/>
       <arg value="../bin/AppodealAndroid.ane"/>

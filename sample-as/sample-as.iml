@@ -11,7 +11,7 @@
             <entry library-id="090b1bf8-5beb-4aad-9405-43a5b43bdb92">
               <dependency linkage="Merged" />
             </entry>
-            <entry library-id="d7b4e8fb-925d-4846-b315-93edf6624bf9">
+            <entry library-id="076f0821-76c9-4dd9-bd86-3f75581f4384">
               <dependency linkage="Merged" />
             </entry>
           </entries>
@@ -32,8 +32,8 @@
             <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/vg_privacy.png" path-in-package="vg_privacy.png" />
           </files-to-package>
         </packaging-android>
-        <packaging-ios use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/IOS-app.xml" package-file-name="Main">
-          <AirSigningOptions sdk="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk" keystore-path="$MODULE_DIR$/../../../../Sabzira/Certificate/Certificates.p12" provisioning-profile-path="$MODULE_DIR$/../../../../Sabzira/Certificate/Provision_dev_pt1ios.mobileprovision" />
+        <packaging-ios enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/IOS-app.xml" package-file-name="Main">
+          <AirSigningOptions sdk="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk" keystore-path="$MODULE_DIR$/../../../../../Macintosh HD/Users/NazarKozak/Dropbox/Sabzira/Certificate/Certificates_dev.p12" provisioning-profile-path="$MODULE_DIR$/../../../../../Macintosh HD/Users/NazarKozak/Dropbox/Sabzira/Certificate/Provision_dev_pt1ios.mobileprovision" />
         </packaging-ios>
       </configuration>
     </configurations>
@@ -104,9 +104,9 @@
     </orderEntry>
     <orderEntry type="module-library" exported="">
       <library type="flex">
-        <properties id="d7b4e8fb-925d-4846-b315-93edf6624bf9" />
+        <properties id="076f0821-76c9-4dd9-bd86-3f75581f4384" />
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/AppodealAndroid.ane!/" />
+          <root url="jar://$MODULE_DIR$/Appodeal.ane!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

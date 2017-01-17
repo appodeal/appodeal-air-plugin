@@ -179,13 +179,12 @@ import flash.display.Sprite;
 
             //appodeal.disableLocationPermissionCheck();
 
-            appodeal.confirm(Appodeal.SKIPPABLE_VIDEO);
+            //appodeal.confirm(Appodeal.SKIPPABLE_VIDEO);
 
             //appodeal.setAutoCache(Appodeal.INTERSTITIAL, false);
             //appodeal.setAutoCache(Appodeal.SKIPPABLE_VIDEO, false);
             //appodeal.setAutoCache(Appodeal.REWARDED_VIDEO, false);
-            appodeal.initialize(appKey, Appodeal.INTERSTITIAL | Appodeal.REWARDED_VIDEO | Appodeal.SKIPPABLE_VIDEO | Appodeal.BANNER);
-
+            appodeal.initialize(appKey, Appodeal.REWARDED_VIDEO | Appodeal.INTERSTITIAL | Appodeal.BANNER | Appodeal.SKIPPABLE_VIDEO);
             appodeal.addEventListener(AdEvent.INTERSTITIAL_LOADED, onInterstitial);
             appodeal.addEventListener(AdEvent.INTERSTITIAL_FAILED_TO_LOAD, onInterstitial);
             appodeal.addEventListener(AdEvent.INTERSTITIAL_SHOWN, onInterstitial);
