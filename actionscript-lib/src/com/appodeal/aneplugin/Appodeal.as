@@ -342,8 +342,8 @@ package com.appodeal.aneplugin {
             call("disableNetwork", network);
         }
 
-        public function disableNetworkForAdType(network:String, adType:int):void {
-            call("disableNetworkForAdType", network, adType);
+        public function disableNetworkForAdType(adType:int, network:String):void {
+            call("disableNetworkForAdType", adType, network);
         }
 
         public function trackInAppPurchase(amount:Number, currency:String):void {

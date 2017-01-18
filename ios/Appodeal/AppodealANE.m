@@ -224,11 +224,11 @@ DEFINE_ANE_FUNCTION(appodeal_callbacks) {return [appodealAne callbacks:argc para
 
 -(FREObject)disableNetwork:(uint32_t)argc paramseters:(FREObject []) argv {
     DLog(@"AppodealANE.disableNetwork");
-    [Appodeal disableNetworkForAdType:AppodealAdTypeInterstitial name:appodeal_freToString(argv[1])];
-    [Appodeal disableNetworkForAdType:AppodealAdTypeBanner name:appodeal_freToString(argv[1])];
-    [Appodeal disableNetworkForAdType:AppodealAdTypeSkippableVideo name:appodeal_freToString(argv[1])];
-    [Appodeal disableNetworkForAdType:AppodealAdTypeRewardedVideo name:appodeal_freToString(argv[1])];
-    [Appodeal disableNetworkForAdType:AppodealAdTypeNonSkippableVideo name:appodeal_freToString(argv[1])];
+    [Appodeal disableNetworkForAdType:AppodealAdTypeInterstitial name:appodeal_freToString(argv[0])];
+    [Appodeal disableNetworkForAdType:AppodealAdTypeBanner name:appodeal_freToString(argv[0])];
+    [Appodeal disableNetworkForAdType:AppodealAdTypeSkippableVideo name:appodeal_freToString(argv[0])];
+    [Appodeal disableNetworkForAdType:AppodealAdTypeRewardedVideo name:appodeal_freToString(argv[0])];
+    [Appodeal disableNetworkForAdType:AppodealAdTypeNonSkippableVideo name:appodeal_freToString(argv[0])];
     return NULL;
 }
 
