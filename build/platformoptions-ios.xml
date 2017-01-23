@@ -16,6 +16,7 @@
         <option>-framework MessageUI</option>
         <option>-framework StoreKit</option>
         <option>-framework SystemConfiguration</option>
+        <option>-framework SafariServices</option>
         <option>-framework CoreLocation</option>
         <option>-framework UIKit</option>
         <option>-framework Social</option>
