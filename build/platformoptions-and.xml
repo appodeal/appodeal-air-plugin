@@ -1,11 +1,11 @@
 <platform xmlns="http://ns.adobe.com/air/extension/16.0">
 <packagedDependencies>
-    <packagedDependency>appodeal-1.15.8.jar</packagedDependency>
+    <packagedDependency>appodeal-1.15.9.jar</packagedDependency>
     <packagedDependency>applovin-6.3.0.jar</packagedDependency>
-    <packagedDependency>chartboost-6.5.1.jar</packagedDependency>
+    <packagedDependency>chartboost-6.6.1.jar</packagedDependency>
     <packagedDependency>my-target-4.5.10.jar</packagedDependency>
     <packagedDependency>unity-ads-2.0.4.jar</packagedDependency>
-    <packagedDependency>yandex-metrica-2.51.jar</packagedDependency>
+    <packagedDependency>yandex-metrica-2.62.jar</packagedDependency>
     <packagedDependency>flurry-analytics-6.5.0.jar</packagedDependency>
 </packagedDependencies>
 </platform>
