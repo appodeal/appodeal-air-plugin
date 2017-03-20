@@ -117,8 +117,8 @@ package com.appodeal.aneplugin {
         public static const NON_SKIPPABLE_VIDEO:int = 256;
 
         public static const VERSION:int = 2;
-        public static const BUILD:int = 1;
-        public static const PATCH:int = 1;
+        public static const BUILD:int = 2;
+        public static const PATCH:int = 0;
 
         private static const NOT_SUPPORTED_ON_IOS:String = 'not supported on iOS';
         private static const NOT_SUPPORTED_ON_ANDROID:String = 'not supported on ANDROID';
@@ -287,6 +287,7 @@ package com.appodeal.aneplugin {
 
         public function initialize(appKey:String, adType:int):void {
             if (_isInited) {
+                this.log("Appodeal", "Appodeal AIR Native Extension v." + VERSION + BUILD + PATCH + "Initialized");
                 super.dispatchEvent(new AdError(AdError.REINITIALIZATION_ERROR));
                 return;
             }
