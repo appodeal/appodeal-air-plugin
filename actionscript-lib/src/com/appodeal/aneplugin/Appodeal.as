@@ -4,6 +4,7 @@ package com.appodeal.aneplugin {
     import flash.events.EventDispatcher;
     import flash.system.Capabilities;
     import flash.utils.getDefinitionByName;
+    import mx.utils.StringUtil;
 
     /**
      * @eventType com.appodeal.aneplugin.AdEvent.INTERSTITIAL_SHOWN
@@ -287,11 +288,13 @@ package com.appodeal.aneplugin {
 
         public function initialize(appKey:String, adType:int):void {
             if (_isInited) {
-                this.log("Appodeal", "Appodeal AIR Native Extension v." + VERSION + BUILD + PATCH + "Initialized");
                 super.dispatchEvent(new AdError(AdError.REINITIALIZATION_ERROR));
                 return;
             }
             _isInited = true;
+
+            var extString:String = StringUtil.substitute("Appodeal AIR Native Extension v.{0}.{1}.{2} Initialized", VERSION, BUILD, PATCH);
+            this.log("Appodeal", extString);
             call("initialize", appKey, getAdtype(adType));
         }
 
