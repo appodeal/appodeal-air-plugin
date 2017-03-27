@@ -4,7 +4,6 @@ package com.appodeal.aneplugin {
     import flash.events.EventDispatcher;
     import flash.system.Capabilities;
     import flash.utils.getDefinitionByName;
-    import mx.utils.StringUtil;
 
     /**
      * @eventType com.appodeal.aneplugin.AdEvent.INTERSTITIAL_SHOWN
@@ -117,9 +116,7 @@ package com.appodeal.aneplugin {
         public static const REWARDED_VIDEO:int = 128;
         public static const NON_SKIPPABLE_VIDEO:int = 256;
 
-        public static const VERSION:int = 2;
-        public static const BUILD:int = 2;
-        public static const PATCH:int = 0;
+        public static const VERSION:String = "2.2.0";
 
         private static const NOT_SUPPORTED_ON_IOS:String = 'not supported on iOS';
         private static const NOT_SUPPORTED_ON_ANDROID:String = 'not supported on ANDROID';
@@ -281,21 +278,9 @@ package com.appodeal.aneplugin {
             return ShowType;
         }
 
-        private static var _isInited:Boolean;
-        public function get isInitialized():Boolean {
-            return _isInited;
-        }
-
         public function initialize(appKey:String, adType:int):void {
-            if (_isInited) {
-                super.dispatchEvent(new AdError(AdError.REINITIALIZATION_ERROR));
-                return;
-            }
-            _isInited = true;
-
-            var extString:String = StringUtil.substitute("Appodeal AIR Native Extension v.{0}.{1}.{2} Initialized", VERSION, BUILD, PATCH);
-            this.log("Appodeal", extString);
             call("initialize", appKey, getAdtype(adType));
+            call("logDebug", "Appodeal", "Appodeal AIR Native Extension v." + VERSION + " Initialized");
         }
 
         public function show(adType:int):Boolean {
@@ -466,11 +451,6 @@ package com.appodeal.aneplugin {
         private var bannerEventCount:int = 0;
 
         public override function addEventListener(type:String, listener:Function, useCapture:Boolean = false, priority:int = 0, useWeakReference:Boolean = false):void {
-            if (!_isInited) {
-                super.dispatchEvent(new AdError(AdError.NOT_INITIALIZATION_ERROR));
-                return;
-            }
-            //
             if (!listenersCash[type]) listenersCash[type] = [];
             if (listenersCash[type].indexOf(listener) != -1) {
                 return;

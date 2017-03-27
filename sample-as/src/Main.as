@@ -179,7 +179,7 @@ import flash.display.Sprite;
 
             //appodeal.disableLocationPermissionCheck();
 
-            //appodeal.confirm(Appodeal.SKIPPABLE_VIDEO);
+            appodeal.confirm(Appodeal.SKIPPABLE_VIDEO);
 
             //appodeal.setAutoCache(Appodeal.INTERSTITIAL, false);
             //appodeal.setAutoCache(Appodeal.SKIPPABLE_VIDEO, false);
@@ -282,7 +282,7 @@ import flash.display.Sprite;
                     break;
                 case AdEvent.REWARDED_VIDEO_FINISHED:
                     videoShown = false;
-                    trace('onRewardedVideo: ad clicked, your reward:', event.amount, event.name);
+                    trace('onRewardedVideo: ad finished, your reward:', event.amount, event.name);
                     break;
                 case AdEvent.REWARDED_VIDEO_CLOSED:
                     trace('onRewardedVideo: ad closed');

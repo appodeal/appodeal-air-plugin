@@ -4,7 +4,6 @@ package com.appodeal.aneplugin {
     public class AdError extends ErrorEvent {
         public static const NOT_CREATION_ERROR:int = -1;
         public static const NOT_INITIALIZATION_ERROR:int = -2;
-        public static const REINITIALIZATION_ERROR:int = -3;
 
         private static function idToMsg(id:int):String {
             switch (id) {
@@ -12,8 +11,6 @@ package com.appodeal.aneplugin {
                     return 'Appodeal library where not created';
                 case NOT_INITIALIZATION_ERROR:
                     return 'Appodeal library where not initialized, need to call method Appodeal.initialize()';
-                case REINITIALIZATION_ERROR:
-                    return 'can not initialize Appodeal library more then once';
             }
             return null;
         }
