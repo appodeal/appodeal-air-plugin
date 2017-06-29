@@ -25,27 +25,6 @@ package com.appodeal.aneplugin {
     [Event(name="interstitialClicked", type="com.appodeal.aneplugin.AdEvent")]
 
     /**
-     * @eventType com.appodeal.aneplugin.AdEvent.SKIPPABLE_VIDEO_SHOWN
-     */
-    [Event(name="skippableVideoShown", type="com.appodeal.aneplugin.AdEvent")]
-    /**
-     * @eventType com.appodeal.aneplugin.AdEvent.SKIPPABLE_VIDEO_LOADED
-     */
-    [Event(name="skippableVideoLoaded", type="com.appodeal.aneplugin.AdEvent")]
-    /**
-     * @eventType com.appodeal.aneplugin.AdEvent.SKIPPABLE_VIDEO_FINISHED
-     */
-    [Event(name="skippableVideoFinished", type="com.appodeal.aneplugin.AdEvent")]
-    /**
-     * @eventType com.appodeal.aneplugin.AdEvent.SKIPPABLE_VIDEO_FAILED_TO_LOAD
-     */
-    [Event(name="skippableVideoFailedToLoad", type="com.appodeal.aneplugin.AdEvent")]
-    /**
-     * @eventType com.appodeal.aneplugin.AdEvent.SKIPPABLE_VIDEO_CLOSED
-     */
-    [Event(name="skippableVideoClosed", type="com.appodeal.aneplugin.AdEvent")]
-
-    /**
      * @eventType com.appodeal.aneplugin.AdEvent.NON_SKIPPABLE_VIDEO_SHOWN
      */
     [Event(name="nonSkippableVideoShown", type="com.appodeal.aneplugin.AdEvent")]
@@ -105,10 +84,15 @@ package com.appodeal.aneplugin {
     [Event(name="bannerFailedToLoad", type="com.appodeal.aneplugin.AdEvent")]
 
     public class Appodeal extends EventDispatcher {
-        public static const VERSION:int = 2;
-        public static const BUILD:int = 0;
 
-        internal static const NOT_SUPPORTED_ON_IOS:String = 'not supported on iOS';
+        public static const NONE:int = 0;
+        public static const INTERSTITIAL:int = 3;
+        public static const BANNER:int = 4;
+        public static const BANNER_BOTTOM:int = 8;
+        public static const BANNER_TOP:int = 16;
+        public static const REWARDED_VIDEO:int = 128;
+        public static const NON_SKIPPABLE_VIDEO:int = 256;
+
         internal static const NOT_SUPPORTED_ON_PLATFORM:String = 'not supported on this platform';
 
         public function Appodeal() {
@@ -129,6 +113,11 @@ package com.appodeal.aneplugin {
 
         public function initialize(appKey:String, adType:int):void {
             trace(NOT_SUPPORTED_ON_PLATFORM);
+        }
+
+        public function canShow(adType:int, placement:String):Boolean {
+            trace(NOT_SUPPORTED_ON_PLATFORM);
+            return false;
         }
 
         public function show(adType:int):Boolean {
@@ -187,10 +176,6 @@ package com.appodeal.aneplugin {
             trace(NOT_SUPPORTED_ON_PLATFORM);
         }
 
-        public function confirm(adType:int):void {
-            trace(NOT_SUPPORTED_ON_PLATFORM);
-        }
-
         public function trackInAppPurchase(amount:Number, currency:String):void {
             trace(NOT_SUPPORTED_ON_PLATFORM);
         }
@@ -213,7 +198,7 @@ package com.appodeal.aneplugin {
             return false;
         }
 
-        public function setOnLoadedTriggerBoth(adType:int, autoCache:Boolean):void {
+        public function setTriggerOnLoadedOnPrecache(adType:int, autoCache:Boolean):void {
             trace(NOT_SUPPORTED_ON_PLATFORM);
         }
 

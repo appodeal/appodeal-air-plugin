@@ -24,16 +24,10 @@
             <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/com" path-in-package="com" />
             <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/dex" path-in-package="dex" />
             <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/js" path-in-package="js" />
-            <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/vg_close.png" path-in-package="vg_close.png" />
-            <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/vg_cta.png" path-in-package="vg_cta.png" />
-            <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/vg_cta_disabled.png" path-in-package="vg_cta_disabled.png" />
-            <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/vg_mute_off.png" path-in-package="vg_mute_off.png" />
-            <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/vg_mute_on.png" path-in-package="vg_mute_on.png" />
-            <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/vg_privacy.png" path-in-package="vg_privacy.png" />
           </files-to-package>
         </packaging-android>
         <packaging-ios enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/IOS-app.xml" package-file-name="Main">
-          <AirSigningOptions sdk="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk" keystore-path="$MODULE_DIR$/../../../../../Macintosh HD/Users/NazarKozak/Dropbox/Sabzira/Certificate/Certificates_dev.p12" provisioning-profile-path="$MODULE_DIR$/../../../../../Macintosh HD/Users/NazarKozak/Dropbox/Sabzira/Certificate/Provision_dev_pt1ios.mobileprovision" />
+          <AirSigningOptions sdk="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk" keystore-path="$MODULE_DIR$/../../../../../Macintosh HD/Users/NazarKozak/Dropbox/Sabzira/Certificate/Certificates_dev.p12" provisioning-profile-path="$MODULE_DIR$/../../../../../Macintosh HD/Users/NazarKozak/Dropbox/Sabzira/Certificate/Provision_dev_pt1ios.mobileprovision" />
         </packaging-ios>
       </configuration>
     </configurations>

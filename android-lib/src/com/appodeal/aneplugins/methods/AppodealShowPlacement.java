@@ -7,6 +7,7 @@ import com.adobe.fre.FREContext;
 import com.adobe.fre.FREFunction;
 import com.adobe.fre.FREObject;
 import com.appodeal.ads.Appodeal;
+import com.appodeal.aneplugins.utils.AppodealANEUtils;
 
 public class AppodealShowPlacement implements FREFunction {
 
@@ -17,7 +18,7 @@ public class AppodealShowPlacement implements FREFunction {
             Activity activity = context.getActivity();
             int AdType = args[0].getAsInt();
             String placement = args[1].getAsString();
-            boolean ready = Appodeal.show(activity, AdType, placement);
+            boolean ready = Appodeal.show(activity, AppodealANEUtils.getAdType(AdType), placement);
             return FREObject.newObject(ready);
         } catch (Exception exception) {
             Log.w("AppodealPlugin", exception);

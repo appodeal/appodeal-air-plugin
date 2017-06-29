@@ -8,12 +8,6 @@ package com.appodeal.aneplugin {
 		public static const INTERSTITIAL_CLOSED:String = "interstitialClosed";
 		public static const INTERSTITIAL_CLICKED:String = "interstitialClicked";
 
-		public static const SKIPPABLE_VIDEO_SHOWN:String = "skippableVideoShown";
-		public static const SKIPPABLE_VIDEO_LOADED:String = "skippableVideoLoaded";
-		public static const SKIPPABLE_VIDEO_FINISHED:String = "skippableVideoFinished";
-		public static const SKIPPABLE_VIDEO_FAILED_TO_LOAD:String = "skippableVideoFailedToLoad";
-		public static const SKIPPABLE_VIDEO_CLOSED:String = "skippableVideoClosed";
-
 		public static const NON_SKIPPABLE_VIDEO_SHOWN:String = "nonSkippableVideoShown";
 		public static const NON_SKIPPABLE_VIDEO_LOADED:String = "nonSkippableVideoLoaded";
 		public static const NON_SKIPPABLE_VIDEO_FINISHED:String = "nonSkippableVideoFinished";

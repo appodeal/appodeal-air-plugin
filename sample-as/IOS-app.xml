@@ -3,8 +3,8 @@
 <application xmlns="http://ns.adobe.com/air/application/23.0">
     <id>com.sabzira.PianoTiles1ios</id>
 	<!--<id>com.appodeal.sandbox</id>-->
-    <filename>Piano Tiles</filename>
-    <name>Piano Tiles</name>
+    <filename>SandBox</filename>
+    <name>SandBox</name>
     <versionNumber>1.3.0</versionNumber>
     <extensions>
         <extensionID>com.appodeal.aneplugin</extensionID>

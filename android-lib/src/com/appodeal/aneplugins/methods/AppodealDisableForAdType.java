@@ -7,6 +7,7 @@ import com.adobe.fre.FREContext;
 import com.adobe.fre.FREFunction;
 import com.adobe.fre.FREObject;
 import com.appodeal.ads.Appodeal;
+import com.appodeal.aneplugins.utils.AppodealANEUtils;
 
 public class AppodealDisableForAdType implements FREFunction {
 
@@ -17,7 +18,7 @@ public class AppodealDisableForAdType implements FREFunction {
             String network = args[0].getAsString();
             int AdType = args[1].getAsInt();
             Activity activity = context.getActivity();
-            Appodeal.disableNetwork(activity, network, AdType);
+            Appodeal.disableNetwork(activity, network, AppodealANEUtils.getAdType(AdType));
         } catch (Exception e) {
             Log.e("AppodealPlugin", String.valueOf(e));
         }

@@ -6,6 +6,7 @@ import com.adobe.fre.FREContext;
 import com.adobe.fre.FREFunction;
 import com.adobe.fre.FREObject;
 import com.appodeal.ads.Appodeal;
+import com.appodeal.aneplugins.utils.AppodealANEUtils;
 
 public class AppodealSetAutoCache implements FREFunction {
 
@@ -15,7 +16,7 @@ public class AppodealSetAutoCache implements FREFunction {
         try {
             int AdType = args[0].getAsInt();
             boolean autoCache = args[1].getAsBool();
-            Appodeal.setAutoCache(AdType, autoCache);
+            Appodeal.setAutoCache(AppodealANEUtils.getAdType(AdType), autoCache);
         } catch (Exception exception) {
             Log.w("AppodealPlugin", exception);
         }

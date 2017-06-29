@@ -27,27 +27,6 @@ package com.appodeal.aneplugin {
     [Event(name="interstitialClicked", type="com.appodeal.aneplugin.AdEvent")]
 
     /**
-     * @eventType com.appodeal.aneplugin.AdEvent.SKIPPABLE_VIDEO_SHOWN
-     */
-    [Event(name="skippableVideoShown", type="com.appodeal.aneplugin.AdEvent")]
-    /**
-     * @eventType com.appodeal.aneplugin.AdEvent.SKIPPABLE_VIDEO_LOADED
-     */
-    [Event(name="skippableVideoLoaded", type="com.appodeal.aneplugin.AdEvent")]
-    /**
-     * @eventType com.appodeal.aneplugin.AdEvent.SKIPPABLE_VIDEO_FINISHED
-     */
-    [Event(name="skippableVideoFinished", type="com.appodeal.aneplugin.AdEvent")]
-    /**
-     * @eventType com.appodeal.aneplugin.AdEvent.SKIPPABLE_VIDEO_FAILED_TO_LOAD
-     */
-    [Event(name="skippableVideoFailedToLoad", type="com.appodeal.aneplugin.AdEvent")]
-    /**
-     * @eventType com.appodeal.aneplugin.AdEvent.SKIPPABLE_VIDEO_CLOSED
-     */
-    [Event(name="skippableVideoClosed", type="com.appodeal.aneplugin.AdEvent")]
-
-    /**
      * @eventType com.appodeal.aneplugin.AdEvent.NON_SKIPPABLE_VIDEO_SHOWN
      */
     [Event(name="nonSkippableVideoShown", type="com.appodeal.aneplugin.AdEvent")]
@@ -108,15 +87,14 @@ package com.appodeal.aneplugin {
     public class Appodeal extends EventDispatcher {
 
         public static const NONE:int = 0;
-        public static const INTERSTITIAL:int = 1;
-        public static const SKIPPABLE_VIDEO:int = 2;
+        public static const INTERSTITIAL:int = 3;
         public static const BANNER:int = 4;
         public static const BANNER_BOTTOM:int = 8;
         public static const BANNER_TOP:int = 16;
         public static const REWARDED_VIDEO:int = 128;
         public static const NON_SKIPPABLE_VIDEO:int = 256;
 
-        public static const VERSION:String = "2.2.0";
+        public static const VERSION:String = "3.0.0";
 
         private static const NOT_SUPPORTED_ON_IOS:String = 'not supported on iOS';
         private static const NOT_SUPPORTED_ON_ANDROID:String = 'not supported on ANDROID';
@@ -143,16 +121,14 @@ package com.appodeal.aneplugin {
             callbackIndexes = {};
             if (isIOS()) {
                 callbackIndexes['setInterstitialCallbacks'] = [true, 1];
-                callbackIndexes['setSkippableVideoCallbacks'] = [true, 2];
-                callbackIndexes['setRewardedVideoCallbacks'] = [true, 3];
-                callbackIndexes['setNonSkippableVideoCallbacks'] = [true, 4];
-                callbackIndexes['setBannerCallbacks'] = [true, 5];
+                callbackIndexes['setRewardedVideoCallbacks'] = [true, 2];
+                callbackIndexes['setNonSkippableVideoCallbacks'] = [true, 3];
+                callbackIndexes['setBannerCallbacks'] = [true, 4];
                 //
                 callbackIndexes['removeInterstitialCallbacks'] = [false, 1];
-                callbackIndexes['removeSkippableVideoCallbacks'] = [false, 2];
-                callbackIndexes['removeRewardedVideoCallbacks'] = [false, 3];
-                callbackIndexes['removeNonSkippableVideoCallbacks'] = [false, 4];
-                callbackIndexes['removeBannerCallbacks'] = [false, 5];
+                callbackIndexes['removeRewardedVideoCallbacks'] = [false, 2];
+                callbackIndexes['removeNonSkippableVideoCallbacks'] = [false, 3];
+                callbackIndexes['removeBannerCallbacks'] = [false, 4];
             }
         }
 
@@ -184,111 +160,20 @@ package com.appodeal.aneplugin {
             return Capabilities.manufacturer.indexOf("iOS") != -1;
         }
 
-        private static function getAdtype(adType:int):int {
-            var AdType:int = 0;
-
-            if((adType & INTERSTITIAL) > 0) {
-                AdType |= 1;
-            }
-
-            if((adType & SKIPPABLE_VIDEO) > 0) {
-                AdType |= 2;
-            }
-
-            if(((adType & BANNER) > 0) || ((adType & BANNER_BOTTOM) > 0) || ((adType & BANNER_TOP) > 0)) {
-                AdType |= 4;
-            }
-
-            if((adType & REWARDED_VIDEO) > 0) {
-                if(isAndroid()) {
-                    AdType |= 128;
-                }
-                if (isIOS()) {
-                    AdType |= 16;
-                }
-            }
-
-            if((adType & NON_SKIPPABLE_VIDEO) > 0) {
-                if(isAndroid()) {
-                    AdType |= 128;
-                }
-                if (isIOS()) {
-                    AdType |= 64;
-                }
-            }
-
-            return AdType;
-        }
-
-        private static function getShowtype(showType:int):int {
-            var ShowType:int = 0;
-
-            if(isIOS()) {
-                if (((showType & INTERSTITIAL) > 0) ) {
-                    return 1;
-                } else if (((showType & SKIPPABLE_VIDEO) > 0)) {
-                    return 2;
-                } else if (((showType & INTERSTITIAL) > 0) && ((showType & SKIPPABLE_VIDEO) > 0)) {
-                    return 3;
-                }
-
-                if ((showType & BANNER_TOP) > 0) {
-                    return 4;
-                }
-
-                if ((showType & BANNER_BOTTOM) > 0) {
-                    return 5;
-                }
-
-                if ((showType & REWARDED_VIDEO) > 0) {
-                    return 6;
-                }
-
-                if ((showType & NON_SKIPPABLE_VIDEO) > 0) {
-                    return 7;
-                }
-
-            } else if(isAndroid()) {
-
-                if((showType & INTERSTITIAL) > 0) {
-                    ShowType |= 1;
-                }
-
-                if((showType & SKIPPABLE_VIDEO) > 0) {
-                    ShowType |= 2;
-                }
-
-                if((showType & BANNER) > 0) {
-                    ShowType |= 4;
-                }
-
-                if((showType & BANNER_BOTTOM) > 0) {
-                    ShowType |= 8;
-                }
-
-                if((showType & BANNER_TOP) > 0) {
-                    ShowType |= 16;
-                }
-
-                if(((showType & REWARDED_VIDEO) > 0) || ((showType & NON_SKIPPABLE_VIDEO) > 0)) {
-                    ShowType |= 128;
-                }
-            }
-
-            return ShowType;
-        }
-
         public function initialize(appKey:String, adType:int):void {
-            call("initialize", appKey, getAdtype(adType));
-            call("logDebug", "Appodeal", "Appodeal AIR Native Extension v." + VERSION + " Initialized");
+            call("initialize", appKey, adType);
         }
 
         public function show(adType:int):Boolean {
-            return call("show", getShowtype(adType));
+            return call("show", adType);
+        }
+
+        public function canShow(adType:int, placement:String):Boolean {
+            return call("canShow", adType, placement);
         }
 
         public function showWithPlacement(adType:int, placement:String):Boolean {
-            return call("showPlacement", getShowtype(adType), placement);
+            return call("showPlacement", adType, placement);
         }
 
         public function hide(adType:int = 4):void {
@@ -296,15 +181,11 @@ package com.appodeal.aneplugin {
         }
 
         public function cache(adType:int):void {
-            call("cache", getAdtype(adType));
-        }
-
-        public function confirm(adType:int):void {
-            call("confirm", adType);
+            call("cache", adType);
         }
 
         public function setAutoCache(adType:int, autoCache:Boolean):void {
-            call("setAutoCache", getAdtype(adType), autoCache);
+            call("setAutoCache", adType, autoCache);
         }
 
         public function setTesting(testing:Boolean):void {
@@ -364,7 +245,7 @@ package com.appodeal.aneplugin {
         }
 
         public function isLoaded(adType:int):Boolean {
-            return call("isLoaded", getShowtype(adType));
+            return call("isLoaded", adType);
         }
 
         public function setBannerAnimation(bannerAnimation:Boolean):void {
@@ -415,12 +296,12 @@ package com.appodeal.aneplugin {
             return call("isPrecache", adType);
         }
 
-        public function setOnLoadedTriggerBoth(adType:int, autoCache:Boolean):void {
+        public function setTriggerOnLoadedOnPrecache(adType:int, autoCache:Boolean):void {
             if (isIOS()) {
                 trace(NOT_SUPPORTED_ON_IOS);
                 return;
             }
-            call("setOnLoadedTriggerBoth", adType, autoCache);
+            call("setTriggerOnLoadedOnPrecache", adType, autoCache);
         }
 
         public function getDensity():Number {
@@ -445,7 +326,6 @@ package com.appodeal.aneplugin {
 
         private var listenersCash:Object = {};
         private var interstitialEventCount:int = 0;
-        private var skippableVideoEventCount:int = 0;
         private var nonSkippableVideoEventCount:int = 0;
         private var rewardedVideoEventCount:int = 0;
         private var bannerEventCount:int = 0;
@@ -467,14 +347,6 @@ package com.appodeal.aneplugin {
                 case AdEvent.INTERSTITIAL_CLOSED:
                     if (!interstitialEventCount) call('setInterstitialCallbacks');
                     interstitialEventCount++;
-                    break;
-                case AdEvent.SKIPPABLE_VIDEO_LOADED:
-                case AdEvent.SKIPPABLE_VIDEO_FINISHED:
-                case AdEvent.SKIPPABLE_VIDEO_FAILED_TO_LOAD:
-                case AdEvent.SKIPPABLE_VIDEO_SHOWN:
-                case AdEvent.SKIPPABLE_VIDEO_CLOSED:
-                    if (!skippableVideoEventCount) call('setSkippableVideoCallbacks');
-                    skippableVideoEventCount++;
                     break;
                 case AdEvent.NON_SKIPPABLE_VIDEO_LOADED:
                 case AdEvent.NON_SKIPPABLE_VIDEO_FINISHED:
@@ -521,14 +393,6 @@ package com.appodeal.aneplugin {
                     interstitialEventCount--;
                     if (!interstitialEventCount) call('removeInterstitialCallbacks');
                     break;
-                case AdEvent.SKIPPABLE_VIDEO_LOADED:
-                case AdEvent.SKIPPABLE_VIDEO_FINISHED:
-                case AdEvent.SKIPPABLE_VIDEO_FAILED_TO_LOAD:
-                case AdEvent.SKIPPABLE_VIDEO_SHOWN:
-                case AdEvent.SKIPPABLE_VIDEO_CLOSED:
-                    skippableVideoEventCount--;
-                    if (!skippableVideoEventCount) call('removeSkippableVideoCallbacks');
-                    break;
                 case AdEvent.NON_SKIPPABLE_VIDEO_LOADED:
                 case AdEvent.NON_SKIPPABLE_VIDEO_FINISHED:
                 case AdEvent.NON_SKIPPABLE_VIDEO_FAILED_TO_LOAD:
@@ -572,22 +436,6 @@ package com.appodeal.aneplugin {
                     break;
                 case "INTERSTITIAL_CLOSED":
                     e = new AdEvent(AdEvent.INTERSTITIAL_CLOSED);
-                    break;
-
-                case "SKIPPABLE_VIDEO_LOADED":
-                    e = new AdEvent(AdEvent.SKIPPABLE_VIDEO_LOADED);
-                    break;
-                case "SKIPPABLE_VIDEO_FINISHED":
-                    e = new AdEvent(AdEvent.SKIPPABLE_VIDEO_FINISHED);
-                    break;
-                case "SKIPPABLE_VIDEO_FAILED_TO_LOAD":
-                    e = new AdEvent(AdEvent.SKIPPABLE_VIDEO_FAILED_TO_LOAD);
-                    break;
-                case "SKIPPABLE_VIDEO_SHOWN":
-                    e = new AdEvent(AdEvent.SKIPPABLE_VIDEO_SHOWN);
-                    break;
-                case "SKIPPABLE_VIDEO_CLOSED":
-                    e = new AdEvent(AdEvent.SKIPPABLE_VIDEO_CLOSED);
                     break;
 
                 case "NON_SKIPPABLE_VIDEO_LOADED":

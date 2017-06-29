@@ -1,4 +1,5 @@
 package com.appodeal.aneplugin {
+
     import flash.events.ErrorEvent;
 
     public class AdError extends ErrorEvent {

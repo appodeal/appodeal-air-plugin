@@ -16,9 +16,9 @@ void AppodealExtensionContextInitializer(
         MAP_FUNCTION(appodeal_initialize, NULL, appodeal_initialize),
         MAP_FUNCTION(appodeal_show, NULL, appodeal_show),
         MAP_FUNCTION(appodeal_showPlacement, NULL, appodeal_showPlacement),
+        MAP_FUNCTION(appodeal_canShow, NULL, appodeal_canShow),
         MAP_FUNCTION(appodeal_hide, NULL, appodeal_hide),
         MAP_FUNCTION(appodeal_cache, NULL, appodeal_cache),
-        MAP_FUNCTION(appodeal_confirm, NULL, appodeal_confirm),
         MAP_FUNCTION(appodeal_setAutoCache, NULL, appodeal_setAutoCache),
         MAP_FUNCTION(appodeal_setTesting, NULL, appodeal_setTesting),
         MAP_FUNCTION(appodeal_setLogging, NULL, appodeal_setLogging),
@@ -67,9 +67,9 @@ void AppodealExtensionFinalizer(void * extData) {
 DEFINE_ANE_FUNCTION(appodeal_initialize)  {return [appodealAne initialize:argc paramseters:argv];}
 DEFINE_ANE_FUNCTION(appodeal_show)  {return [appodealAne show:argc paramseters:argv];}
 DEFINE_ANE_FUNCTION(appodeal_showPlacement)  {return [appodealAne showPlacement:argc paramseters:argv];}
+DEFINE_ANE_FUNCTION(appodeal_canShow)  {return [appodealAne canShow:argc paramseters:argv];}
 DEFINE_ANE_FUNCTION(appodeal_hide) {return [appodealAne hide:argc paramseters:argv];}
 DEFINE_ANE_FUNCTION(appodeal_cache) {return [appodealAne cache:argc paramseters:argv];}
-DEFINE_ANE_FUNCTION(appodeal_confirm) {return [appodealAne confirm:argc paramseters:argv];}
 DEFINE_ANE_FUNCTION(appodeal_setAutoCache) {return [appodealAne setAutoCache:argc paramseters:argv];}
 DEFINE_ANE_FUNCTION(appodeal_setTesting) {return [appodealAne setTesting:argc paramseters:argv];}
 DEFINE_ANE_FUNCTION(appodeal_setLogging) {return [appodealAne setLogging:argc paramseters:argv];}
@@ -96,6 +96,57 @@ DEFINE_ANE_FUNCTION(appodeal_callbacks) {return [appodealAne callbacks:argc para
 @implementation AppodealANE
 @synthesize context, rootController;
 
+-(int) getAdType:(int)adType {
+    AppodealAdType type = 0;
+    
+    if((adType & 3) > 0) {
+        type |= AppodealAdTypeInterstitial;
+    }
+    
+    if((adType & 4) > 0 || (adType & 8) > 0 || (adType & 16) > 0) {
+        type |= AppodealAdTypeBanner;
+    }
+    
+    if((adType & 128) > 0) {
+        type |= AppodealAdTypeRewardedVideo;
+    }
+    
+    if((adType & 256) > 0) {
+        type |= AppodealAdTypeNonSkippableVideo;
+    }
+    
+    return type;
+}
+
+-(int) getShowType:(int)adType {
+    
+    if((adType & 3) > 0) {
+        return AppodealShowStyleInterstitial;
+    }
+    
+    if((adType & 4) > 0) {
+        return AppodealShowStyleBannerBottom;
+    }
+        
+    if((adType & 8) > 0) {
+        return AppodealShowStyleBannerBottom;
+    }
+    
+    if((adType & 16) > 0) {
+        return AppodealShowStyleBannerTop;
+    }
+    
+    if((adType & 128) > 0) {
+        return AppodealShowStyleRewardedVideo;
+    }
+    
+    if((adType & 256) > 0) {
+        return AppodealShowStyleNonSkippableVideo;
+    }
+    
+    return 0;
+}
+
 -(void) initContext:(FREContext)ctx {
     context = ctx;
     //
@@ -109,22 +160,29 @@ DEFINE_ANE_FUNCTION(appodeal_callbacks) {return [appodealAne callbacks:argc para
     
     [Appodeal setFramework:APDFrameworkAdobeAir];
     NSString* key = appodeal_freToString(argv[0]);
-    
     int type = appodeal_freToInt(argv[1]);
-    [Appodeal initializeWithApiKey:key types:type];
+    [Appodeal initializeWithApiKey:key types:[self getAdType:type]];
     return NULL;
 }
 
 -(FREObject)show:(uint32_t)argc paramseters:(FREObject []) argv {
     DLog(@"AppodealANE.show");
     int showStyle = appodeal_freToInt(argv[0]);
-    BOOL res = [Appodeal showAd:showStyle rootViewController:rootController];
+    BOOL res = [Appodeal showAd:[self getShowType:showStyle] rootViewController:rootController];
     return appodeal_boolToFre(res);
 }
+
 -(FREObject)showPlacement:(uint32_t)argc paramseters:(FREObject []) argv {
     DLog(@"AppodealANE.showWithPlacement");
     int showStyle = appodeal_freToInt(argv[0]);
-    BOOL res = [Appodeal showAd:showStyle forPlacement:appodeal_freToString(argv[1]) rootViewController:rootController];
+    BOOL res = [Appodeal showAd:[self getShowType:showStyle] forPlacement:appodeal_freToString(argv[1]) rootViewController:rootController];
+    return appodeal_boolToFre(res);
+}
+
+-(FREObject)canShow:(uint32_t)argc paramseters:(FREObject []) argv {
+    DLog(@"AppodealANE.canShowAd");
+    int showStyle = appodeal_freToInt(argv[0]);
+    BOOL res = [Appodeal canShowAd:[self getShowType:showStyle] forPlacement:appodeal_freToString(argv[1])];
     return appodeal_boolToFre(res);
 }
 
@@ -141,17 +199,10 @@ DEFINE_ANE_FUNCTION(appodeal_callbacks) {return [appodealAne callbacks:argc para
     return NULL;
 }
 
--(FREObject)confirm:(uint32_t)argc paramseters:(FREObject []) argv {
-    DLog(@"AppodealANE.cacheBanner");
-    int type = appodeal_freToInt(argv[0]);
-    [Appodeal confirmUsage:type];
-    return NULL;
-}
-
 -(FREObject)setAutoCache:(uint32_t)argc paramseters:(FREObject []) argv {
     int type = appodeal_freToInt(argv[0]);
     DLog(@"AppodealANE.setAutoCache " + type);
-    [Appodeal setAutocache:appodeal_freToBool(argv[1]) types:type];
+    [Appodeal setAutocache:appodeal_freToBool(argv[1]) types:[self getAdType:type]];
     return NULL;
 }
 
@@ -234,7 +285,7 @@ DEFINE_ANE_FUNCTION(appodeal_callbacks) {return [appodealAne callbacks:argc para
 
 -(FREObject)disableNetworkForAdType:(uint32_t)argc paramseters:(FREObject []) argv {
     DLog(@"AppodealANE.disableNetworkForAdType");
-    [Appodeal disableNetworkForAdType:appodeal_freToInt(argv[0]) name:appodeal_freToString(argv[1])];
+    [Appodeal disableNetworkForAdType:[self getAdType:appodeal_freToInt(argv[0])] name:appodeal_freToString(argv[1])];
     return NULL;
 }
 
@@ -247,7 +298,7 @@ DEFINE_ANE_FUNCTION(appodeal_callbacks) {return [appodealAne callbacks:argc para
 -(FREObject)isLoaded:(uint32_t)argc paramseters:(FREObject []) argv {
     DLog(@"AppodealANE.isReadyForShowWithStyle");
     int showStyle = appodeal_freToInt(argv[0]);
-    return appodeal_boolToFre([Appodeal isReadyForShowWithStyle:showStyle]);
+    return appodeal_boolToFre([Appodeal isReadyForShowWithStyle:[self getShowType:showStyle]]);
 }
 
 -(FREObject)setCustomBooleanRule:(uint32_t)argc paramseters:(FREObject []) argv {
@@ -298,7 +349,6 @@ DEFINE_ANE_FUNCTION(appodeal_callbacks) {return [appodealAne callbacks:argc para
 
 -(FREObject)userSettings:(uint32_t)argc paramseters:(FREObject []) argv {
     int code = appodeal_freToInt(argv[0]);
-    NSDate* date;
     uint value;
 
     switch (code) {
@@ -306,34 +356,11 @@ DEFINE_ANE_FUNCTION(appodeal_callbacks) {return [appodealAne callbacks:argc para
             [Appodeal setUserAge:appodeal_freToInt(argv[1])];
             break;
         case 2:
-            value = appodeal_freToUint(argv[1]);
-            date = [NSDate dateWithTimeIntervalSince1970:value];
-            [Appodeal setUserBirthday:date];
-            break;
-        case 3:
-            [Appodeal setUserEmail:appodeal_freToString(argv[1])];
-            break;
-        case 4:
-            [Appodeal setUserInterests:appodeal_freToString(argv[1])];
-            break;
-        case 5:
             value = appodeal_freToInt(argv[1]);
             if (value) value = 3-value;
             [Appodeal setUserGender:value];
             break;
-        case 6:
-            [Appodeal setUserOccupation:appodeal_freToInt(argv[1])];
-            break;
-        case 7:
-            [Appodeal setUserRelationship:appodeal_freToInt(argv[1])];
-            break;
-        case 8:
-            [Appodeal setUserSmokingAttitude:appodeal_freToInt(argv[1])];
-            break;
-        case 9:
-            [Appodeal setUserAlcoholAttitude:appodeal_freToInt(argv[1])];
-            break;
-        case 10:
+        case 3:
             [Appodeal setUserId:appodeal_freToString(argv[1])];
             break;
     }
@@ -349,15 +376,12 @@ DEFINE_ANE_FUNCTION(appodeal_callbacks) {return [appodealAne callbacks:argc para
             [Appodeal setInterstitialDelegate:isSet?self:nil];
             break;
         case 2:
-            [Appodeal setSkippableVideoDelegate:isSet?self:nil];
-            break;
-        case 3:
             [Appodeal setRewardedVideoDelegate:isSet?self:nil];
             break;
-        case 4:
+        case 3:
             [Appodeal setNonSkippableVideoDelegate:isSet?self:nil];
             break;
-        case 5:
+        case 4:
             [Appodeal setBannerDelegate:isSet?self:nil];
             break;
     }
@@ -401,31 +425,6 @@ DEFINE_ANE_FUNCTION(appodeal_callbacks) {return [appodealAne callbacks:argc para
 - (void)bannerDidShow {
     DLog(@"AppodealANE.bannerDidClick");
     DISPATCH_STATUS_EVENT(context, "BANNER_SHOWN", "");
-}
-
-
-- (void)skippableVideoDidLoadAd {
-    DLog(@"AppodealANE.skippableVideoDidLoadAd");
-    DISPATCH_STATUS_EVENT(context, "SKIPPABLE_VIDEO_LOADED", "");
-}
-- (void)skippableVideoDidFailToLoadAd {
-    DLog(@"AppodealANE.skippableVideoDidFailToLoadAd");
-    DISPATCH_STATUS_EVENT(context, "SKIPPABLE_VIDEO_FAILED_TO_LOAD", "");
-}
-- (void)skippableVideoDidPresent {
-    DLog(@"AppodealANE.skippableVideoDidPresent");
-    DISPATCH_STATUS_EVENT(context, "SKIPPABLE_VIDEO_SHOWN", "");
-}
-- (void)skippableVideoWillDismiss {
-    DLog(@"AppodealANE.skippableVideoWillDismiss");
-    DISPATCH_STATUS_EVENT(context, "SKIPPABLE_VIDEO_CLOSED", "");
-}
-- (void)skippableVideoDidClick {
-    DLog(@"AppodealANE.skippableVideoDidClick");
-}
-- (void)skippableVideoDidFinish {
-    DLog(@"AppodealANE.skippableVideoDidFinish");
-    DISPATCH_STATUS_EVENT(context, "SKIPPABLE_VIDEO_FINISHED", "");
 }
 
 

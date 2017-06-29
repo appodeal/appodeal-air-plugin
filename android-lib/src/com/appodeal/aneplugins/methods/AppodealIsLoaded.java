@@ -6,6 +6,7 @@ import com.adobe.fre.FREContext;
 import com.adobe.fre.FREFunction;
 import com.adobe.fre.FREObject;
 import com.appodeal.ads.Appodeal;
+import com.appodeal.aneplugins.utils.AppodealANEUtils;
 
 public class AppodealIsLoaded implements FREFunction {
 
@@ -14,7 +15,7 @@ public class AppodealIsLoaded implements FREFunction {
 
         try {
             int AdType = args[0].getAsInt();
-            boolean isLoaded = Appodeal.isLoaded(AdType);
+            boolean isLoaded = Appodeal.isLoaded(AppodealANEUtils.getAdType(AdType));
             return FREObject.newObject(isLoaded);
         } catch (Exception exception) {
             Log.w("AppodealPlugin", exception);

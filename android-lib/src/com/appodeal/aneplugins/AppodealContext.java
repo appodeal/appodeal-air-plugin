@@ -24,23 +24,20 @@ public class AppodealContext extends FREContext {
         map.put("appodeal_initialize", new AppodealInitialize());
         map.put("appodeal_setBannerCallbacks", new AppodealSetBannerCallbacks());
         map.put("appodeal_setInterstitialCallbacks", new AppodealSetInterstitialCallbacks());
-        map.put("appodeal_setSkippableVideoCallbacks", new AppodealSetSkippableVideoCallbacks());
         map.put("appodeal_setNonSkippableVideoCallbacks", new AppodealSetNonSkippableVideoCallbacks());
         map.put("appodeal_setRewardedVideoCallbacks", new AppodealSetRewardedVideoCallbacks());
-        map.put("appodeal_removeAllCallbacks", new AppodealRemoveAllListeners());
         map.put("appodeal_removeBannerCallbacks", new AppodealRemoveBannerListener());
         map.put("appodeal_removeInterstitialCallbacks", new AppodealRemoveInterstitialListener());
-        map.put("appodeal_removeSkippableVideoCallbacks", new AppodealRemoveSkippableVideoListener());
         map.put("appodeal_removeNonSkippableVideoCallbacks", new AppodealRemoveNonSkippableVideoListener());
         map.put("appodeal_removeRewardedVideoCallbacks", new AppodealRemoveRewardedVideoListener());
+        map.put("appodeal_canShow", new AppodealCanShow());
         map.put("appodeal_show", new AppodealShow());
         map.put("appodeal_showPlacement", new AppodealShowPlacement());
         map.put("appodeal_isLoaded", new AppodealIsLoaded());
         map.put("appodeal_isPrecache", new AppodealIsPrecache());
         map.put("appodeal_cache", new AppodealCache());
-        map.put("appodeal_confirm", new AppodealConfirm());
         map.put("appodeal_setAutoCache", new AppodealSetAutoCache());
-        map.put("appodeal_setOnLoadedTriggerBoth", new AppodealSetOnLoadedTriggerBoth());
+        map.put("appodeal_setTriggerOnLoadedOnPrecache", new AppodealSetTriggerOnLoadedOnPrecache());
         map.put("appodeal_disableNetwork", new AppodealDisableNetwork());
         map.put("appodeal_disableNetworkForAdType", new AppodealDisableForAdType());
         map.put("appodeal_hide", new AppodealHide());
@@ -67,14 +64,7 @@ public class AppodealContext extends FREContext {
 
         //UserSettings
         map.put("appodeal_userSettings_setAge", new AppodealUserSettingsSetAge());
-        map.put("appodeal_userSettings_setBirthday", new AppodealUserSettingsSetBirthday());
-        map.put("appodeal_userSettings_setEmail", new AppodealUserSettingsSetEmail());
-        map.put("appodeal_userSettings_setInterests", new AppodealUserSettingsSetInterests());
-        map.put("appodeal_userSettings_setAlcohol", new AppodealUserSettingsSetAlcohol());
         map.put("appodeal_userSettings_setGender", new AppodealUserSettingsSetGender());
-        map.put("appodeal_userSettings_setOccupation", new AppodealUserSettingsSetOccupation());
-        map.put("appodeal_userSettings_setRelation", new AppodealUserSettingsSetRelation());
-        map.put("appodeal_userSettings_setSmoking", new AppodealUserSettingsSetSmoking());
         map.put("appodeal_userSettings_setUserId", new AppodealUserSettingsSetUserId());
         return map;
     }

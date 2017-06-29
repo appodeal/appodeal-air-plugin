@@ -9,6 +9,7 @@ import com.adobe.fre.FREObject;
 import com.appodeal.ads.Appodeal;
 import com.appodeal.aneplugins.AppodealContext;
 import com.appodeal.aneplugins.utils.AdvertisingIDTask;
+import com.appodeal.aneplugins.utils.AppodealANEUtils;
 
 public class AppodealInitialize implements FREFunction {
 
@@ -21,8 +22,8 @@ public class AppodealInitialize implements FREFunction {
         try {
             String AppKey = args[0].getAsString();
             int AdType = args[1].getAsInt();
-            Appodeal.disableNetwork(activity, "cheetah");
-            Appodeal.initialize(activity, AppKey, AdType);
+            Appodeal.setFramework("air", "3.0.0");
+            Appodeal.initialize(activity, AppKey, AppodealANEUtils.getAdType(AdType));
 
             new AdvertisingIDTask(activity);
         } catch (Exception e) {

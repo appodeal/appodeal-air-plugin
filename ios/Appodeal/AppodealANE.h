@@ -23,9 +23,9 @@ void AppodealExtensionFinalizer(void * extData);
 DEFINE_ANE_FUNCTION(appodeal_initialize);
 DEFINE_ANE_FUNCTION(appodeal_show);
 DEFINE_ANE_FUNCTION(appodeal_showPlacement);
+DEFINE_ANE_FUNCTION(appodeal_canShow);
 DEFINE_ANE_FUNCTION(appodeal_hide);
 DEFINE_ANE_FUNCTION(appodeal_cache);
-DEFINE_ANE_FUNCTION(appodeal_confirm);
 DEFINE_ANE_FUNCTION(appodeal_setAutoCache);
 DEFINE_ANE_FUNCTION(appodeal_setTesting);
 DEFINE_ANE_FUNCTION(appodeal_setLogging);
@@ -48,19 +48,22 @@ DEFINE_ANE_FUNCTION(appodeal_getDensity);
 DEFINE_ANE_FUNCTION(appodeal_userSettings);
 DEFINE_ANE_FUNCTION(appodeal_callbacks);
 
-@interface AppodealANE : NSObject <AppodealInterstitialDelegate, AppodealBannerDelegate, AppodealSkippableVideoDelegate, AppodealRewardedVideoDelegate, AppodealNonSkippableVideoDelegate>
+@interface AppodealANE : NSObject <AppodealInterstitialDelegate, AppodealBannerDelegate, AppodealRewardedVideoDelegate, AppodealNonSkippableVideoDelegate>
 
 @property (nonatomic) FREObject context;
 @property (nonatomic, strong) UIViewController* rootController;
 
 -(void)initContext:(FREContext)context;
 
+-(int) getAdType:(int)adType;
+-(int) getShowType:(int)adType;
+
 -(FREObject)initialize:(uint32_t)argc paramseters:(FREObject []) argv;
 -(FREObject)show:(uint32_t)argc paramseters:(FREObject []) argv;
 -(FREObject)showPlacement:(uint32_t)argc paramseters:(FREObject []) argv;
+-(FREObject)canShow:(uint32_t)argc paramseters:(FREObject []) argv;
 -(FREObject)hide:(uint32_t)argc paramseters:(FREObject []) argv;
 -(FREObject)cache:(uint32_t)argc paramseters:(FREObject []) argv;
--(FREObject)confirm:(uint32_t)argc paramseters:(FREObject []) argv;
 -(FREObject)setAutoCache:(uint32_t)argc paramseters:(FREObject []) argv;
 -(FREObject)setTesting:(uint32_t)argc paramseters:(FREObject []) argv;
 -(FREObject)setLogging:(uint32_t)argc paramseters:(FREObject []) argv;

@@ -1,14 +1,11 @@
 package {
-import com.appodeal.aneplugin.AdEvent;
-import com.appodeal.aneplugin.Appodeal;
-import com.appodeal.aneplugin.UserSettings;
-import com.appodeal.aneplugin.constants.Alcohol;
-import com.appodeal.aneplugin.constants.Gender;
-import com.appodeal.aneplugin.constants.Occupation;
-import com.appodeal.aneplugin.constants.Relation;
-import com.appodeal.aneplugin.constants.Smoking;
 
-import flash.display.Sprite;
+    import com.appodeal.aneplugin.AdEvent;
+    import com.appodeal.aneplugin.Appodeal;
+    import com.appodeal.aneplugin.UserSettings;
+    import com.appodeal.aneplugin.constants.Gender;
+
+    import flash.display.Sprite;
     import flash.events.MouseEvent;
     import flash.text.TextField;
     import flash.text.TextFormat;
@@ -19,10 +16,8 @@ import flash.display.Sprite;
 
         private var label:String = "Initialize";
         private var label1:String = "Interstitial not ready";
-        private var label2:String = "Video not ready";
         private var label3:String = "Rewarded Video not ready";
         private var labelInit:TextField = new TextField();
-        private var labelVideo:TextField = new TextField();
         private var labelRewardedVideo:TextField = new TextField();
         private var labelInterstitial:TextField = new TextField();
         private var labelHide:TextField = new TextField();
@@ -35,7 +30,7 @@ import flash.display.Sprite;
 
         public function Main() {
 
-            this.stage.scaleMode = StageScaleMode.EXACT_FIT;
+            this.stage.scaleMode = StageScaleMode.SHOW_ALL;
             this.stage.align = StageAlign.TOP;
 
             appodeal = new Appodeal();
@@ -73,21 +68,6 @@ import flash.display.Sprite;
             InterstitialButton.x = 50;
             InterstitialButton.y = 70;
             addChild(InterstitialButton);
-
-
-            labelVideo.defaultTextFormat = new TextFormat('Verdana', 12, 0x000000);
-            labelVideo.text = label2;
-            labelVideo.width = 400;
-            labelVideo.height = 80;
-            labelVideo.background = labelVideo.border = true;
-            labelVideo.selectable = false;
-            var VideoButton:Sprite = new Sprite();
-            VideoButton.mouseChildren = false;
-            VideoButton.addChild(labelVideo);
-            VideoButton.buttonMode = true;
-            VideoButton.x = 50;
-            VideoButton.y = 120;
-            addChild(VideoButton);
 
             labelHide.defaultTextFormat = new TextFormat('Verdana', 12, 0x000000);
             labelHide.text = "Banner";
@@ -129,12 +109,6 @@ import flash.display.Sprite;
                 }
             });
 
-            VideoButton.addEventListener(MouseEvent.CLICK, function (event:MouseEvent):void {
-                if (appodeal.isLoaded(Appodeal.INTERSTITIAL) || appodeal.isLoaded(Appodeal.SKIPPABLE_VIDEO)) {
-                    appodeal.showWithPlacement(Appodeal.INTERSTITIAL | Appodeal.SKIPPABLE_VIDEO, "placement_name");
-                }
-            });
-
             RewardedVideoButton.addEventListener(MouseEvent.CLICK, function (event:MouseEvent):void {
                 if (appodeal.isLoaded(Appodeal.REWARDED_VIDEO)) {
                     appodeal.show(Appodeal.REWARDED_VIDEO);
@@ -154,20 +128,13 @@ import flash.display.Sprite;
             appodeal = new Appodeal();
             userSettings = new UserSettings();
 
-            var appKey:String = "fee50c333ff3825fd6ad6d38cff78154de3025546d47a84f";
-            //var appKey:String = "722fb56678445f72fe2ec58b2fa436688b920835405d3ca6";
+            //var appKey:String = "fee50c333ff3825fd6ad6d38cff78154de3025546d47a84f";
+            var appKey:String = "722fb56678445f72fe2ec58b2fa436688b920835405d3ca6";
 
             labelInit.text = "Initialized v." + appodeal.getVersion();
 
             userSettings.setAge(25);
-            userSettings.setAlcohol(Alcohol.NEUTRAL);
-            userSettings.setBirthday("01/01/1990");
-            userSettings.setEmail("hi@appodeal.com");
             userSettings.setGender(Gender.MALE);
-            userSettings.setInterests("gym, cinema, cars, games, tvshows");
-            userSettings.setOccupation(Occupation.WORK);
-            userSettings.setRelationship(Relation.DATING);
-            userSettings.setSmoking(Smoking.NEUTRAL);
             userSettings.setUserId("custom_user_id");
 
             appodeal.set728x90Banners(false);
@@ -179,12 +146,8 @@ import flash.display.Sprite;
 
             //appodeal.disableLocationPermissionCheck();
 
-            appodeal.confirm(Appodeal.SKIPPABLE_VIDEO);
+            appodeal.initialize(appKey, Appodeal.REWARDED_VIDEO | Appodeal.INTERSTITIAL | Appodeal.BANNER);
 
-            //appodeal.setAutoCache(Appodeal.INTERSTITIAL, false);
-            //appodeal.setAutoCache(Appodeal.SKIPPABLE_VIDEO, false);
-            //appodeal.setAutoCache(Appodeal.REWARDED_VIDEO, false);
-            appodeal.initialize(appKey, Appodeal.REWARDED_VIDEO | Appodeal.INTERSTITIAL | Appodeal.BANNER | Appodeal.SKIPPABLE_VIDEO);
             appodeal.addEventListener(AdEvent.INTERSTITIAL_LOADED, onInterstitial);
             appodeal.addEventListener(AdEvent.INTERSTITIAL_FAILED_TO_LOAD, onInterstitial);
             appodeal.addEventListener(AdEvent.INTERSTITIAL_SHOWN, onInterstitial);
@@ -195,11 +158,6 @@ import flash.display.Sprite;
             appodeal.addEventListener(AdEvent.REWARDED_VIDEO_SHOWN, onRewardedVideo);
             appodeal.addEventListener(AdEvent.REWARDED_VIDEO_FINISHED, onRewardedVideo);
             appodeal.addEventListener(AdEvent.REWARDED_VIDEO_CLOSED, onRewardedVideo);
-            appodeal.addEventListener(AdEvent.SKIPPABLE_VIDEO_LOADED, onSkippableVideo);
-            appodeal.addEventListener(AdEvent.SKIPPABLE_VIDEO_FAILED_TO_LOAD, onSkippableVideo);
-            appodeal.addEventListener(AdEvent.SKIPPABLE_VIDEO_SHOWN, onSkippableVideo);
-            appodeal.addEventListener(AdEvent.SKIPPABLE_VIDEO_CLOSED, onSkippableVideo);
-            appodeal.addEventListener(AdEvent.SKIPPABLE_VIDEO_FINISHED, onSkippableVideo);
             appodeal.addEventListener(AdEvent.BANNER_LOADED, onBanner);
             appodeal.addEventListener(AdEvent.BANNER_FAILED_TO_LOAD, onBanner);
             appodeal.addEventListener(AdEvent.BANNER_SHOWN, onBanner);
@@ -224,28 +182,6 @@ import flash.display.Sprite;
                     break;
                 case AdEvent.NON_SKIPPABLE_VIDEO_CLOSED:
                     trace('onNonSkippableVideo: ad closed');
-                    break;
-            }
-        }
-        private function onSkippableVideo(event:AdEvent):void
-        {
-            switch (event.type) {
-                case AdEvent.SKIPPABLE_VIDEO_LOADED:
-                    labelVideo.text = "Video ready to play";
-                    trace('onSkippableVideo: ad loaded');
-                    break;
-                case AdEvent.SKIPPABLE_VIDEO_FAILED_TO_LOAD:
-                    trace('onSkippableVideo: failed to load ad');
-                    break;
-                case AdEvent.SKIPPABLE_VIDEO_SHOWN:
-                    labelVideo.text = label2;
-                    trace('onSkippableVideo: ad shown');
-                    break;
-                case AdEvent.SKIPPABLE_VIDEO_FINISHED:
-                    trace('onSkippableVideo: ad clicked, your reward:', event.amount, event.name);
-                    break;
-                case AdEvent.SKIPPABLE_VIDEO_CLOSED:
-                    trace('onSkippableVideo: ad closed');
                     break;
             }
         }

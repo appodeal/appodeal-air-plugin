@@ -8,6 +8,7 @@ import com.adobe.fre.FREFunction;
 import com.adobe.fre.FREObject;
 import com.appodeal.ads.Appodeal;
 import com.appodeal.aneplugins.AppodealContext;
+import com.appodeal.aneplugins.utils.AppodealANEUtils;
 
 public class AppodealHide implements FREFunction {
 
@@ -19,7 +20,7 @@ public class AppodealHide implements FREFunction {
 
         try {
             int AdType = args[0].getAsInt();
-            Appodeal.hide(activity, AdType);
+            Appodeal.hide(activity, AppodealANEUtils.getAdType(AdType));
         } catch (Exception e) {
             Log.i("AppodealPlugin", e.toString());
         }
