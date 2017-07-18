@@ -195,7 +195,7 @@ DEFINE_ANE_FUNCTION(appodeal_callbacks) {return [appodealAne callbacks:argc para
 -(FREObject)cache:(uint32_t)argc paramseters:(FREObject []) argv {
     DLog(@"AppodealANE.cacheBanner");
     int type = appodeal_freToInt(argv[0]);
-    [Appodeal cacheAd:type];
+    [Appodeal cacheAd:[self getAdType:type]];
     return NULL;
 }
 

@@ -22,7 +22,6 @@ package {
         private var labelInterstitial:TextField = new TextField();
         private var labelHide:TextField = new TextField();
 
-
         private var appodeal:Appodeal;
         private var userSettings:UserSettings;
 
@@ -147,6 +146,8 @@ package {
             //appodeal.disableLocationPermissionCheck();
 
             appodeal.initialize(appKey, Appodeal.REWARDED_VIDEO | Appodeal.INTERSTITIAL | Appodeal.BANNER);
+
+            appodeal.setAutoCache(Appodeal.REWARDED_VIDEO, false);
 
             appodeal.addEventListener(AdEvent.INTERSTITIAL_LOADED, onInterstitial);
             appodeal.addEventListener(AdEvent.INTERSTITIAL_FAILED_TO_LOAD, onInterstitial);
