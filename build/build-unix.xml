@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="all" name="Air Native Extension Build Scripts">
+
+  <!-- Config -->
+  <property name="tempbuild" value="../temp/ios/build"/>
+  <property name="air.sdk" value="/Users/NazarKozak/Library/Android/sdk/AIRSDK_Compiler"/>
+
+  <!-- All -->
+  <target depends="clean,prepare,package,package_andr" description="Full build of extension" name="all" />
+  <!-- Android -->
+  <target depends="clean,prepare,package_andr" description="Full build of extension" name="android" />
+
+
+  <!-- Clean -->
+  <target description="Clean the output and temp folders" name="clean">
+    <delete dir="../bin"/>
+    <mkdir dir="../bin"/>
+    <mkdir dir="../bin/temp"/>
+    <mkdir dir="../bin/ios"/>
+    <mkdir dir="../bin/android"/>
+    <mkdir dir="../bin/platforms"/>
+
+    <delete dir="../bin-androidsupport"/>
+    <mkdir dir="../bin-androidsupport"/>
+
+    <delete dir="../bin-playservices"/>
+    <mkdir dir="../bin-playservices"/>
+  </target>
+
+  <!-- Prepare -->
+  <target description="Prepare files, libraries, sdks..." name="prepare">
+    <copy file="../out/actionscript-lib.swc" todir="../bin/"/>
+    <copy file="../build/extension.xml" todir="../bin/"/>
+
+    <!-- Unzip swc's -->
+    <unzip dest="../bin/temp" overwrite="true" src="../out/actionscript-lib.swc">
+      <patternset>
+        <include name="library.swf"/>
+      </patternset>
+    </unzip>
+    <unzip dest="../bin" overwrite="true" src="../out/actionscript-def.swc">
+      <patternset>
+        <include name="library.swf"/>
+      </patternset>
+    </unzip>
+
+    <!-- Copy to iOS -->
+    <copy overwrite="true" todir="../bin/ios/Appodeal.framework">
+      <fileset dir="../ios/sdk/Appodeal.framework">
+        <include name="**/*"/>
+      </fileset>
+    </copy>
+    <copy overwrite="true" todir="../bin/ios/">
+      <fileset dir="../ios/sdk/Resources/">
+        <include name="**/*"/>
+      </fileset>
+    </copy>
+    <copy file="../out/AppodealDevice.a" tofile="../bin/ios/AppodealDevice.a"/>
+    <copy file="../bin/temp/library.swf" tofile="../bin/ios/library.swf"/>
+    <copy file="../build/platformoptions-ios.xml" todir="../bin/platforms/"/>
+
+    <!-- Copy to Android -->
+    <copy overwrite="true" todir="../bin/android/">
+      <fileset dir="../android/dependency/">
+        <include name="**/*"/>
+      </fileset>
+    </copy>
+    <copy file="../out/AppodealANE.jar" overwrite="true" tofile="../bin/android/AppodealANE.jar"/>
+    <copy file="../bin/temp/library.swf" tofile="../bin/android/library.swf"/>
+    <copy file="../build/platformoptions-and.xml" todir="../bin/platforms/"/>
+
+  </target>
+
+
+  <!-- Package -->
+  <target description="Create the extension package" name="package">
+    <exec dir="../bin" executable="${air.sdk}/bin/adt" failonerror="true">
+
+      <arg value="-package"/>
+      <arg line="-storetype pkcs12 -keystore ../build/Sertificate.p12 -storepass 123 -tsa none"/>
+      <arg value="-target"/>
+      <arg value="ane"/>
+      <arg value="../bin/Appodeal.ane"/>
+      <arg value="../bin/extension.xml"/>
+      <arg line="-swc ../bin/actionscript-lib.swc"/>
+      <arg line="-platform Android-ARM -C android/ . -platformoptions ../bin/platforms/platformoptions-and.xml"/>
+      <arg line="-platform Android-x86 -C android/ . -platformoptions ../bin/platforms/platformoptions-and.xml"/>
+      <arg line="-platform iPhone-ARM -C ios/ . -platformoptions ../bin/platforms/platformoptions-ios.xml"/>
+      <arg line="-platform default library.swf "/>
+    </exec>
+  </target>
+
+  <target description="Create the extension package" name="package_andr">
+    <copy file="../build/extension_android.xml" tofile="../bin/extension.xml" overwrite="true"/>
+    <exec dir="../bin" executable="${air.sdk}/bin/adt" failonerror="true">
+
+      <arg value="-package"/>
+      <arg line="-storetype pkcs12 -keystore ../build/Sertificate.p12 -storepass 123 -tsa none"/>
+      <arg value="-target"/>
+      <arg value="ane"/>
+      <arg value="../bin/AppodealAndroid.ane"/>
+      <arg value="../bin/extension.xml"/>
+      <arg line="-swc ../bin/actionscript-lib.swc"/>
+      <arg line="-platform Android-ARM -C android/ . -platformoptions ../bin/platforms/platformoptions-and.xml"/>
+      <arg line="-platform Android-x86 -C android/ . -platformoptions ../bin/platforms/platformoptions-and.xml"/>
+      <arg line="-platform default library.swf "/>
+    </exec>
+  </target>
+
+  <target description="Create the extension package" name="play_services">
+    <copy file="../out/playservices-lib.swc" todir="../bin-playservices/"/>
+    <unzip dest="../bin-playservices/temp" overwrite="true" src="../out/playservices-lib.swc">
+      <patternset>
+        <include name="library.swf"/>
+      </patternset>
+    </unzip>
+    <copy file="../build/extension_playservices.xml" tofile="../bin-playservices/extension_playservices.xml" overwrite="true"/>
+    <copy overwrite="true" todir="../bin-playservices/android/">
+      <fileset dir="../android/dependency-android-playservices/">
+        <include name="**/*"/>
+      </fileset>
+    </copy>
+    <copy file="../out/PlayservicesANE.jar" overwrite="true" tofile="../bin-playservices/android/PlayservicesANE.jar"/>
+    <copy file="../bin-playservices/temp/library.swf" tofile="../bin-playservices/android/library.swf"/>
+    <copy file="../bin-playservices/temp/library.swf" tofile="../bin-playservices/library.swf"/>
+    <copy file="../build/platformoptions-playservices.xml" todir="../bin-playservices/platforms/"/>
+
+    <exec dir="../bin-playservices" executable="${air.sdk}/bin/adt" failonerror="true">
+
+      <arg value="-package"/>
+      <arg line="-storetype pkcs12 -keystore ../build/Sertificate.p12 -storepass 123"/>
+      <arg value="-target"/>
+      <arg value="ane"/>
+      <arg value="../bin-playservices/AppodealPlayServices.ane"/>
+      <arg value="../bin-playservices/extension_playservices.xml"/>
+      <arg line="-swc ../bin-playservices/playservices-lib.swc"/>
+      <arg line="-platform Android-ARM -C android/ . -platformoptions ../bin-playservices/platforms/platformoptions-playservices.xml"/>
+      <arg line="-platform Android-x86 -C android/ . -platformoptions ../bin-playservices/platforms/platformoptions-playservices.xml"/>
+      <arg line="-platform default library.swf "/>
+    </exec>
+  </target>
+
+  <target description="Create the extension package" name="android_support">
+    <copy file="../out/androidsupport-lib.swc" todir="../bin-androidsupport/"/>
+    <unzip dest="../bin-androidsupport/temp" overwrite="true" src="../out/androidsupport-lib.swc">
+      <patternset>
+        <include name="library.swf"/>
+      </patternset>
+    </unzip>
+    <copy file="../build/extension_androidsupport.xml" tofile="../bin-androidsupport/extension_androidsupport.xml" overwrite="true"/>
+    <copy overwrite="true" todir="../bin-androidsupport/android/">
+      <fileset dir="../android/dependency-android-support/">
+        <include name="**/*"/>
+      </fileset>
+    </copy>
+    <copy file="../out/SupportANE.jar" overwrite="true" tofile="../bin-androidsupport/android/SupportANE.jar"/>
+    <copy file="../bin-androidsupport/temp/library.swf" tofile="../bin-androidsupport/android/library.swf"/>
+    <copy file="../bin-androidsupport/temp/library.swf" tofile="../bin-androidsupport/library.swf"/>
+    <copy file="../build/platformoptions-support.xml" todir="../bin-androidsupport/platforms/"/>
+
+    <exec dir="../bin-androidsupport" executable="${air.sdk}/bin/adt" failonerror="true">
+
+      <arg value="-package"/>
+      <arg line="-storetype pkcs12 -keystore ../build/Sertificate.p12 -storepass 123"/>
+      <arg value="-target"/>
+      <arg value="ane"/>
+      <arg value="../bin-androidsupport/AppodealSupportLib.ane"/>
+      <arg value="../bin-androidsupport/extension_androidsupport.xml"/>
+      <arg line="-swc ../bin-androidsupport/androidsupport-lib.swc"/>
+      <arg line="-platform Android-ARM -C android/ . -platformoptions ../bin-androidsupport/platforms/platformoptions-support.xml"/>
+      <arg line="-platform Android-x86 -C android/ . -platformoptions ../bin-androidsupport/platforms/platformoptions-support.xml"/>
+      <arg line="-platform default library.swf "/>
+    </exec>
+  </target>
+
+</project>
