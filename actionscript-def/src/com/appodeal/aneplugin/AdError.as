@@ -10,7 +10,7 @@ package com.appodeal.aneplugin {
                 case NOT_CREATION_ERROR:
                     return 'Library was not created';
                 case NOT_INITIALIZATION_ERROR:
-                    return 'Library was not initialized. You need to call Appodeal.initialize';
+                    return 'Library was not initialized. You need to call Appodeal.initialize first';
             }
             return null;
         }

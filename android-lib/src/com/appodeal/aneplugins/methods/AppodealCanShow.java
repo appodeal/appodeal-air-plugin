@@ -15,8 +15,7 @@ public class AppodealCanShow implements FREFunction {
 
         try {
             int AdType = args[0].getAsInt();
-            String placement = args[1].getAsString();
-            boolean ready = Appodeal.canShow(AppodealANEUtils.getAdType(AdType), placement);
+            boolean ready = Appodeal.canShow(AppodealANEUtils.getAdType(AdType));
             return FREObject.newObject(ready);
         } catch (Exception exception) {
             Log.w("AppodealPlugin", exception);

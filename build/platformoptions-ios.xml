@@ -3,34 +3,31 @@
     <linkerOptions>
         <option>-ObjC</option>
         <option>-ios_version_min 8.1</option>
+
         <option>-framework AdSupport</option>
-        <option>-framework AVFoundation</option>
         <option>-framework AudioToolbox</option>
-        <option>-framework JavaScriptCore</option>
-        <option>-framework Twitter</option>
+        <option>-framework AVFoundation</option>
+        <option>-framework CFNetwork</option>
         <option>-framework CoreGraphics</option>
+        <option>-framework CoreImage</option>
+        <option>-framework CoreLocation</option>
+        <option>-framework CoreMedia</option>
         <option>-framework CoreMotion</option>
-        <option>-framework CoreBluetooth</option>
-        <option>-framework EventKit</option>
+        <option>-framework CoreTelephony</option>
         <option>-framework EventKitUI</option>
+        <option>-framework GLKit</option>
+        <option>-framework ImageIO</option>
+        <option>-framework MediaPlayer</option>
         <option>-framework MessageUI</option>
+        <option>-framework MobileCoreServices</option>
+        <option>-framework QuartzCore</option>
+        <option>-framework Security</option>
         <option>-framework StoreKit</option>
         <option>-framework SystemConfiguration</option>
-        <option>-framework SafariServices</option>
-        <option>-framework CoreLocation</option>
+        <option>-framework Twitter</option>
         <option>-framework UIKit</option>
-        <option>-framework Social</option>
         <option>-framework WebKit</option>
-        <option>-framework CoreMedia</option>
-        <option>-framework MediaPlayer</option>
-        <option>-framework QuartzCore</option>
-        <option>-framework CoreImage</option>
-        <option>-framework CoreFoundation</option>
-        <option>-framework CFNetwork</option>
-        <option>-framework GLKit</option>
-        <option>-framework CoreTelephony</option>
-        <option>-framework MobileCoreServices</option>
-        <option>-framework Security</option>
+
         <option>-lc++</option>
         <option>-lz</option>
         <option>-lsqlite3</option>

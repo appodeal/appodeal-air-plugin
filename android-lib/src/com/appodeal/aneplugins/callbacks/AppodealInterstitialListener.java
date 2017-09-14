@@ -27,8 +27,9 @@ public class AppodealInterstitialListener implements InterstitialCallbacks {
     }
 
     @Override
-    public void onInterstitialLoaded(boolean arg0) {
-        _ctx.dispatchStatusEventAsync("INTERSTITIAL_LOADED", "");
+    public void onInterstitialLoaded(boolean isPrecache) {
+        String level = "<info precache='" + isPrecache + "' ></info>";
+        _ctx.dispatchStatusEventAsync("INTERSTITIAL_LOADED", level);
     }
 
     @Override

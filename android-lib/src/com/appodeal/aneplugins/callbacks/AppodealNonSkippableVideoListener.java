@@ -33,7 +33,8 @@ public class AppodealNonSkippableVideoListener implements NonSkippableVideoCallb
 
     @Override
     public void onNonSkippableVideoClosed(boolean finished) {
-        _ctx.dispatchStatusEventAsync("NON_SKIPPABLE_VIDEO_CLOSED", "");
+        String level = "<info finished='" + finished + "' ></info>";
+        _ctx.dispatchStatusEventAsync("NON_SKIPPABLE_VIDEO_CLOSED", level);
     }
 
 }

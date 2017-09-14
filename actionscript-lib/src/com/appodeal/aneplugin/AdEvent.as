@@ -28,12 +28,22 @@ package com.appodeal.aneplugin {
 		internal var _amount:int;
 		internal var _name:String;
 
+		internal var _isPrecacheInterstitial:Boolean;
+		internal var _isPrecacheBanner:Boolean;
+		internal var _isFinishedRewardedVideo:Boolean;
+		internal var _isFinishedNonSkippableVideo:Boolean;
+
 		public function AdEvent(type:String) {
 			super(type, false, false);
 		}
 
 		public function get amount():int { return _amount; }
 		public function get name():String { return _name; }
+
+		public function get isPrecacheInterstitial():Boolean { return _isPrecacheInterstitial; }
+		public function get isPrecacheBanner():Boolean { return _isPrecacheBanner; }
+		public function get isFinishedRewardedVideo():Boolean { return _isFinishedRewardedVideo; }
+		public function get isFinishedNonSkippableVideo():Boolean { return _isFinishedNonSkippableVideo; }
 	}
 
 }

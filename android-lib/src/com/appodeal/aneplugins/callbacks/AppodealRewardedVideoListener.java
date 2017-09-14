@@ -28,7 +28,8 @@ public class AppodealRewardedVideoListener implements RewardedVideoCallbacks {
 
     @Override
     public void onRewardedVideoClosed(boolean finished) {
-        _ctx.dispatchStatusEventAsync("REWARDED_VIDEO_CLOSED", "");
+        String level = "<info finished='" + finished + "' ></info>";
+        _ctx.dispatchStatusEventAsync("REWARDED_VIDEO_CLOSED", level);
     }
 
     @Override

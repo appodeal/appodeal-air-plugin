@@ -1,6 +1,8 @@
 package com.appodeal.aneplugin {
 
-    import flash.events.StatusEvent;
+import com.appodeal.aneplugin.constants.LogLevel;
+
+import flash.events.StatusEvent;
     import flash.events.EventDispatcher;
     import flash.system.Capabilities;
     import flash.utils.getDefinitionByName;
@@ -94,7 +96,7 @@ package com.appodeal.aneplugin {
         public static const REWARDED_VIDEO:int = 128;
         public static const NON_SKIPPABLE_VIDEO:int = 256;
 
-        public static const VERSION:String = "3.0.0";
+        public static const VERSION:String = "3.0.3";
 
         private static const NOT_SUPPORTED_ON_IOS:String = 'not supported on iOS';
         private static const NOT_SUPPORTED_ON_ANDROID:String = 'not supported on ANDROID';
@@ -161,6 +163,7 @@ package com.appodeal.aneplugin {
         }
 
         public function initialize(appKey:String, adType:int):void {
+            call("setFramework", "air", VERSION);
             call("initialize", appKey, adType);
         }
 
@@ -168,84 +171,28 @@ package com.appodeal.aneplugin {
             return call("show", adType);
         }
 
-        public function canShow(adType:int, placement:String):Boolean {
-            return call("canShow", adType, placement);
-        }
-
         public function showWithPlacement(adType:int, placement:String):Boolean {
             return call("showPlacement", adType, placement);
         }
 
-        public function hide(adType:int = 4):void {
-            call("hide", adType);
+        public function isLoaded(adType:int):Boolean {
+            return call("isLoaded", adType);
         }
 
         public function cache(adType:int):void {
             call("cache", adType);
         }
 
+        public function hide(adType:int = 4):void {
+            call("hide", adType);
+        }
+
         public function setAutoCache(adType:int, autoCache:Boolean):void {
             call("setAutoCache", adType, autoCache);
         }
 
-        public function setTesting(testing:Boolean):void {
-            call("setTesting", testing);
-        }
-
-        public function setLogging(logging:Boolean):void {
-            call("setLogging", logging);
-        }
-
-        public function getVersion():String {
-            return call("getVersion");
-        }
-
-        public function log(tag:String, message:String):void {
-            call("logDebug", tag, message);
-        }
-
-        public function toast(message:String):void {
-            call("toastMessage", message);
-        }
-
-        public function disableNetwork(network:String):void {
-            call("disableNetwork", network);
-        }
-
-        public function disableNetworkForAdType(adType:int, network:String):void {
-            call("disableNetworkForAdType", adType, network);
-        }
-
-        public function trackInAppPurchase(amount:Number, currency:String):void {
-            if (isIOS()) {
-                trace(NOT_SUPPORTED_ON_IOS);
-                return;
-            }
-            call("trackInAppPurchase", amount, currency);
-        }
-
-        public function disableLocationPermissionCheck():void {
-            call("disableLocationPermissionCheck");
-        }
-
-        public function disableWriteExternalStoragePermissionCheck():void {
-            if (isIOS()) {
-                trace(NOT_SUPPORTED_ON_IOS);
-                return;
-            }
-            call("disableWriteExternalStoragePermissionCheck");
-        }
-
-        public function requestMPermissions():void {
-            if (isIOS()) {
-                trace(NOT_SUPPORTED_ON_IOS);
-                return;
-            }
-            call("requestMPermissions");
-        }
-
-        public function isLoaded(adType:int):Boolean {
-            return call("isLoaded", adType);
+        public function isPrecache(adType:int):Boolean {
+            return call("isPrecache", adType);
         }
 
         public function setBannerAnimation(bannerAnimation:Boolean):void {
@@ -260,16 +207,68 @@ package com.appodeal.aneplugin {
             call("setBannerBackground", bannerBackground);
         }
 
-        public function set728x90Banners(set728Banners:Boolean):void {
-            if (isIOS()) {
-                trace(NOT_SUPPORTED_ON_IOS);
-                return;
-            }
-            call("set728x90Banners", set728Banners);
-        }
-
         public function setSmartBanners(smartBanner:Boolean):void {
             call("setSmartBanners", smartBanner);
+        }
+
+        public function setTabletBanners(tabletBanners:Boolean):void {
+            call("setTabletBanners", tabletBanners);
+        }
+
+        public function setTesting(testing:Boolean):void {
+            call("setTesting", testing);
+        }
+
+        public function setLogLevel(value:int):void {
+            call("setLogLevel", value);
+        }
+
+        public function setChildDirectedTreatment(value:Boolean):void {
+            call("setChildDirectedTreatment", value);
+        }
+
+        public function disableNetwork(network:String):void {
+            call("disableNetwork", network);
+        }
+
+        public function disableNetworkForAdType(adType:int, network:String):void {
+            call("disableNetworkForAdType", adType, network);
+        }
+
+        public function setTriggerOnLoadedOnPrecache(adType:int, autoCache:Boolean):void {
+            call("setTriggerOnLoadedOnPrecache", adType, autoCache);
+        }
+
+        public function disableLocationPermissionCheck():void {
+            call("disableLocationPermissionCheck");
+        }
+
+        public function disableWriteExternalStoragePermissionCheck():void {
+            call("disableWriteExternalStoragePermissionCheck");
+        }
+
+        public function requestMPermissions():void {
+            call("requestMPermissions");
+        }
+
+        public function muteVideosIfCallsMuted(value:Boolean):void {
+            call("muteVideosIfCallsMuted", value);
+        }
+
+        public function showTestScreen():void {
+            call("showTestScreen");
+        }
+
+        public function getVersion():String {
+            return call("getVersion");
+        }
+
+        public function canShow(adType:int):Boolean {
+            return call("canShow", adType);
+        }
+
+        public function canShowWithPlacement(adType:int, placement:String):Boolean {
+            return call("canShowPlacement", adType, placement);
         }
 
         public function setCustomBooleanRule(name:String ,rule:Boolean):void {
@@ -288,20 +287,32 @@ package com.appodeal.aneplugin {
             call("setCustomStringRule", name, rule);
         }
 
-        public function isPrecache(adType:int):Boolean {
-            if (isIOS()) {
-                trace(NOT_SUPPORTED_ON_IOS);
-                return false;
-            }
-            return call("isPrecache", adType);
+        public function getRewardedParameters():Object {
+            var xml:XML = new XML(call("getRewardedParameters"));
+            var map:Object = {};
+            map.amount = xml.attribute("amount");
+            map.currency = xml.attribute("currency");
+            return map;
         }
 
-        public function setTriggerOnLoadedOnPrecache(adType:int, autoCache:Boolean):void {
-            if (isIOS()) {
-                trace(NOT_SUPPORTED_ON_IOS);
-                return;
-            }
-            call("setTriggerOnLoadedOnPrecache", adType, autoCache);
+        public function getRewardedParametersWithPlacement(placement:String):Object {
+            var xml:XML = new XML(call("getRewardedParametersPlacement", placement));
+            var map:Object = {};
+            map.amount = xml.attribute("amount");
+            map.currency = xml.attribute("currency");
+            return map;
+        }
+
+        public function trackInAppPurchase(amount:Number, currency:String):void {
+            call("trackInAppPurchase", amount, currency);
+        }
+
+        public function log(tag:String, message:String):void {
+            call("logDebug", tag, message);
+        }
+
+        public function toast(message:String):void {
+            call("toastMessage", message);
         }
 
         public function getDensity():Number {
@@ -424,6 +435,8 @@ package com.appodeal.aneplugin {
             switch (event.code) {
                 case "INTERSTITIAL_LOADED":
                     e = new AdEvent(AdEvent.INTERSTITIAL_LOADED);
+                    var xml:XML = new XML(event.level);
+                    e._isPrecacheInterstitial = xml.attribute('precache');
                     break;
                 case "INTERSTITIAL_FAILED_TO_LOAD":
                     e = new AdEvent(AdEvent.INTERSTITIAL_FAILED_TO_LOAD);
@@ -452,6 +465,8 @@ package com.appodeal.aneplugin {
                     break;
                 case "NON_SKIPPABLE_VIDEO_CLOSED":
                     e = new AdEvent(AdEvent.NON_SKIPPABLE_VIDEO_CLOSED);
+                    var xml:XML = new XML(event.level);
+                    e._isFinishedNonSkippableVideo = xml.attribute('finished');
                     break;
 
                 case "REWARDED_VIDEO_LOADED":
@@ -471,8 +486,9 @@ package com.appodeal.aneplugin {
                     break;
                 case "REWARDED_VIDEO_CLOSED":
                     e = new AdEvent(AdEvent.REWARDED_VIDEO_CLOSED);
+                    var xml:XML = new XML(event.level);
+                    e._isFinishedRewardedVideo = xml.attribute('finished');
                     break;
-
                 case "BANNER_CLICKED":
                     e = new AdEvent(AdEvent.BANNER_CLICKED);
                     break;
@@ -481,6 +497,8 @@ package com.appodeal.aneplugin {
                     break;
                 case "BANNER_LOADED":
                     e = new AdEvent(AdEvent.BANNER_LOADED);
+                    var xml:XML = new XML(event.level);
+                    e._isPrecacheBanner = xml.attribute('precache');
                     break;
                 case "BANNER_SHOWN":
                     e = new AdEvent(AdEvent.BANNER_SHOWN);

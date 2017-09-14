@@ -1,6 +1,8 @@
 package com.appodeal.aneplugin {
 
-    import flash.events.EventDispatcher;
+import com.appodeal.aneplugin.constants.LogLevel;
+
+import flash.events.EventDispatcher;
     import flash.system.Capabilities;
 
     /**
@@ -115,11 +117,6 @@ package com.appodeal.aneplugin {
             trace(NOT_SUPPORTED_ON_PLATFORM);
         }
 
-        public function canShow(adType:int, placement:String):Boolean {
-            trace(NOT_SUPPORTED_ON_PLATFORM);
-            return false;
-        }
-
         public function show(adType:int):Boolean {
             trace(NOT_SUPPORTED_ON_PLATFORM);
             return false;
@@ -130,11 +127,16 @@ package com.appodeal.aneplugin {
             return false;
         }
 
-        public function hide(adType:int = 4):void {
+        public function isLoaded(adType:int):Boolean {
             trace(NOT_SUPPORTED_ON_PLATFORM);
+            return false;
         }
 
         public function cache(adType:int):void {
+            trace(NOT_SUPPORTED_ON_PLATFORM);
+        }
+
+        public function hide(adType:int = 4):void {
             trace(NOT_SUPPORTED_ON_PLATFORM);
         }
 
@@ -142,25 +144,48 @@ package com.appodeal.aneplugin {
             trace(NOT_SUPPORTED_ON_PLATFORM);
         }
 
+        public function isPrecache(adType:int):Boolean {
+            trace(NOT_SUPPORTED_ON_PLATFORM);
+            return false;
+        }
+
+        public function setBannerAnimation(bannerAnimation:Boolean):void {
+            trace(NOT_SUPPORTED_ON_PLATFORM);
+        }
+
+        public function setBannerBackground(bannerBackground:Boolean):void {
+            trace(NOT_SUPPORTED_ON_PLATFORM);
+        }
+
+        public function setSmartBanners(smartBanner:Boolean):void {
+            trace(NOT_SUPPORTED_ON_PLATFORM);
+        }
+
+        public function setTabletBanners(tabletBanners:Boolean):void {
+            trace(NOT_SUPPORTED_ON_PLATFORM);
+        }
+
         public function setTesting(testing:Boolean):void {
             trace(NOT_SUPPORTED_ON_PLATFORM);
         }
 
-        public function setLogging(testing:Boolean):void {
+        public function setLogLevel(level:LogLevel):void {
             trace(NOT_SUPPORTED_ON_PLATFORM);
         }
 
-
-        public function getVersion():String {
+        public function setChildDirectedTreatment(value:Boolean):void {
             trace(NOT_SUPPORTED_ON_PLATFORM);
-            return null;
         }
 
         public function disableNetwork(network:String):void {
             trace(NOT_SUPPORTED_ON_PLATFORM);
         }
 
-        public function disableNetworkForAdType(network:String, adType:int):void {
+        public function disableNetworkForAdType(adType:int, network:String):void {
+            trace(NOT_SUPPORTED_ON_PLATFORM);
+        }
+
+        public function setTriggerOnLoadedOnPrecache(adType:int, autoCache:Boolean):void {
             trace(NOT_SUPPORTED_ON_PLATFORM);
         }
 
@@ -176,62 +201,27 @@ package com.appodeal.aneplugin {
             trace(NOT_SUPPORTED_ON_PLATFORM);
         }
 
-        public function trackInAppPurchase(amount:Number, currency:String):void {
+        public function muteVideosIfCallsMuted(value:Boolean):void {
             trace(NOT_SUPPORTED_ON_PLATFORM);
         }
 
-        public function isLoaded(adType:int):Boolean {
-            trace(NOT_SUPPORTED_ON_PLATFORM);
-            return false;
-        }
-
-        public function log(tag:String, message:String):void {
+        public function showTestScreen():void {
             trace(NOT_SUPPORTED_ON_PLATFORM);
         }
 
-        public function toast(message:String):void {
-            trace(NOT_SUPPORTED_ON_PLATFORM);
-        }
-
-        public function isPrecache(adType:int):Boolean {
-            trace(NOT_SUPPORTED_ON_PLATFORM);
-            return false;
-        }
-
-        public function setTriggerOnLoadedOnPrecache(adType:int, autoCache:Boolean):void {
-            trace(NOT_SUPPORTED_ON_PLATFORM);
-        }
-
-        //Platform Utils
-        public function getAdvertisingID():String {
+        public function getVersion():String {
             trace(NOT_SUPPORTED_ON_PLATFORM);
             return null;
         }
 
-        public function getIDFA():String {
+        public function canShow(adType:int):Boolean {
             trace(NOT_SUPPORTED_ON_PLATFORM);
-            return null;
+            return false;
         }
 
-        public function getDensity():Number {
+        public function canShowWithPlacement(adType:int, placement:String):Boolean {
             trace(NOT_SUPPORTED_ON_PLATFORM);
-            return 0;
-        }
-
-        public function setBannerAnimation(bannerAnimation:Boolean):void {
-            trace(NOT_SUPPORTED_ON_PLATFORM);
-        }
-
-        public function setBannerBackground(bannerBackground:Boolean):void {
-            trace(NOT_SUPPORTED_ON_PLATFORM);
-        }
-
-        public function set728x90Banners(set728Banners:Boolean):void {
-            trace(NOT_SUPPORTED_ON_PLATFORM);
-        }
-
-        public function setSmartBanners(smartBanner:Boolean):void {
-            trace(NOT_SUPPORTED_ON_PLATFORM);
+            return false;
         }
 
         public function setCustomBooleanRule(name:String ,rule:Boolean):void {
@@ -248,6 +238,44 @@ package com.appodeal.aneplugin {
 
         public function setCustomStringRule(name:String ,rule:Boolean):void {
             trace(NOT_SUPPORTED_ON_PLATFORM);
+        }
+
+        public function getRewardedParameters():Object {
+            trace(NOT_SUPPORTED_ON_PLATFORM);
+            return null;
+        }
+
+        public function getRewardedParametersWithPlacement(placement:String):Object {
+            trace(NOT_SUPPORTED_ON_PLATFORM);
+            return null;
+        }
+
+        public function trackInAppPurchase(amount:Number, currency:String):void {
+            trace(NOT_SUPPORTED_ON_PLATFORM);
+        }
+
+        public function log(tag:String, message:String):void {
+            trace(NOT_SUPPORTED_ON_PLATFORM);
+        }
+
+        public function toast(message:String):void {
+            trace(NOT_SUPPORTED_ON_PLATFORM);
+        }
+
+
+        public function getDensity():Number {
+            trace(NOT_SUPPORTED_ON_PLATFORM);
+            return 0;
+        }
+
+        public function getAdvertisingID():String {
+            trace(NOT_SUPPORTED_ON_PLATFORM);
+            return null;
+        }
+
+        public function getIDFA():String {
+            trace(NOT_SUPPORTED_ON_PLATFORM);
+            return null;
         }
 
         //Appodeal UserSettings

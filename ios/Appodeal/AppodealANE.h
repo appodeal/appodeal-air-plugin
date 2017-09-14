@@ -23,28 +23,45 @@ void AppodealExtensionFinalizer(void * extData);
 DEFINE_ANE_FUNCTION(appodeal_initialize);
 DEFINE_ANE_FUNCTION(appodeal_show);
 DEFINE_ANE_FUNCTION(appodeal_showPlacement);
-DEFINE_ANE_FUNCTION(appodeal_canShow);
-DEFINE_ANE_FUNCTION(appodeal_hide);
+DEFINE_ANE_FUNCTION(appodeal_isLoaded);
 DEFINE_ANE_FUNCTION(appodeal_cache);
+DEFINE_ANE_FUNCTION(appodeal_hide);
 DEFINE_ANE_FUNCTION(appodeal_setAutoCache);
+DEFINE_ANE_FUNCTION(appodeal_isPrecache);
+
+DEFINE_ANE_FUNCTION(appodeal_setTabletBanners);
+DEFINE_ANE_FUNCTION(appodeal_setSmartBanners);
+DEFINE_ANE_FUNCTION(appodeal_setBannerBackground);
+DEFINE_ANE_FUNCTION(appodeal_setBannerAnimation);
 DEFINE_ANE_FUNCTION(appodeal_setTesting);
-DEFINE_ANE_FUNCTION(appodeal_setLogging);
-DEFINE_ANE_FUNCTION(appodeal_getVersion);
-DEFINE_ANE_FUNCTION(appodeal_logDebug);
-DEFINE_ANE_FUNCTION(appodeal_toastMessage);
+DEFINE_ANE_FUNCTION(appodeal_setLogLevel);
+DEFINE_ANE_FUNCTION(appodeal_setChildDirectedTreatment);
 DEFINE_ANE_FUNCTION(appodeal_disableNetwork);
 DEFINE_ANE_FUNCTION(appodeal_disableNetworkForAdType);
+DEFINE_ANE_FUNCTION(appodeal_setTriggerOnLoadedOnPrecache);
 DEFINE_ANE_FUNCTION(appodeal_disableLocationPermissionCheck);
-DEFINE_ANE_FUNCTION(appodeal_isLoaded);
-DEFINE_ANE_FUNCTION(appodeal_setBannerAnimation);
-DEFINE_ANE_FUNCTION(appodeal_setBannerBackground);
-DEFINE_ANE_FUNCTION(appodeal_setSmartBanners);
+DEFINE_ANE_FUNCTION(appodeal_disableWriteExternalStoragePermissionCheck);
+DEFINE_ANE_FUNCTION(appodeal_requestMPermissions);
+DEFINE_ANE_FUNCTION(appodeal_muteVideosIfCallsMuted);
+DEFINE_ANE_FUNCTION(appodeal_showTestScreen);
+DEFINE_ANE_FUNCTION(appodeal_setFramework);
+DEFINE_ANE_FUNCTION(appodeal_getVersion);
+
+DEFINE_ANE_FUNCTION(appodeal_canShow);
+DEFINE_ANE_FUNCTION(appodeal_canShowPlacement);
 DEFINE_ANE_FUNCTION(appodeal_setCustomBooleanRule);
 DEFINE_ANE_FUNCTION(appodeal_setCustomIntegerRule);
 DEFINE_ANE_FUNCTION(appodeal_setCustomDoubleRule);
 DEFINE_ANE_FUNCTION(appodeal_setCustomStringRule);
-DEFINE_ANE_FUNCTION(appodeal_getIDFA);
+DEFINE_ANE_FUNCTION(appodeal_trackInAppPurchase);
+DEFINE_ANE_FUNCTION(appodeal_getRewardedParameters);
+DEFINE_ANE_FUNCTION(appodeal_getRewardedParametersPlacement);
+
 DEFINE_ANE_FUNCTION(appodeal_getDensity);
+DEFINE_ANE_FUNCTION(appodeal_getIDFA);
+DEFINE_ANE_FUNCTION(appodeal_logDebug);
+DEFINE_ANE_FUNCTION(appodeal_toastMessage);
+
 DEFINE_ANE_FUNCTION(appodeal_userSettings);
 DEFINE_ANE_FUNCTION(appodeal_callbacks);
 
@@ -61,28 +78,46 @@ DEFINE_ANE_FUNCTION(appodeal_callbacks);
 -(FREObject)initialize:(uint32_t)argc paramseters:(FREObject []) argv;
 -(FREObject)show:(uint32_t)argc paramseters:(FREObject []) argv;
 -(FREObject)showPlacement:(uint32_t)argc paramseters:(FREObject []) argv;
--(FREObject)canShow:(uint32_t)argc paramseters:(FREObject []) argv;
--(FREObject)hide:(uint32_t)argc paramseters:(FREObject []) argv;
+-(FREObject)isLoaded:(uint32_t)argc paramseters:(FREObject []) argv;
 -(FREObject)cache:(uint32_t)argc paramseters:(FREObject []) argv;
+-(FREObject)hide:(uint32_t)argc paramseters:(FREObject []) argv;
 -(FREObject)setAutoCache:(uint32_t)argc paramseters:(FREObject []) argv;
--(FREObject)setTesting:(uint32_t)argc paramseters:(FREObject []) argv;
--(FREObject)setLogging:(uint32_t)argc paramseters:(FREObject []) argv;
--(FREObject)getVersion:(uint32_t)argc paramseters:(FREObject []) argv;
--(FREObject)logDebug:(uint32_t)argc paramseters:(FREObject []) argv;
--(FREObject)toastMessage:(uint32_t)argc paramseters:(FREObject []) argv;
+-(FREObject)isPrecache:(uint32_t)argc paramseters:(FREObject []) argv;
+
+-(FREObject)setTabletBanners:(uint32_t)argc paramseters:(FREObject []) argv;
+-(FREObject)setSmartBanners:(uint32_t)argc paramseters:(FREObject []) argv;
 -(FREObject)setBannerAnimation:(uint32_t)argc paramseters:(FREObject []) argv;
 -(FREObject)setBannerBackground:(uint32_t)argc paramseters:(FREObject []) argv;
--(FREObject)setSmartBanners:(uint32_t)argc paramseters:(FREObject []) argv;
+-(FREObject)setTesting:(uint32_t)argc paramseters:(FREObject []) argv;
+-(FREObject)setLogLevel:(uint32_t)argc paramseters:(FREObject []) argv;
+-(FREObject)setChildDirectedTreatment:(uint32_t)argc paramseters:(FREObject []) argv;
+-(FREObject)disableNetwork:(uint32_t)argc paramseters:(FREObject []) argv;
+-(FREObject)disableNetworkForAdType:(uint32_t)argc paramseters:(FREObject []) argv;
+-(FREObject)setTriggerOnLoadedOnPrecache:(uint32_t)argc paramseters:(FREObject []) argv;
+-(FREObject)disableLocationPermissionCheck:(uint32_t)argc paramseters:(FREObject []) argv;
+-(FREObject)disableWriteExternalStoragePermissionCheck:(uint32_t)argc paramseters:(FREObject []) argv;
+-(FREObject)requestMPermissions:(uint32_t)argc paramseters:(FREObject []) argv;
+-(FREObject)muteVideosIfCallsMuted:(uint32_t)argc paramseters:(FREObject []) argv;
+-(FREObject)showTestScreen:(uint32_t)argc paramseters:(FREObject []) argv;
+-(FREObject)setFramework:(uint32_t)argc paramseters:(FREObject []) argv;
+-(FREObject)getVersion:(uint32_t)argc paramseters:(FREObject []) argv;
+
+
+-(FREObject)canShow:(uint32_t)argc paramseters:(FREObject []) argv;
+-(FREObject)canShowPlacement:(uint32_t)argc paramseters:(FREObject []) argv;
 -(FREObject)setCustomBooleanRule:(uint32_t)argc paramseters:(FREObject []) argv;
 -(FREObject)setCustomIntegerRule:(uint32_t)argc paramseters:(FREObject []) argv;
 -(FREObject)setCustomDoubleRule:(uint32_t)argc paramseters:(FREObject []) argv;
 -(FREObject)setCustomStringRule:(uint32_t)argc paramseters:(FREObject []) argv;
--(FREObject)getIDFA:(uint32_t)argc paramseters:(FREObject []) argv;
+-(FREObject)trackInAppPurchase:(uint32_t)argc paramseters:(FREObject []) argv;
+-(FREObject)getRewardedParameters:(uint32_t)argc paramseters:(FREObject []) argv;
+-(FREObject)getRewardedParametersPlacement:(uint32_t)argc paramseters:(FREObject []) argv;
+
 -(FREObject)getDensity:(uint32_t)argc paramseters:(FREObject []) argv;
--(FREObject)disableNetwork:(uint32_t)argc paramseters:(FREObject []) argv;
--(FREObject)disableNetworkForAdType:(uint32_t)argc paramseters:(FREObject []) argv;
--(FREObject)disableLocationPermissionCheck:(uint32_t)argc paramseters:(FREObject []) argv;
--(FREObject)isLoaded:(uint32_t)argc paramseters:(FREObject []) argv;
+-(FREObject)getIDFA:(uint32_t)argc paramseters:(FREObject []) argv;
+-(FREObject)logDebug:(uint32_t)argc paramseters:(FREObject []) argv;
+-(FREObject)toastMessage:(uint32_t)argc paramseters:(FREObject []) argv;
+
 -(FREObject)userSettings:(uint32_t)argc paramseters:(FREObject []) argv;
 -(FREObject)callbacks:(uint32_t)argc paramseters:(FREObject []) argv;
 @end
