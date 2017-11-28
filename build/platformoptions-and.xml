@@ -1,7 +1,7 @@
 <platform xmlns="http://ns.adobe.com/air/extension/16.0">
 <packagedDependencies>
     <packagedDependency>adcolony-sdk-3.1.2.jar</packagedDependency>
-    <packagedDependency>appodeal-2.1.4.jar</packagedDependency>
+    <packagedDependency>appodeal-2.1.7.jar</packagedDependency>
     <packagedDependency>inmobi-6.2.3.jar</packagedDependency>
     <packagedDependency>startapp-3.6.2.jar</packagedDependency>
     <packagedDependency>picasso-2.5.2.jar</packagedDependency>
