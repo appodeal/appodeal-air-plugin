@@ -3,7 +3,7 @@
 
   <!-- Config -->
   <property name="tempbuild" value="../temp/ios/build"/>
-  <property name="air.sdk" value="/Users/nazar/Library/Android/flex"/>
+  <property name="air.sdk" value="D:\programs\flex-apache-sdk"/>
 
   <!-- All -->
   <target depends="clean,prepare,package,package_andr" description="Full build of extension" name="all" />
@@ -74,10 +74,10 @@
 
   <!-- Package -->
   <target description="Create the extension package" name="package">
-    <exec dir="../bin" executable="${air.sdk}/bin/adt" failonerror="true">
+    <exec dir="../bin" executable="${air.sdk}/bin/adt.bat" failonerror="true">
 
       <arg value="-package"/>
-      <arg line="-storetype pkcs12 -keystore ../build/Sertificate.p12 -storepass 123 -tsa 'http://sha256timestamp.ws.symantec.com/sha256/timestamp'"/>
+      <arg line="-storetype pkcs12 -keystore ../build/Sertificate.p12 -storepass 123 -tsa none"/>
       <arg value="-target"/>
       <arg value="ane"/>
       <arg value="../bin/Appodeal.ane"/>
@@ -92,10 +92,10 @@
 
   <target description="Create the extension package" name="package_andr">
     <copy file="../build/extension_android.xml" tofile="../bin/extension.xml" overwrite="true"/>
-    <exec dir="../bin" executable="${air.sdk}/bin/adt" failonerror="true">
+    <exec dir="../bin" executable="${air.sdk}/bin/adt.bat" failonerror="true">
 
       <arg value="-package"/>
-      <arg line="-storetype pkcs12 -keystore ../build/Sertificate.p12 -storepass 123 -tsa 'http://sha256timestamp.ws.symantec.com/sha256/timestamp'"/>
+      <arg line="-storetype pkcs12 -keystore ../build/Sertificate.p12 -storepass 123 -tsa none"/>
       <arg value="-target"/>
       <arg value="ane"/>
       <arg value="../bin/AppodealAndroid.ane"/>
@@ -125,10 +125,10 @@
     <copy file="../bin-playservices/temp/library.swf" tofile="../bin-playservices/library.swf"/>
     <copy file="../build/platformoptions-playservices.xml" todir="../bin-playservices/platforms/"/>
 
-    <exec dir="../bin-playservices" executable="${air.sdk}/bin/adt" failonerror="true">
+    <exec dir="../bin-playservices" executable="${air.sdk}/bin/adt.bat" failonerror="true">
 
       <arg value="-package"/>
-      <arg line="-storetype pkcs12 -keystore ../build/Sertificate.p12 -tsa 'http://sha256timestamp.ws.symantec.com/sha256/timestamp' -storepass 123"/>
+      <arg line="-storetype pkcs12 -keystore ../build/Sertificate.p12 -tsa none"/>
       <arg value="-target"/>
       <arg value="ane"/>
       <arg value="../bin-playservices/AppodealPlayServices.ane"/>
@@ -158,7 +158,7 @@
     <copy file="../bin-androidsupport/temp/library.swf" tofile="../bin-androidsupport/library.swf"/>
     <copy file="../build/platformoptions-support.xml" todir="../bin-androidsupport/platforms/"/>
 
-    <exec dir="../bin-androidsupport" executable="${air.sdk}/bin/adt" failonerror="true">
+    <exec dir="../bin-androidsupport" executable="${air.sdk}/bin/adt.bat" failonerror="true">
 
       <arg value="-package"/>
       <arg line="-storetype pkcs12 -keystore ../build/Sertificate.p12 -storepass 123"/>
