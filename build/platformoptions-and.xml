@@ -1,10 +1,72 @@
 <platform xmlns="http://ns.adobe.com/air/extension/16.0">
 <packagedDependencies>
     <packagedDependency>adcolony-sdk-3.1.2.jar</packagedDependency>
-    <packagedDependency>appodeal-2.1.7.jar</packagedDependency>
+    <packagedDependency>appodeal-2.1.9.jar</packagedDependency>
     <packagedDependency>inmobi-6.2.3.jar</packagedDependency>
-    <packagedDependency>startapp-3.6.2.jar</packagedDependency>
+    <packagedDependency>startapp-3.6.7.jar</packagedDependency>
     <packagedDependency>picasso-2.5.2.jar</packagedDependency>
     <packagedDependency>yandex-metrica-2.73.jar</packagedDependency>
+	
+	<packagedDependency>mobvista_alphab.jar</packagedDependency>
+	<packagedDependency>mobvista_appwall.jar</packagedDependency>
+	<packagedDependency>mobvista_appwallext.jar</packagedDependency>
+	<packagedDependency>mobvista_common.jar</packagedDependency>
+	<packagedDependency>mobvista_interstitial.jar</packagedDependency>
+	<packagedDependency>mobvista_mvdownloads.jar</packagedDependency>
+	<packagedDependency>mobvista_mvjscommon.jar</packagedDependency>
+	<packagedDependency>mobvista_mvnative.jar</packagedDependency>
+	<packagedDependency>mobvista_nativeex.jar</packagedDependency>
+	<packagedDependency>mobvista_offerwall.jar</packagedDependency>
+	<packagedDependency>mobvista_playercommon.jar</packagedDependency>
+	<packagedDependency>mobvista_reward.jar</packagedDependency>
+	<packagedDependency>mobvista_videocommon.jar</packagedDependency>
+	<packagedDependency>mobvista_videofeeds.jar</packagedDependency>
 </packagedDependencies>
+
+<packagedResources>
+	<packagedResource>
+		<packageName>com.mobvista.msdk.appwall</packageName>
+		<folderName>mobvista_appwall-res</folderName>
+	</packagedResource>
+	<packagedResource>
+		<packageName>com.mobvista.msdk</packageName>
+		<folderName>mobvista_common-res</folderName>
+	</packagedResource>
+	<packagedResource>
+		<packageName>com.mobvista.msdk.interstitial</packageName>
+		<folderName>mobvista_interstitial-res</folderName>
+	</packagedResource>
+	<packagedResource>
+		<packageName>com.mobvista.msdk.mvdownloads</packageName>
+		<folderName>mobvista_mvdownloads-res</folderName>
+	</packagedResource>
+	<packagedResource>
+		<packageName>com.mobvista.msdk.mvnative</packageName>
+		<folderName>mobvista_mvnative-res</folderName>
+	</packagedResource>
+	<packagedResource>
+		<packageName>com.mobvista.msdk.nativeex</packageName>
+		<folderName>mobvista_nativeex-res</folderName>
+	</packagedResource>
+	<packagedResource>
+		<packageName>com.mobvista.msdk.offerwall</packageName>
+		<folderName>mobvista_offerwall-res</folderName>
+	</packagedResource>
+	<packagedResource>
+		<packageName>com.mobvista.msdk.playercommon</packageName>
+		<folderName>mobvista_playercommon-res</folderName>
+	</packagedResource>
+	<packagedResource>
+		<packageName>com.mobvista.msdk.reward</packageName>
+		<folderName>mobvista_reward-res</folderName>
+	</packagedResource>
+	<packagedResource>
+		<packageName>com.mobvista.msdk.videocommon</packageName>
+		<folderName>mobvista_videocommon-res</folderName>
+	</packagedResource>
+	<packagedResource>
+		<packageName>com.mobvista.msdk.videofeeds</packageName>
+		<folderName>mobvista_videofeeds-res</folderName>
+	</packagedResource>
+</packagedResources>	
 </platform>
