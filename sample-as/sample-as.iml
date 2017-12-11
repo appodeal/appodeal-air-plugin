@@ -19,14 +19,14 @@
         </dependencies>
         <compiler-options />
         <packaging-air-desktop />
-        <packaging-android enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/Android-app.xml" package-file-name="Main">
+        <packaging-android enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/appodeal-air-android-app-sample.xml" package-file-name="Main">
           <files-to-package>
             <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/com" path-in-package="com" />
             <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/dex" path-in-package="dex" />
             <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/js" path-in-package="js" />
           </files-to-package>
         </packaging-android>
-        <packaging-ios enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/IOS-app.xml" package-file-name="Main">
+        <packaging-ios enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/appodeal-air-ios-app-sample.xml" package-file-name="Main">
           <AirSigningOptions sdk="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk" keystore-path="$MODULE_DIR$/../../../AppleDeveloper/Appodeal.p12" provisioning-profile-path="$MODULE_DIR$/../../../AppleDeveloper/AppodealTest_iOS_Development.mobileprovision" />
         </packaging-ios>
       </configuration>

@@ -1,11 +1,9 @@
 package com.appodeal.aneplugin {
 
-import com.appodeal.aneplugin.constants.LogLevel;
-
-import flash.events.StatusEvent;
+    import flash.events.StatusEvent;
     import flash.events.EventDispatcher;
     import flash.system.Capabilities;
-    import flash.utils.getDefinitionByName;
+    import flash.external.ExtensionContext;
 
     /**
      * @eventType com.appodeal.aneplugin.AdEvent.INTERSTITIAL_SHOWN
@@ -96,7 +94,7 @@ import flash.events.StatusEvent;
         public static const REWARDED_VIDEO:int = 128;
         public static const NON_SKIPPABLE_VIDEO:int = 256;
 
-        public static const VERSION:String = "3.0.3";
+        public static const VERSION:String = "3.0.6";
 
         private static const NOT_SUPPORTED_ON_IOS:String = 'not supported on iOS';
         private static const NOT_SUPPORTED_ON_ANDROID:String = 'not supported on ANDROID';
@@ -107,8 +105,7 @@ import flash.events.StatusEvent;
             if (!context) {
                 if (isAndroid() || isIOS()) {
                     try {
-                        var ExtensionContextClass:Class = getDefinitionByName('flash.external.ExtensionContext') as Class;
-                        context = ExtensionContextClass.createExtensionContext("com.appodeal.aneplugin", null);
+                        context = ExtensionContext.createExtensionContext("com.appodeal.aneplugin", null);
                     } catch (error:Error) {
                         super.dispatchEvent(new AdError(AdError.NOT_CREATION_ERROR, error));
                     }
@@ -435,8 +432,8 @@ import flash.events.StatusEvent;
             switch (event.code) {
                 case "INTERSTITIAL_LOADED":
                     e = new AdEvent(AdEvent.INTERSTITIAL_LOADED);
-                    var xml:XML = new XML(event.level);
-                    e._isPrecacheInterstitial = xml.attribute('precache');
+                    var xmlIL:XML = new XML(event.level);
+                    e._isPrecacheInterstitial = xmlIL.attribute('precache');
                     break;
                 case "INTERSTITIAL_FAILED_TO_LOAD":
                     e = new AdEvent(AdEvent.INTERSTITIAL_FAILED_TO_LOAD);
@@ -465,8 +462,8 @@ import flash.events.StatusEvent;
                     break;
                 case "NON_SKIPPABLE_VIDEO_CLOSED":
                     e = new AdEvent(AdEvent.NON_SKIPPABLE_VIDEO_CLOSED);
-                    var xml:XML = new XML(event.level);
-                    e._isFinishedNonSkippableVideo = xml.attribute('finished');
+                    var xmlNSVC:XML = new XML(event.level);
+                    e._isFinishedNonSkippableVideo = xmlNSVC.attribute('finished');
                     break;
 
                 case "REWARDED_VIDEO_LOADED":
@@ -474,9 +471,9 @@ import flash.events.StatusEvent;
                     break;
                 case "REWARDED_VIDEO_FINISHED":
                     e = new AdEvent(AdEvent.REWARDED_VIDEO_FINISHED);
-                    var xml:XML = new XML(event.level);
-                    e._amount = xml.attribute('amount');
-                    e._name = xml.attribute('name');
+                    var xmlRVF:XML = new XML(event.level);
+                    e._amount = xmlRVF.attribute('amount');
+                    e._name = xmlRVF.attribute('name');
                     break;
                 case "REWARDED_VIDEO_FAILED_TO_LOAD":
                     e = new AdEvent(AdEvent.REWARDED_VIDEO_FAILED_TO_LOAD);
@@ -486,8 +483,8 @@ import flash.events.StatusEvent;
                     break;
                 case "REWARDED_VIDEO_CLOSED":
                     e = new AdEvent(AdEvent.REWARDED_VIDEO_CLOSED);
-                    var xml:XML = new XML(event.level);
-                    e._isFinishedRewardedVideo = xml.attribute('finished');
+                    var xmlRVC:XML = new XML(event.level);
+                    e._isFinishedRewardedVideo = xmlRVC.attribute('finished');
                     break;
                 case "BANNER_CLICKED":
                     e = new AdEvent(AdEvent.BANNER_CLICKED);
@@ -497,8 +494,8 @@ import flash.events.StatusEvent;
                     break;
                 case "BANNER_LOADED":
                     e = new AdEvent(AdEvent.BANNER_LOADED);
-                    var xml:XML = new XML(event.level);
-                    e._isPrecacheBanner = xml.attribute('precache');
+                    var xmlBL:XML = new XML(event.level);
+                    e._isPrecacheBanner = xmlBL.attribute('precache');
                     break;
                 case "BANNER_SHOWN":
                     e = new AdEvent(AdEvent.BANNER_SHOWN);

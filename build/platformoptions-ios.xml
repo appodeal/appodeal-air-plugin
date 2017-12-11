@@ -17,6 +17,7 @@
         <option>-framework EventKitUI</option>
         <option>-framework GLKit</option>
         <option>-framework ImageIO</option>
+        <option>-framework JavaScriptCore</option>
         <option>-framework MediaPlayer</option>
         <option>-framework MessageUI</option>
         <option>-framework MobileCoreServices</option>

@@ -2,9 +2,9 @@
 
 <application xmlns="http://ns.adobe.com/air/application/27.0">
 	<id>com.appodeal.testing</id>
-    <filename>SandBox</filename>
-    <name>SandBox</name>
-    <versionNumber>1.3.0</versionNumber>
+    <filename>Appodeal Demo</filename>
+    <name>Appodeal Demo</name>
+    <versionNumber>3.0.6</versionNumber>
     <extensions>
         <extensionID>com.appodeal.aneplugin</extensionID>
     </extensions>

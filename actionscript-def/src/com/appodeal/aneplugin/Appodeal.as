@@ -2,7 +2,7 @@ package com.appodeal.aneplugin {
 
 import com.appodeal.aneplugin.constants.LogLevel;
 
-import flash.events.EventDispatcher;
+    import flash.events.EventDispatcher;
     import flash.system.Capabilities;
 
     /**
