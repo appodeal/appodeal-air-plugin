@@ -1,45 +1,45 @@
 # Appodeal AIR Native Extension
 
-[![](https://img.shields.io/badge/docs-android-green.svg)](http://www.appodeal.com/sdk/documentation?framework=7&full=1&platform=1)
-[![](https://img.shields.io/badge/docs-ios-grey.svg)](http://www.appodeal.com/sdk/documentation?framework=7&full=1&platform=2)
-[![](https://img.shields.io/badge/download-crossplatform-red.svg)](https://s3-eu-west-1.amazonaws.com/appodeal-adobe-air/Appodeal-AIR-1.0.zip)
+[![](https://img.shields.io/badge/latest-android-green.svg)](https://s3-eu-west-1.amazonaws.com/appodeal-adobe-air/Appodeal-ANE-3.0.7-200418-all.zip)
+[![](https://img.shields.io/badge/latest-ios-grey.svg)](https://s3-eu-west-1.amazonaws.com/appodeal-adobe-air/Appodeal-ANE-3.0.7-200418-android.zip)
 
 ## How to Build
 
 ### Plugin Build Requirements:
 
-Adobe AIR SDK
-Apache Ant
-Flex SDK + AIR SDK
-IntelliJ Idea
-Android SDK
-iOS SDK + XCode
++ Adobe AIR SDK
++ Apache Ant
++ Flex SDK + AIR SDK
++ IntelliJ Idea
++ Android SDK
++ iOS SDK and XCode
 
 ### How to build plugin:
-Clone this repostory. 
-Open project with IntelliJ Idea.
-Right click on actionscript-lib in project three and choose Build module 'actionscript-lib' to build main as3 library.
-Right click on actionscript-def in project three and choose Build module 'actionscript-def' to build dummy as3 library.
-Go to build→ AIR Native Extension Build Scripts and run clean, then prepare, then package for packing Cross-platform extension or package_anrd for Android only extension.
+
++ Clone this repostory. 
++ Open project with IntelliJ Idea.
++ Right click on actionscript-lib in project three and choose Build module 'actionscript-lib' to build main as3 library.
++ Right click on actionscript-def in project three and choose Build module 'actionscript-def' to build dummy as3 library.
++ Go to build→AIR Native Extension Build Scripts and run clean, then prepare, then package for packing Cross-platform extension or package_anrd for Android only extension.
 
 ### Updating android part:
 
-Download and unzip newest Appodeal Android SDK here.
-Place Appodeal jar into libs folder inside android-lib folder.
-Update java code in android-lib module if needed.
-Build android artifact if something was changed in android-lib with Build→Build Artifacts...->AppodealANE:jar
-Place new appodeal-x.jar and all other appodeal depending libs into android/dependency folder.
-Update /build/platformoptions-and.xml if android libraries were updated.
-Android ready for ane packaging.
++ Download and unzip newest Appodeal Android SDK here.
++ Place Appodeal jar into libs folder inside android-lib folder.
++ Update java code in android-lib module if needed.
++ Build android artifact if something was changed in android-lib with Build→Build Artifacts...->AppodealANE:jar
++ Place new appodeal-x.jar and all other appodeal depending libs into android/dependency folder.
++ Update /build/platformoptions-and.xml if android libraries were updated.
++ Android ready for ane packaging.
 
 ### Updating iOS Part:
 
-Download and unzip newest Appodeal iOS SDK here.
-Place new fat iOS Appodeal SDK into ios/sdk folder.
-Update obj-c code in XCode project by opening Appodeal.xcodeproj inside ios folder.
-Choose Appodeal.ANE as target and Generic iOS Device as device target top build static library for iOS part if code was changed.
-Update /build/platformoptions-ios.xml if new frameworks or libraries was added/removed (change name inside dependency tag).
-iOS ready for ane packaging.
++ Download and unzip newest Appodeal iOS SDK here.
++ Place new fat iOS Appodeal SDK into ios/sdk folder.
++ Update obj-c code in XCode project by opening Appodeal.xcodeproj inside ios folder.
++ Choose Appodeal.ANE as target and Generic iOS Device as device target top build static library for iOS part if code was changed.
++ Update /build/platformoptions-ios.xml if new frameworks or libraries was added/removed (change name inside dependency tag).
++ iOS ready for ane packaging.
 
 ## ANE Integration
 
@@ -62,7 +62,10 @@ The extension will make two changes in your Admob account. First, it will allow 
 ### Project Configuration
 
 Add following extensions to your descriptor file:
-`<extensionID>com.appodeal.aneplugin</extensionID>`
+
+```xml
+<extensionID>com.appodeal.aneplugin</extensionID>
+```
 
 ### Plugin Files Integration
 
@@ -72,9 +75,9 @@ Include this library from folder ane/:
 
 Also include files from assets folder to app build path, it should be included without "assets" folder as AIR already includes this files to assets folder in apk file.
 
-Flash CC/Flash Pro: go to build settings -> general -> press "+" near "Included Files" window and add files.
+Flash CC/Flash Pro: go to `build settings -> general ->` press `"+"` near `"Included Files"` window and add files.
 
-IntelliJ Idea: go to app settings -> android and add files to "Files and folder to package" window.
+IntelliJ Idea: go to app `settings -> android` and add files to `"Files and folder to package"` window.
 
 Flash Builder: copy files to bin-debug for debug builds and to bin-release folder for release build. Check if this files are checked in Package Contents.
 
@@ -141,17 +144,16 @@ Add following permissions inside the manifest tag:
 <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!--optional-->
 ```
 
-Add following to manifestAdditions inside application android tag:
-
+Add contents of [this](AndroidManifestAdditions.xml) sample to manifestAdditions inside application android tag:
 
 ### API References
 
 #### Ad Types
 
-Appodeal.INTERSTITIAL
-Appodeal.BANNER
-Appodeal.REWARDED_VIDEO
-Appodeal.NON_SKIPPABLE_VIDEO
++ Appodeal.INTERSTITIAL
++ Appodeal.BANNER
++ Appodeal.REWARDED_VIDEO
++ Appodeal.NON_SKIPPABLE_VIDEO
 
 Ad types can be combined using "|" operator. For example Appodeal.INTERSTITIAL | Appodeal.REWARDED_VIDEO
 
