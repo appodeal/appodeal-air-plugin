@@ -245,10 +245,3 @@
 	android:authorities="${applicationId}.PresageProvider"
 	android:enabled="true"
 	android:exported="true" />
-
-<!--optional, remove if not using Millennial Media-->
-<provider
-	android:name="com.millennialmedia.internal.utils.MediaContentProvider"
-	android:authorities="${applicationId}.MediaContentProvider"
-	android:grantUriPermissions="true"
-	android:exported="false" />
