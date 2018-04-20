@@ -94,7 +94,7 @@ package com.appodeal.aneplugin {
         public static const REWARDED_VIDEO:int = 128;
         public static const NON_SKIPPABLE_VIDEO:int = 256;
 
-        public static const VERSION:String = "3.0.6";
+        public static const VERSION:String = "3.0.7";
 
         private static const NOT_SUPPORTED_ON_IOS:String = 'not supported on iOS';
         private static const NOT_SUPPORTED_ON_ANDROID:String = 'not supported on ANDROID';

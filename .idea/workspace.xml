@@ -27,23 +27,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16a7e584-ee6c-49c2-9e68-9b3bea9940e7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/actionscript-def.swc" afterPath="$PROJECT_DIR$/out/actionscript-def.swc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/actionscript-lib.swc" afterPath="$PROJECT_DIR$/out/actionscript-lib.swc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample-as/assets/dex/applovin.dex" afterPath="$PROJECT_DIR$/sample-as/assets/dex/applovin.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample-as/assets/dex/appnext.dex" afterPath="$PROJECT_DIR$/sample-as/assets/dex/appnext.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample-as/assets/dex/avocarrot.dex" afterPath="$PROJECT_DIR$/sample-as/assets/dex/avocarrot.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample-as/assets/dex/facebook.dex" afterPath="$PROJECT_DIR$/sample-as/assets/dex/facebook.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample-as/assets/dex/ironsource.dex" afterPath="$PROJECT_DIR$/sample-as/assets/dex/ironsource.dex" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android-lib/libs/appodeal-2.1.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency/adcolony-sdk-3.1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/dependency/appodeal-2.1.9.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/dependency/inmobi-6.2.3.jar" afterPath="$PROJECT_DIR$/android/dependency/inmobi-6.2.3.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/dependency/libs/arm64-v8a/libadcolony.so" afterPath="$PROJECT_DIR$/android/dependency/libs/arm64-v8a/libadcolony.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/dependency/libs/arm64-v8a/libjs.so" afterPath="$PROJECT_DIR$/android/dependency/libs/arm64-v8a/libjs.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/dependency/libs/armeabi-v7a/libadcolony.so" afterPath="$PROJECT_DIR$/android/dependency/libs/armeabi-v7a/libadcolony.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/dependency/libs/armeabi-v7a/libjs.so" afterPath="$PROJECT_DIR$/android/dependency/libs/armeabi-v7a/libjs.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/dependency/libs/armeabi/libadcolony.so" afterPath="$PROJECT_DIR$/android/dependency/libs/armeabi/libadcolony.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/dependency/libs/armeabi/libjs.so" afterPath="$PROJECT_DIR$/android/dependency/libs/armeabi/libjs.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/dependency/libs/x86/libadcolony.so" afterPath="$PROJECT_DIR$/android/dependency/libs/x86/libadcolony.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/dependency/libs/x86/libjs.so" afterPath="$PROJECT_DIR$/android/dependency/libs/x86/libjs.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/dependency/libs/x86_64/libadcolony.so" afterPath="$PROJECT_DIR$/android/dependency/libs/x86_64/libadcolony.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/dependency/libs/x86_64/libjs.so" afterPath="$PROJECT_DIR$/android/dependency/libs/x86_64/libjs.so" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/actionscript-def/actionscript-def.iml" afterPath="$PROJECT_DIR$/actionscript-def/actionscript-def.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/actionscript-def/src/com/appodeal/aneplugin/Appodeal.as" afterPath="$PROJECT_DIR$/actionscript-def/src/com/appodeal/aneplugin/Appodeal.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/actionscript-lib/actionscript-lib.iml" afterPath="$PROJECT_DIR$/actionscript-lib/actionscript-lib.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/actionscript-lib/src/com/appodeal/aneplugin/Appodeal.as" afterPath="$PROJECT_DIR$/actionscript-lib/src/com/appodeal/aneplugin/Appodeal.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/as3-androidsupport-lib/as3-androidsupport-lib.iml" afterPath="$PROJECT_DIR$/as3-androidsupport-lib/as3-androidsupport-lib.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/as3-playservices-lib/as3-playservices-lib.iml" afterPath="$PROJECT_DIR$/as3-playservices-lib/as3-playservices-lib.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/build.xml" afterPath="$PROJECT_DIR$/build/build.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/platformoptions-ios.xml" afterPath="$PROJECT_DIR$/build/platformoptions-ios.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample-as/sample-as.iml" afterPath="$PROJECT_DIR$/sample-as/sample-as.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/platformoptions-and.xml" afterPath="$PROJECT_DIR$/build/platformoptions-and.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample-as/assets/js/closebutton.html" afterPath="$PROJECT_DIR$/sample-as/assets/js/closebutton.html" />
     </list>
     <ignored path="AppodealSource.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,22 +67,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/build.xml">
+      <file leaf-file-name="Appodeal.as" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/actionscript-lib/src/com/appodeal/aneplugin/Appodeal.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="86" column="42" lean-forward="false" selection-start-line="86" selection-start-column="42" selection-end-line="86" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="platformoptions-ios.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build/platformoptions-ios.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="57" lean-forward="true" selection-start-line="0" selection-start-column="57" selection-end-line="0" selection-end-column="57" />
-              <folding />
+            <state relative-caret-position="1002">
+              <caret line="158" column="66" lean-forward="true" selection-start-line="158" selection-start-column="66" selection-end-line="158" selection-end-column="66" />
+              <folding>
+                <element signature="e#38#70#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -133,7 +126,6 @@
         <option value="$PROJECT_DIR$/build/platformoptions-playservices.xml" />
         <option value="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/usersettings/AppodealUserSettingsSetUserId.java" />
         <option value="$PROJECT_DIR$/actionscript-def/src/com/appodeal/aneplugin/UserSettings.as" />
-        <option value="$PROJECT_DIR$/bin/platforms/platformoptions-and.xml" />
         <option value="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealSetOnLoadedTriggerBoth.java" />
         <option value="$PROJECT_DIR$/actionscript-lib/src/com/appodeal/aneplugin/AdEvent.as" />
         <option value="$PROJECT_DIR$/actionscript-lib/src/com/appodeal/aneplugin/AdType.as" />
@@ -157,12 +149,13 @@
         <option value="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealShow.java" />
         <option value="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealShowPlacement.java" />
         <option value="$PROJECT_DIR$/sample-as/IOS-app.xml" />
-        <option value="$PROJECT_DIR$/build/platformoptions-and.xml" />
         <option value="$PROJECT_DIR$/sample-as/Android-app.xml" />
         <option value="$PROJECT_DIR$/actionscript-def/src/com/appodeal/aneplugin/Appodeal.as" />
-        <option value="$PROJECT_DIR$/actionscript-lib/src/com/appodeal/aneplugin/Appodeal.as" />
         <option value="$PROJECT_DIR$/build/build.xml" />
         <option value="$PROJECT_DIR$/build/platformoptions-ios.xml" />
+        <option value="$PROJECT_DIR$/bin/platforms/platformoptions-and.xml" />
+        <option value="$PROJECT_DIR$/build/platformoptions-and.xml" />
+        <option value="$PROJECT_DIR$/actionscript-lib/src/com/appodeal/aneplugin/Appodeal.as" />
       </list>
     </option>
   </component>
@@ -183,11 +176,10 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="2513" />
-    <option name="height" value="1390" />
+    <option name="width" value="1149" />
+    <option name="height" value="1418" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -209,19 +201,41 @@
     <panes>
       <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="sample-as" type="cbb8eebc:String" user="sample-as" />
+              <item name="actionscript-def" type="cbb8eebc:String" user="actionscript-def" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="actionscript-lib" type="cbb8eebc:String" user="actionscript-lib" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="actionscript-lib" type="cbb8eebc:String" user="actionscript-lib" />
+              <item name="actionscript-lib" type="cbb8eebc:String" user="actionscript-lib" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="actionscript-lib" type="cbb8eebc:String" user="actionscript-lib" />
+              <item name="actionscript-lib" type="cbb8eebc:String" user="actionscript-lib" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="actionscript-lib" type="cbb8eebc:String" user="actionscript-lib" />
+              <item name="actionscript-lib" type="cbb8eebc:String" user="actionscript-lib" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="com/appodeal/aneplugin" type="cbb8eebc:String" user="com/appodeal/aneplugin" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -777,14 +791,15 @@
       <workItem from="1511888515276" duration="303000" />
       <workItem from="1512631970381" duration="4577000" />
       <workItem from="1512988869573" duration="3464000" />
+      <workItem from="1524223063586" duration="2983000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="240700000" />
+    <option name="totallyTimeSpent" value="243683000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="2560" height="1418" extended-state="6" />
+    <frame x="0" y="22" width="1149" height="1418" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -796,12 +811,12 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07421875" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16536118" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3169456" sideWeight="0.4957265" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42867756" sideWeight="0.47863248" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42867756" sideWeight="0.47863248" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -809,7 +824,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962668" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.090625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20191471" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -893,13 +908,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build/extension_playservices.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/platformoptions-playservices.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1143,26 +1151,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="5" column="51" lean-forward="false" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample-as/IOS-app.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/platformoptions-and.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/sample-as/IOS-app.xml" />
     <entry file="file://$PROJECT_DIR$/actionscript-def/src/com/appodeal/aneplugin/AdType.as">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1171,14 +1163,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample-as/Android-app.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3135">
-          <caret line="254" column="0" lean-forward="false" selection-start-line="254" selection-start-column="0" selection-end-line="254" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/sample-as/Android-app.xml" />
     <entry file="file://$PROJECT_DIR$/actionscript-lib/src/com/appodeal/aneplugin/AdEvent.as">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1191,25 +1176,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="28" lean-forward="false" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/actionscript-def/src/com/appodeal/aneplugin/Appodeal.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/actionscript-lib/src/com/appodeal/aneplugin/Appodeal.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-          <folding>
-            <element signature="e#38#70#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1225,7 +1191,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1233,7 +1198,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1241,7 +1205,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1249,23 +1212,58 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="152" column="30" lean-forward="true" selection-start-line="152" selection-start-column="30" selection-end-line="152" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/build.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="86" column="42" lean-forward="false" selection-start-line="86" selection-start-column="42" selection-end-line="86" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/platformoptions-ios.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="57" lean-forward="true" selection-start-line="0" selection-start-column="57" selection-end-line="0" selection-end-column="57" />
+        <state relative-caret-position="600">
+          <caret line="40" column="11" lean-forward="true" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/platforms/platformoptions-and.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="22" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="72" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/platformoptions-and.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="72" lean-forward="false" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actionscript-def/src/com/appodeal/aneplugin/Appodeal.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="226" column="50" lean-forward="false" selection-start-line="226" selection-start-column="50" selection-end-line="226" selection-end-column="50" />
+          <folding>
+            <element signature="e#34#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="99" column="24" lean-forward="false" selection-start-line="99" selection-start-column="24" selection-end-line="99" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actionscript-lib/src/com/appodeal/aneplugin/Appodeal.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1002">
+          <caret line="158" column="66" lean-forward="true" selection-start-line="158" selection-start-column="66" selection-end-line="158" selection-end-column="66" />
+          <folding>
+            <element signature="e#38#70#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
