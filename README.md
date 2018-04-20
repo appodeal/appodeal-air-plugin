@@ -1,7 +1,7 @@
 # Appodeal AIR Native Extension
 
-[![](https://img.shields.io/badge/latest-android-green.svg)](https://s3-eu-west-1.amazonaws.com/appodeal-adobe-air/Appodeal-ANE-3.0.7-200418-all.zip)
-[![](https://img.shields.io/badge/latest-ios-grey.svg)](https://s3-eu-west-1.amazonaws.com/appodeal-adobe-air/Appodeal-ANE-3.0.7-200418-android.zip)
+[![](https://img.shields.io/badge/latest-android-green.svg)](https://s3-eu-west-1.amazonaws.com/appodeal-adobe-air/Appodeal-ANE-3.0.7-200418-android.zip)
+[![](https://img.shields.io/badge/latest-ios-grey.svg)](https://s3-eu-west-1.amazonaws.com/appodeal-adobe-air/Appodeal-ANE-3.0.7-200418-all.zip)
 
 ## How to Build
 
